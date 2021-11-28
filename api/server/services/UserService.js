@@ -1,4 +1,5 @@
 import database from '../src/models';
+import logger from '../config/logger.config';
 
 class UserService {
   /**
@@ -6,10 +7,11 @@ class UserService {
    * @param {*} newUser
    * @returns new user
    */
-  static async createUser(newUser) {
+  static async createUser(newUser) {k
     try {
       return await database.user.create(newUser);
     } catch (error) {
+      logger.error(`Error occurred in service when creating user ${error}`);
       throw error;
     }
   }
@@ -21,6 +23,7 @@ class UserService {
     try {
       return await database.user.findAll();
     } catch (error) {
+      logger.error(`Error occurred in service when getting users ${error}`);
       throw error;
     }
   }
@@ -36,6 +39,9 @@ class UserService {
       });
       return user;
     } catch (error) {
+      logger.error(
+        `Error occurred in service when fetching user details ${error}`
+      );
       throw error;
     }
   }
@@ -60,6 +66,9 @@ class UserService {
       }
       return null;
     } catch (error) {
+      logger.error(
+        `Error occurred in service when updating user details ${error}`
+      );
       throw error;
     }
   }
@@ -81,6 +90,9 @@ class UserService {
         return deletedUser;
       }
     } catch (error) {
+      logger.error(
+        `Error occurred in service when deleting user details ${error}`
+      );
       throw error;
     }
   }

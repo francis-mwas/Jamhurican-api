@@ -1,12 +1,16 @@
-import bcrypt from "bcrypt";
-import userService from '../services/UserService';
 import Util from '../utils/Utils';
+import EncryptPassword from '../utils/EncryptPassword';
+import UserService from '../services/UserService';
+import logger from '../config/logger.config';
 
 const util = new Util();
 
 class UserController {
-  static async createNewUser(res, req) {
-    const { firstName, lastName, email, password } = req.body;
+  static async createNewUser(req, res) {
+    const encrypt = new EncryptPassword();
+
+    const { firstName, lastName, email, password, isAdmin } = req.body;
+
     if (
       firstName === '' ||
       lastName === '' ||
@@ -16,250 +20,132 @@ class UserController {
       util.setError(400, 'Please fill all the fields');
       return util.send(res);
     }
-
-    const newUser = req.body;
     try {
-         bcrypt.genSalt(10, (err, salt) => {
-           if (err) {
-             logger.debug('Unable to generate salt');
-             throw err;
-           }
-           bcrypt.hash(password, salt, async (err, hash) => {
-             if (err) {
-               logger.warn(
-                 `There was an error when trying to hash user password: `,
-                 err
-               );
-               return res.status(500).json({
-                 status: false,
-                 message: 'Something went wrong. Please try that again.',
-               });
-             } else {
-               logger.debug(
-                 `Password hashed successfully. Proceeding to create user account.`
-               );
-
-               const newUser = new User({
-                 fullName,
-                 phoneNumber: validPhone(phoneNumber),
-                 idNumber,
-                 email,
-                 password: hash,
-               });
-               const userData = await newUser.save();
-
-               const user = {
-                 fullName: userData.fullName,
-                 phoneNumber: userData.phoneNumber,
-                 idNumber: userData.idNumber,
-                 email: userData.email,
-                 isVerified: userData.isVerified,
-                 id: userData._id,
-                 role: userData.role,
-                 createdAt: userData.createdAt,
-               };
-
-               if (userData) {
-                 const userPayload = {
-                   id: userData._id,
-                   role: userData.role,
-                 };
-
-                 logger.info(
-                   `User successfully saved to the database. Proceeding to send email for verification.`
-                 );
-                 jwt.sign(
-                   userPayload,
-                   process.env.SECRET_KEY,
-                   { expiresIn: '24h' },
-                   async (err, token) => {
-                     if (err) {
-                       logger.warn(
-                         'An error occurred when generating jwt for user account verification'
-                       );
-                       throw error;
-                     }
-                     // send email
-                     try {
-                       const subject =
-                         '[IMPORTANT!] E-Warranty Email Verification.';
-                       const message = `Thank you ${email} for using e-warranty\n.\nPlease click the link below to verify your account\n${api.FRONTEND_URL}/user/email/verify/?token=${token}`;
-                       logger.debug(
-                         `Attempting to send email verification to newly created account.`
-                       );
-
-                       await sendEmail({
-                         from: process.env.EMAIL,
-                         email,
-                         subject,
-                         message,
-                       });
-
-                       logger.info(
-                         `New user account created successfully. Account not yet verified.`
-                       );
-                       logger.debug(
-                         `Email verification message sent to user account.`
-                       );
-
-                       return res.status(201).json({
-                         status: true,
-                         Message: `Account ${email} created successfully, check your email to verify account`,
-                         user,
-                       });
-                     } catch (err) {
-                       logger.warn(
-                         `Email verification could not be sent to the user account: `,
-                         err
-                       );
-                       return res.status(400).json({
-                         status: false,
-                         message: `An error occurred while sending email: ${err}`,
-                       });
-                     }
-                   }
-                 );
-               }
-             }
-           });
-         });
-
-
-
-
-
-
-     
+      const hashedPassword = encrypt.hashPassword(password);
+      const newUser = {
+        firstName,
+        lastName,
+        email,
+        password: hashedPassword,
+        isAdmin,
+      };
+      if (hashedPassword) {
+        const createdUser = await UserService.createUser(newUser);
+        util.setSuccess(201, 'User created successfully', createdUser);
+        return util.send(res);
+      } else {
+        util.setError(400, 'Error during password hashing');
+        return util.send(res);
+      }
     } catch (error) {
       util.setError(400, error.message);
+      logger.error(`Error occurred when creating user ${error}`);
+      return util.send(res);
+    }
+  }
+  static async getUsers(req, res) {
+    try {
+      const users = await UserService.getAllUsers();
+      if (users.length > 0) {
+        util.setSuccess(200, 'Users returned successfully', allProperties);
+        logger.debug(`Users returned successfully.`);
+      } else {
+        util.setError(404, 'No properties found at the moment');
+        logger.warn(`No users found.`);
+      }
+      return util.send(res);
+    } catch (error) {
+      util.setError(400, error);
+      logger.error(`Error encountered while getting users ${error}`);
       return util.send(res);
     }
   }
 
-  static async createUser(req, res) {
-    // let phoneNumber = validPhone(req.body.phoneNumber);
+  static async getUser(req, res) {
+    const { userId } = req.params;
+    if (!Number(userId)) {
+      util.setError(
+        400,
+        'Invalid property id, please input valid numeric number'
+      );
+      logger.error(`Invalid user id ${userId}`);
+      return util.send(res);
+    }
 
-    const { fullName, idNumber, phoneNumber, email, password } = req.body;
+    try {
+      const user = await UserService.getOneUser(userId);
 
-    if (validateID(idNumber)) {
-      try {
-        bcrypt.genSalt(10, (err, salt) => {
-          if (err) {
-            logger.debug('Unable to generate salt');
-            throw err;
-          }
-          bcrypt.hash(password, salt, async (err, hash) => {
-            if (err) {
-              logger.warn(
-                `There was an error when trying to hash user password: `,
-                err
-              );
-              return res.status(500).json({
-                status: false,
-                message: 'Something went wrong. Please try that again.',
-              });
-            } else {
-              logger.debug(
-                `Password hashed successfully. Proceeding to create user account.`
-              );
+      console.log('The property found:', user);
 
-              const newUser = new User({
-                fullName,
-                phoneNumber: validPhone(phoneNumber),
-                idNumber,
-                email,
-                password: hash,
-              });
-              const userData = await newUser.save();
-
-              const user = {
-                fullName: userData.fullName,
-                phoneNumber: userData.phoneNumber,
-                idNumber: userData.idNumber,
-                email: userData.email,
-                isVerified: userData.isVerified,
-                id: userData._id,
-                role: userData.role,
-                createdAt: userData.createdAt,
-              };
-
-              if (userData) {
-                const userPayload = {
-                  id: userData._id,
-                  role: userData.role,
-                };
-
-                logger.info(
-                  `User successfully saved to the database. Proceeding to send email for verification.`
-                );
-                jwt.sign(
-                  userPayload,
-                  process.env.SECRET_KEY,
-                  { expiresIn: '24h' },
-                  async (err, token) => {
-                    if (err) {
-                      logger.warn(
-                        'An error occurred when generating jwt for user account verification'
-                      );
-                      throw error;
-                    }
-                    // send email
-                    try {
-                      const subject =
-                        '[IMPORTANT!] E-Warranty Email Verification.';
-                      const message = `Thank you ${email} for using e-warranty\n.\nPlease click the link below to verify your account\n${api.FRONTEND_URL}/user/email/verify/?token=${token}`;
-                      logger.debug(
-                        `Attempting to send email verification to newly created account.`
-                      );
-
-                      await sendEmail({
-                        from: process.env.EMAIL,
-                        email,
-                        subject,
-                        message,
-                      });
-
-                      logger.info(
-                        `New user account created successfully. Account not yet verified.`
-                      );
-                      logger.debug(
-                        `Email verification message sent to user account.`
-                      );
-
-                      return res.status(201).json({
-                        status: true,
-                        Message: `Account ${email} created successfully, check your email to verify account`,
-                        user,
-                      });
-                    } catch (err) {
-                      logger.warn(
-                        `Email verification could not be sent to the user account: `,
-                        err
-                      );
-                      return res.status(400).json({
-                        status: false,
-                        message: `An error occurred while sending email: ${err}`,
-                      });
-                    }
-                  }
-                );
-              }
-            }
-          });
-        });
-      } catch (e) {
-        logger.debug(`Failed to save the user: ${e}`);
-        return res.status(400).json({
-          status: false,
-          Message: 'An error occurred while saving the user',
-        });
+      if (!user) {
+        util.setError(
+          404,
+          `Invalid property id, please input valid numeric number ${id}`
+        );
+        logger.error(`Invalid user id ${userId}`);
+      } else {
+        util.setSuccess(200, 'Property returned successfully', user);
+        logger.debug(`User details found ${user}`);
       }
-    } else {
-      logger.debug('Invalid user user national Id');
-      return res.status(400).json({
-        status: false,
-        Message: 'Please provide a valid national Id number',
-      });
+      return util.send(res);
+    } catch (error) {
+      util.setError(404, error);
+      logger.error(`Error getting user ${error}`);
+      return util.send(res);
+    }
+  }
+
+  static async updatedUser(req, res) {
+    const updatedUser = req.body;
+    const { userId } = req.params;
+    if (!Number(userId)) {
+      util.setError(
+        400,
+        'Invalid property id, please input valid numeric number'
+      );
+      logger.error(`Invalid user id ${userId}`);
+      return util.send(res);
+    }
+    try {
+      const updateUser = await UserService.updateUser(userId, updatedUser);
+      if (!updateUser) {
+        util.setError(404, `User with this id does not exist: ${userId}`);
+        logger.error(`Invalid user id ${userId}`);
+      } else {
+        util.setSuccess(200, 'Property updated successfully', updateUser);
+        logger.debug(`User details updated ${updateUser}`);
+      }
+      return util.send(res);
+    } catch (error) {
+      util.setError(404, error);
+      logger.error(`Error when updating user details ${error}`);
+      return util.send(res);
+    }
+  }
+  static async deleteUser(req, res) {
+    const { userId } = req.params;
+
+    if (!Number(userId)) {
+      util.setError(400, 'Invalid user id, please input valid numeric number');
+      logger.error(`Invalid urers id ${userId}`);
+      return util.send(res);
+    }
+
+    try {
+      const user = await UserService.deleteUser(userId);
+
+      if (user) {
+        util.setSuccess(200, 'User deleted');
+        logger.debug(`User details deleted ${user}`);
+      } else {
+        util.setError(404, `Property with this id ${userId} does not exist`);
+        logger.warn(`Invalid user id ${userId}`);
+      }
+      return util.send(res);
+    } catch (error) {
+      util.setError(400, error);
+      logger.error(`Error when deleting user details ${error}`);
+      return util.send(res);
     }
   }
 }

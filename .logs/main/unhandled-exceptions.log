@@ -1,0 +1,568 @@
+{
+  error: TypeError: Cannot read property 'firstName' of undefined
+      at _callee$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:12:13)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at createNewUser (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\UserController.js:105:31),
+  level: 'error',
+  message: "unhandledRejection: Cannot read property 'firstName' of undefined\n" +
+    "TypeError: Cannot read property 'firstName' of undefined\n" +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:12:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at createNewUser (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js:105:31)',
+  stack: "TypeError: Cannot read property 'firstName' of undefined\n" +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:12:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at createNewUser (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js:105:31)',
+  exception: true,
+  date: 'Sun Nov 28 2021 22:35:00 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 3260,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 60858368,
+      heapTotal: 30732288,
+      heapUsed: 28769776,
+      external: 2367292,
+      arrayBuffers: 59961
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8349 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: '_callee$',
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js',
+      function: 'createNewUser',
+      line: 105,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-11-28 22:35:00'
+}
+{
+  error: TypeError: Cannot read property 'firstName' of undefined
+      at _callee$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:12:13)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at createNewUser (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\UserController.js:104:31),
+  level: 'error',
+  message: "unhandledRejection: Cannot read property 'firstName' of undefined\n" +
+    "TypeError: Cannot read property 'firstName' of undefined\n" +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:12:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at createNewUser (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js:104:31)',
+  stack: "TypeError: Cannot read property 'firstName' of undefined\n" +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:12:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at createNewUser (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js:104:31)',
+  exception: true,
+  date: 'Sun Nov 28 2021 22:38:30 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6344,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 62824448,
+      heapTotal: 32829440,
+      heapUsed: 30268464,
+      external: 2367262,
+      arrayBuffers: 59961
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8559 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: '_callee$',
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js',
+      function: 'createNewUser',
+      line: 104,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-11-28 22:38:30'
+}
+{
+  error: TypeError: Cannot read property 'firstName' of undefined
+      at _callee$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:12:13)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at createNewUser (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\UserController.js:105:31),
+  level: 'error',
+  message: "unhandledRejection: Cannot read property 'firstName' of undefined\n" +
+    "TypeError: Cannot read property 'firstName' of undefined\n" +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:12:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at createNewUser (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js:105:31)',
+  stack: "TypeError: Cannot read property 'firstName' of undefined\n" +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:12:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at createNewUser (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js:105:31)',
+  exception: true,
+  date: 'Sun Nov 28 2021 22:42:25 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 5380,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63283200,
+      heapTotal: 32043008,
+      heapUsed: 30234600,
+      external: 2367262,
+      arrayBuffers: 59961
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8794 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: '_callee$',
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\UserController.js',
+      function: 'createNewUser',
+      line: 105,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-11-28 22:42:25'
+}
+{
+  error: ReferenceError: logger is not defined
+      at _callee$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\utils\/EncryptPassword.js:22:13)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\utils\/EncryptPassword.js:11:9,
+  level: 'error',
+  message: 'unhandledRejection: logger is not defined\n' +
+    'ReferenceError: logger is not defined\n' +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\/EncryptPassword.js:22:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\/EncryptPassword.js:11:9',
+  stack: 'ReferenceError: logger is not defined\n' +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\/EncryptPassword.js:22:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\/EncryptPassword.js:11:9',
+  exception: true,
+  date: 'Sun Nov 28 2021 22:50:59 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 968,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 112197632,
+      heapTotal: 80801792,
+      heapUsed: 31292360,
+      external: 2367278,
+      arrayBuffers: 147132
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 9308 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\/EncryptPassword.js',
+      function: '_callee$',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\/EncryptPassword.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-11-28 22:51:00'
+}

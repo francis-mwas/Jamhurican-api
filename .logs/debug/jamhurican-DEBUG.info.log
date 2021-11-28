@@ -1,0 +1,175 @@
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:25:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:30:02'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:30:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:30:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:30:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:32:24'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 22:32:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:05:24'
+}
+{
+  message: 'hashed password true',
+  level: 'error',
+  timestamp: '2021-11-28 23:05:28'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:05:28'
+}
+{
+  message: 'hashed password true',
+  level: 'error',
+  timestamp: '2021-11-28 23:09:41'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:09:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:10:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:10:51'
+}
+{
+  message: 'hashed password true',
+  level: 'error',
+  timestamp: '2021-11-28 23:11:13'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:11:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:13:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:13:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:13:32'
+}
+{
+  message: 'dkjkjewjf: [object Object]',
+  level: 'info',
+  timestamp: '2021-11-28 23:13:33'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:13:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:14:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:14:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:14:40'
+}
+{
+  message: 'dkjkjewjf: [object Object]',
+  level: 'info',
+  timestamp: '2021-11-28 23:14:40'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:14:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:15:09'
+}
+{
+  firstName: 'John',
+  lastName: 'Doe',
+  email: 'mwas@gmail.com',
+  password: true,
+  isAdmin: false,
+  level: 'info',
+  message: 'dkjkjewjf: ',
+  timestamp: '2021-11-28 23:15:13'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:15:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:15:38'
+}
+{
+  firstName: 'John',
+  lastName: 'Doe',
+  email: 'mwas@gmail.com',
+  password: true,
+  isAdmin: false,
+  level: 'error',
+  message: 'dkjkjewjf: ',
+  timestamp: '2021-11-28 23:15:49'
+}
+{
+  message: 'Error occurred when creating user ReferenceError: k is not defined',
+  level: 'error',
+  timestamp: '2021-11-28 23:15:49'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-11-28 23:16:13'
+}
