@@ -7,7 +7,7 @@ class UserService {
    * @param {*} newUser
    * @returns new user
    */
-  static async createUser(newUser) {k
+  static async createUser(newUser) {
     try {
       return await database.user.create(newUser);
     } catch (error) {

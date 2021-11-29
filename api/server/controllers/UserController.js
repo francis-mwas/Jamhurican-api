@@ -1,5 +1,5 @@
+import bcrypt from 'bcrypt';
 import Util from '../utils/Utils';
-import EncryptPassword from '../utils/EncryptPassword';
 import UserService from '../services/UserService';
 import logger from '../config/logger.config';
 
@@ -7,8 +7,6 @@ const util = new Util();
 
 class UserController {
   static async createNewUser(req, res) {
-    const encrypt = new EncryptPassword();
-
     const { firstName, lastName, email, password, isAdmin } = req.body;
 
     if (
@@ -20,29 +18,44 @@ class UserController {
       util.setError(400, 'Please fill all the fields');
       return util.send(res);
     }
+
     try {
-      const hashedPassword = encrypt.hashPassword(password);
-      const newUser = {
-        firstName,
-        lastName,
-        email,
-        password: hashedPassword,
-        isAdmin,
-      };
-      if (hashedPassword) {
-        const createdUser = await UserService.createUser(newUser);
-        util.setSuccess(201, 'User created successfully', createdUser);
-        return util.send(res);
-      } else {
-        util.setError(400, 'Error during password hashing');
-        return util.send(res);
-      }
+      bcrypt.genSalt(10, (err, salt) => {
+        if (err) {
+          logger.debug('Unable to generate salt');
+          throw err;
+        }
+        bcrypt.hash(password, salt, async (err, hash) => {
+          if (err) {
+            logger.warn(
+              `There was an error when trying to hash user password: `,
+              err
+            );
+            return res.status(500).json({
+              status: false,
+              message: 'Something went wrong. Please try that again.',
+            });
+          } else {
+            const newUser = {
+              firstName,
+              lastName,
+              email,
+              password: hash,
+              isAdmin,
+            };
+            const createdUser = await UserService.createUser(newUser);
+            util.setSuccess(201, 'User created successfully', createdUser);
+            return util.send(res);
+          }
+        });
+      });
     } catch (error) {
       util.setError(400, error.message);
       logger.error(`Error occurred when creating user ${error}`);
       return util.send(res);
     }
   }
+
   static async getUsers(req, res) {
     try {
       const users = await UserService.getAllUsers();
