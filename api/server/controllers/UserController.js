@@ -44,7 +44,15 @@ class UserController {
               isAdmin,
             };
             const createdUser = await UserService.createUser(newUser);
-            util.setSuccess(201, 'User created successfully', createdUser);
+            const user = {
+              firstName: createdUser.firstName,
+              lastName: createdUser.lastName,
+              email: createdUser.email,
+              isAdmin: createdUser.isAdmin,
+              createdAt: createdUser.createdAt,
+              updatedAt: createdUser.updatedAt,
+            };
+            util.setSuccess(201, 'User created successfully', user);
             return util.send(res);
           }
         });
@@ -60,7 +68,7 @@ class UserController {
     try {
       const users = await UserService.getAllUsers();
       if (users.length > 0) {
-        util.setSuccess(200, 'Users returned successfully', allProperties);
+        util.setSuccess(200, 'Users returned successfully', users);
         logger.debug(`Users returned successfully.`);
       } else {
         util.setError(404, 'No properties found at the moment');

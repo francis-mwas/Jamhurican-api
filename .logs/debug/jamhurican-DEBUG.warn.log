@@ -1,5 +1,160 @@
 {
   message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
   level: 'error',
-  timestamp: '2021-11-29 22:56:54'
+  timestamp: '2021-12-01 22:00:34'
+}
+{
+  message: "Error occurred in service when getting users TypeError: Cannot read property 'findAll' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:03:01'
+}
+{
+  message: "Error encountered while getting users TypeError: Cannot read property 'findAll' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:03:01'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:17:17'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:17:17'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:17:37'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:51:52'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:52:46'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:15:06'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 23:31:00'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:32:19'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:39:28'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:41:45'
+}
+{
+  message: 'Error occurred in service when creating user [object Object]',
+  level: 'error',
+  timestamp: '2021-12-01 23:50:30'
+}
+{
+  message: 'The database value[object Object]',
+  level: 'error',
+  timestamp: '2021-12-01 23:50:46'
+}
+{
+  message: 'The database value[object Object]',
+  level: 'error',
+  timestamp: '2021-12-01 23:51:23'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:09:35'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: column "id" of relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:15:08'
+}
+{
+  message: 'Error encountered while getting users ReferenceError: allProperties is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:23:50'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: column "firstname" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:28:27'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: column "firstname" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:28:27'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:42:26'
+}
+{
+  message: 'Error occurred in service when updating user details SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:43:35'
+}
+{
+  message: 'Error when updating user details SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:43:35'
+}
+{
+  message: 'Error occurred in service when updating user details ReferenceError: updateUser is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:44:29'
+}
+{
+  message: 'Error when updating user details ReferenceError: updateUser is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:44:29'
+}
+{
+  message: 'Error occurred in service when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:03'
+}
+{
+  message: 'Error when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:03'
+}
+{
+  message: 'Error occurred in service when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:07'
+}
+{
+  message: 'Error when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:07'
+}
+{
+  message: 'Error occurred in service when deleting user details TypeError: _index.default.destroy is not a function',
+  level: 'error',
+  timestamp: '2021-12-02 00:51:23'
+}
+{
+  message: 'Error when deleting user details TypeError: _index.default.destroy is not a function',
+  level: 'error',
+  timestamp: '2021-12-02 00:51:23'
 }

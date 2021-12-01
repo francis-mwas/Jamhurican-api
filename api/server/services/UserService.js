@@ -1,4 +1,4 @@
-import database from '../src/models';
+import database from '../src/models/index';
 import logger from '../config/logger.config';
 
 class UserService {
@@ -21,7 +21,9 @@ class UserService {
    */
   static async getAllUsers() {
     try {
-      return await database.user.findAll();
+      return await database.user.findAll({
+        attributes: ['firstName', 'lastName', 'email', 'isAdmin'],
+      });
     } catch (error) {
       logger.error(`Error occurred in service when getting users ${error}`);
       throw error;
@@ -35,7 +37,7 @@ class UserService {
   static async getOneUser(userId) {
     try {
       const user = await database.user.findOne({
-        where: { userId: Number(userId) },
+        where: { id: Number(userId) },
       });
       return user;
     } catch (error) {
@@ -55,14 +57,14 @@ class UserService {
   static async updateUser(userId, userData) {
     try {
       const userToUpdate = await database.user.findOne({
-        where: { userId: Number(userId) },
+        where: { id: Number(userId) },
       });
 
       if (userToUpdate) {
         await database.user.update(userData, {
-          where: { userId: Number(userId) },
+          where: { id: Number(userId) },
         });
-        return updateUser;
+        return userToUpdate;
       }
       return null;
     } catch (error) {
@@ -81,11 +83,11 @@ class UserService {
   static async deleteUser(userId) {
     try {
       const userToDelete = await database.user.findOne({
-        where: { userId: Number(userid) },
+        where: { id: Number(userId) },
       });
       if (userToDelete) {
-        const deletedUser = await database.destroy({
-          where: { userId: Number(userId) },
+        const deletedUser = await database.user.destroy({
+          where: { id: Number(userId) },
         });
         return deletedUser;
       }
