@@ -1,0 +1,490 @@
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:00:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:02:59'
+}
+{
+  message: "Error occurred in service when getting users TypeError: Cannot read property 'findAll' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:03:01'
+}
+{
+  message: "Error encountered while getting users TypeError: Cannot read property 'findAll' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:03:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:03:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:03:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:13:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:13:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:14:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:16:43'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:17:17'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:17:17'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:17:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:18:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:19:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:19:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:22:50'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 22:51:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:52:24'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:52:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:52:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 22:52:40'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 22:52:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:09:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:10:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:10:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:11:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:14:22'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:15:06'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:29:43'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:29:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:30:11'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-01 23:31:00'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:31:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:32:17'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:32:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:38:42'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:39:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:41:35'
+}
+{
+  message: "Error occurred in service when creating user TypeError: Cannot read property 'create' of undefined",
+  level: 'error',
+  timestamp: '2021-12-01 23:41:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:43:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:46:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:46:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:49:16'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:49:24'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:49:28'
+}
+{
+  message: 'Error occurred in service when creating user [object Object]',
+  level: 'error',
+  timestamp: '2021-12-01 23:50:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:50:30'
+}
+{
+  message: 'The database value[object Object]',
+  level: 'error',
+  timestamp: '2021-12-01 23:50:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:50:46'
+}
+{
+  message: 'The database value[object Object]',
+  level: 'error',
+  timestamp: '2021-12-01 23:51:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-01 23:51:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:05:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:08:06'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:09:27'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:09:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:13:53'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeDatabaseError: column "id" of relation "users" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:15:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:22:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:23:00'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:23:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:23:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:23:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:23:34'
+}
+{
+  message: 'Error encountered while getting users ReferenceError: allProperties is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:23:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:25:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:27:49'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:27:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:27:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:28:10'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: column "firstname" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:28:27'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: column "firstname" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:28:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:29:42'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:32:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:32:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:32:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:33:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:33:06'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:33:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:34:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:34:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:34:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:35:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:35:30'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:42:26'
+}
+{
+  message: 'Error occurred in service when updating user details SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:43:35'
+}
+{
+  message: 'Error when updating user details SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2021-12-02 00:43:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:44:16'
+}
+{
+  message: 'Error occurred in service when updating user details ReferenceError: updateUser is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:44:29'
+}
+{
+  message: 'Error when updating user details ReferenceError: updateUser is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:44:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:46:31'
+}
+{
+  message: 'Error occurred in service when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:03'
+}
+{
+  message: 'Error when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:03'
+}
+{
+  message: 'Error occurred in service when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:07'
+}
+{
+  message: 'Error when deleting user details ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-02 00:50:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:51:12'
+}
+{
+  message: 'Error occurred in service when deleting user details TypeError: _index.default.destroy is not a function',
+  level: 'error',
+  timestamp: '2021-12-02 00:51:23'
+}
+{
+  message: 'Error when deleting user details TypeError: _index.default.destroy is not a function',
+  level: 'error',
+  timestamp: '2021-12-02 00:51:23'
+}

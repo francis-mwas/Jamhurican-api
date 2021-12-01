@@ -15,7 +15,7 @@ module.exports = {
   },
 
   test: {
-    database: 'properties_test',
+    database: 'user_test',
     username: process.env.DB_USER,
     password: process.env.DB_PASS,
     host: process.env.DB_HOST,
