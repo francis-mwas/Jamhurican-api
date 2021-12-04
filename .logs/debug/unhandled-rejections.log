@@ -7286,3 +7286,287 @@
   ],
   timestamp: '2021-12-03 16:56:02'
 }
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 10441
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:7:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10441\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10441\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10441\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Sat Dec 04 2021 11:24:56 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10340,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 163831808,
+      heapTotal: 133025792,
+      heapUsed: 102573976,
+      external: 2577368,
+      arrayBuffers: 374575
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 486539 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-04 11:24:56'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 10441
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:7:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10441\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10441\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10441\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:7:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Sat Dec 04 2021 11:24:56 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10340,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 164462592,
+      heapTotal: 133025792,
+      heapUsed: 102799312,
+      external: 2588332,
+      arrayBuffers: 385499
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 486539 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-04 11:24:56'
+}

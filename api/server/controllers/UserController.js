@@ -129,11 +129,20 @@ class UserController {
     }
     try {
       const updateUser = await UserService.updateUser(userId, updatedUser);
+      // construct user object to return so as to avoid return password in original user object
+      const user = {
+        firstName: updateUser.firstName,
+        lastName: updateUser.lastName,
+        email: updateUser.email,
+        isAdmin: updateUser.isAdmin,
+        createdAt: updateUser.createdAt,
+        updatedAt: updateUser.updatedAt,
+      };
       if (!updateUser) {
         util.setError(404, `User with this id does not exist: ${userId}`);
         logger.error(`Invalid user id ${userId}`);
       } else {
-        util.setSuccess(200, 'Property updated successfully', updateUser);
+        util.setSuccess(200, 'User updated successfully', user);
         logger.debug(`User details updated ${updateUser}`);
       }
       return util.send(res);
@@ -154,12 +163,20 @@ class UserController {
 
     try {
       const user = await UserService.deleteUser(userId);
+      const userData = {
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        isAdmin: user.isAdmin,
+        createdAt: user.createdAt,
+        updatedAt: user.updatedAt,
+      };
 
       if (user) {
         util.setSuccess(200, 'User deleted');
-        logger.debug(`User details deleted ${user}`);
+        logger.debug(`User details deleted ${userData}`);
       } else {
-        util.setError(404, `Property with this id ${userId} does not exist`);
+        util.setError(404, `User with this id ${userId} does not exist`);
         logger.warn(`Invalid user id ${userId}`);
       }
       return util.send(res);

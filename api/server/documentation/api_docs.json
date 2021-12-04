@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Jamhurican Swagger Documentation",
+    "title": "Jamhurican API Documentation",
     "description": "This is official documentaion of Jamhurican application developed by Francis Mwangi.",
     "contact": {
       "email": "mwangif184@gmail.com"
@@ -11,11 +11,11 @@
 
   "servers": [
     {
-      "url": "https://localhost:8000/api/v1/documentation"
+      "url": "http://localhost:8000/api/v1/"
     },
 
     {
-      "url": "http://localhost:8000/api/v1/docs"
+      "url": "https://jamhurican.com/api/v1/"
     }
   ],
   "tags": [
@@ -51,6 +51,10 @@
           "required": true
         },
         "responses": {
+          "201": {
+            "description": "User created successully",
+            "content": {}
+          },
           "400": {
             "description": "Invalid user details supplied",
             "content": {}
@@ -64,7 +68,7 @@
       }
     },
 
-    "/users/get-users": {
+    "/users/": {
       "get": {
         "tags": ["Users"],
         "summary": "Get all users",
@@ -95,7 +99,7 @@
       }
     },
 
-    "/users/get-users/{userId}": {
+    "/users/{userId}": {
       "get": {
         "tags": ["Users"],
         "summary": "Get a single user",
@@ -112,7 +116,7 @@
             "description": "Return a user uniquely identified by Id",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer"
             }
           }
         ],
@@ -123,6 +127,101 @@
           },
           "200": {
             "description": "User retrieved successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/{userId}/": {
+      "patch": {
+        "tags": ["Users"],
+        "summary": "Update user details",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "updateUserDetails",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Id of user that needs to be updated",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Object of the user details to be approved",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "400": {
+            "description": "Invalid user details supplied"
+          },
+          "404": {
+            "description": "No user found with this Id",
+            "content": {}
+          },
+          "200": {
+            "description": "User updated successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/{userId}/": {
+      "delete": {
+        "tags": ["Users"],
+        "summary": "Delete user details",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "deleteAsingleuser",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Delete user uniquely identified by Id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "No user found with this Id",
+            "content": {}
+          },
+          "200": {
+            "description": "User details deleted successfully"
           },
           "401": {
             "description": "Unauthorized request, please login"
@@ -341,43 +440,6 @@
           "name": "User"
         }
       },
-
-      "CreateWarranty": {
-        "type": "object",
-        "properties": {
-          "serialNumber": {
-            "type": "string"
-          },
-          "PlaceOfPurchase": {
-            "type": "string"
-          }
-        }
-      },
-
-      "RequestDemo": {
-        "type": "object",
-        "properties": {
-          "fullName": {
-            "type": "string"
-          },
-          "businessPhone": {
-            "type": "string"
-          },
-          "businessName": {
-            "type": "string"
-          },
-          "businessEmail": {
-            "type": "string"
-          },
-          "subject": {
-            "type": "string"
-          },
-          "message": {
-            "type": "string"
-          }
-        }
-      },
-
       "ChangeOldPassword": {
         "type": "object",
         "properties": {
@@ -457,292 +519,12 @@
         }
       },
 
-      "SmsDetails": {
-        "type": "object",
-        "properties": {
-          "message": {
-            "type": "string"
-          }
-        },
-        "xml": {
-          "name": "SmsDetails"
-        }
-      },
-      "SearchClaimById": {
-        "type": "object",
-        "properties": {
-          "claimId": {
-            "type": "string"
-          }
-        }
-      },
-
-      "ViewVendorClaims": {
-        "type": "object",
-        "properties": {
-          "vendorId": {
-            "type": "string"
-          }
-        }
-      },
-      "DiagnosticReport": {
-        "type": "object",
-        "properties": {
-          "description": {
-            "type": "string"
-          },
-          "possibleCause": {
-            "type": "string"
-          }
-        }
-      },
-
-      "ServiceParts": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          }
-        }
-      },
-      "SmsToModelNumber": {
-        "type": "object",
-        "properties": {
-          "modelNumber": {
-            "type": "string"
-          },
-          "message": {
-            "type": "string"
-          }
-        }
-      },
-
-      "SendSmsToNumber": {
-        "type": "object",
-        "properties": {
-          "phoneNumber": {
-            "type": "string"
-          },
-          "message": {
-            "type": "string"
-          }
-        }
-      },
-
-      "Vendor": {
-        "type": "object",
-        "properties": {
-          "businessName": {
-            "type": "string"
-          },
-          "pocFullName": {
-            "type": "string"
-          },
-          "pocPhone": {
-            "type": "string"
-          },
-
-          "subDomain": {
-            "type": "string"
-          },
-          "businessEmail": {
-            "type": "string"
-          },
-          "businessType": {
-            "type": "string"
-          },
-          "serviceCode": {
-            "type": "string",
-            "uniqueItems": true
-          }
-        },
-        "xml": {
-          "name": "Vendor"
-        }
-      },
       "SendSignUpLink": {
         "type": "object",
         "properties": {
           "businessEmail": {
             "type": "string"
           }
-        }
-      },
-
-      "AddServiceCenter": {
-        "type": "object",
-        "properties": {
-          "businessEmail": {
-            "type": "string"
-          }
-        }
-      },
-
-      "SendReminder": {
-        "type": "object",
-        "properties": {
-          "businessEmail": {
-            "type": "string"
-          }
-        }
-      },
-
-      "ApproveServiceParts": {
-        "type": "object",
-        "properties": {
-          "serialNumber": {
-            "type": "string"
-          },
-          "claimId": {
-            "type": "string"
-          }
-        }
-      },
-
-      "AproveServiceCenter": {
-        "type": "object",
-        "properties": {
-          "businessEmail": {
-            "type": "string"
-          }
-        }
-      },
-
-      "RejectVendorRequest": {
-        "type": "string",
-        "properties": {
-          "businessEmail": {
-            "type": "string"
-          }
-        }
-      },
-
-      "CreateProduct": {
-        "type": "object",
-        "properties": {
-          "productName": {
-            "type": "string"
-          },
-          "manufacturer": {
-            "type": "string"
-          },
-          "serialNumber": {
-            "type": "string"
-          },
-          "modelNumber": {
-            "type": "string"
-          },
-          "warrantyDuration": {
-            "type": "string"
-          },
-          "productBrand": {
-            "type": "string"
-          }
-        },
-        "xml": {
-          "name": "Vendor"
-        }
-      },
-
-      "BatchUpload": {
-        "type": "object",
-        "properties": {
-          "productName": {
-            "type": "string"
-          },
-          "manufacturer": {
-            "type": "string"
-          },
-          "modelNumber": {
-            "type": "string"
-          },
-          "warrantyDuration": {
-            "type": "string"
-          },
-          "productBrand": {
-            "type": "string"
-          },
-          "count": {
-            "type": "number"
-          },
-          "suffix": {
-            "type": "object",
-            "properties": {
-              "type": {
-                "type": "string"
-              },
-              "start": {
-                "type": "number"
-              }
-            }
-          },
-          "serialPrefix": {
-            "type": "string"
-          }
-        }
-      },
-      "UpdateClaimStatus": {
-        "type": "object",
-        "properties": {
-          "claimId": {
-            "type": "string"
-          },
-          "status": {
-            "type": "string"
-          }
-        }
-      },
-
-      "UpdateRequiredServicePart": {
-        "type": "object",
-        "properties": {
-          "claimId": {
-            "type": "string"
-          },
-          "serialNumber": {
-            "type": "string"
-          }
-        }
-      },
-
-      "AcceptVendorRquest": {
-        "type": "object",
-        "properties": {
-          "businessEmail": {
-            "type": "string"
-          }
-        }
-      },
-
-      "serviceCenter": {
-        "type": "object",
-        "properties": {
-          "pocFullName": {
-            "type": "string"
-          },
-          "pocPhoneNumber": {
-            "type": "string"
-          },
-          "businessEmail": {
-            "type": "string"
-          },
-
-          "businessName": {
-            "type": "string"
-          },
-          "location": {
-            "type": "string",
-            "default": "null"
-          },
-          "password": {
-            "type": "string"
-          }
-        },
-        "xml": {
-          "name": "ServiceCenter"
         }
       }
     },
