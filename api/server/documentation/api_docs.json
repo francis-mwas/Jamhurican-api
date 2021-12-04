@@ -1,0 +1,539 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Jamhurican API Documentation",
+    "description": "This is official documentaion of Jamhurican application developed by Francis Mwangi.",
+    "contact": {
+      "email": "mwangif184@gmail.com"
+    },
+    "version": "1.0.0"
+  },
+
+  "servers": [
+    {
+      "url": "http://localhost:8000/api/v1/"
+    },
+
+    {
+      "url": "https://jamhurican.com/api/v1/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Jamhurican",
+      "description": "Making management of chamaa easy."
+    },
+    {
+      "name": "Jamhurican",
+      "description": "Access to Jamhurican Restful API"
+    },
+    {
+      "name": "user",
+      "description": "Operations about user"
+    }
+  ],
+
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": ["Users"],
+        "summary": "Register normal user account",
+        "operationId": "createUser",
+        "requestBody": {
+          "description": "User object to be added",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "User created successully",
+            "content": {}
+          },
+          "400": {
+            "description": "Invalid user details supplied",
+            "content": {}
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/": {
+      "get": {
+        "tags": ["Users"],
+        "summary": "Get all users",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "getUsers",
+        "parameters": [],
+        "responses": {
+          "404": {
+            "description": "No users found",
+            "content": {}
+          },
+          "200": {
+            "description": "Users retrieved successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/{userId}": {
+      "get": {
+        "tags": ["Users"],
+        "summary": "Get a single user",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "getAsingleuser",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Return a user uniquely identified by Id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "No user found with this Id",
+            "content": {}
+          },
+          "200": {
+            "description": "User retrieved successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/{userId}/": {
+      "patch": {
+        "tags": ["Users"],
+        "summary": "Update user details",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "updateUserDetails",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Id of user that needs to be updated",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Object of the user details to be approved",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "400": {
+            "description": "Invalid user details supplied"
+          },
+          "404": {
+            "description": "No user found with this Id",
+            "content": {}
+          },
+          "200": {
+            "description": "User updated successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/{userId}/": {
+      "delete": {
+        "tags": ["Users"],
+        "summary": "Delete user details",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "deleteAsingleuser",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "Delete user uniquely identified by Id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "No user found with this Id",
+            "content": {}
+          },
+          "200": {
+            "description": "User details deleted successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/email/verify/{token}": {
+      "post": {
+        "tags": ["Users"],
+        "summary": "Verify an account",
+        "operationId": "verifyUserAccount",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "description": "User token to verify user account",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {}
+          }
+        },
+        "responses": {
+          "405": {
+            "description": "Invalid input",
+            "content": {}
+          }
+        }
+      }
+    },
+
+    "/users/login": {
+      "post": {
+        "tags": ["Users"],
+        "summary": "Logs in user into the system",
+        "operationId": "loginUser",
+        "requestBody": {
+          "description": "User object to be added",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid username/password supplied",
+            "content": {}
+          }
+        }
+      }
+    },
+
+    "/users/request-new-token": {
+      "post": {
+        "tags": ["Users"],
+        "summary": "Request new toekn to verify your account",
+        "operationId": "tokenRequest",
+        "requestBody": {
+          "description": "Data object to be added",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestNewToken"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "400": {
+            "description": "Invalid details supplied",
+            "content": {}
+          },
+
+          "201": {
+            "description": "New token request reset successful",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorised request, please login",
+            "content": {}
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/users/change-password": {
+      "post": {
+        "tags": ["Users"],
+        "summary": "Change password",
+        "operationId": "changePassword",
+        "requestBody": {
+          "description": "Data object to be added",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeOldPassword"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "400": {
+            "description": "Invalid details supplied",
+            "content": {}
+          },
+
+          "200": {
+            "description": "Password reset successfully",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorised request, please login",
+            "content": {}
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
+    "/profile": {
+      "get": {
+        "tags": ["Users"],
+        "summary": "Get user profile",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "getProfile",
+        "parameters": [],
+        "responses": {
+          "404": {
+            "description": "No profile found",
+            "content": {}
+          },
+          "200": {
+            "description": "Profile retrieved successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string"
+          },
+
+          "lastName": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "isAdmin": {
+            "type": "string"
+          }
+        },
+        "xml": {
+          "name": "User"
+        }
+      },
+      "ChangeOldPassword": {
+        "type": "object",
+        "properties": {
+          "oldPassword": {
+            "type": "string"
+          },
+          "newPassword": {
+            "type": "string"
+          }
+        }
+      },
+
+      "RequestNewToken": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      },
+
+      "ForgotPassword": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      },
+
+      "Login": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        },
+        "xml": {
+          "name": "Login"
+        }
+      },
+      "TokenRfresh": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string"
+          }
+        },
+        "xml": {
+          "name": "TokenRefresh"
+        }
+      },
+      "ChangePassword": {
+        "type": "object",
+        "properties": {
+          "oldPassword": {
+            "type": "string"
+          },
+          "newPassword": {
+            "type": "string"
+          }
+        },
+        "xml": {
+          "name": "ChangePassword"
+        }
+      },
+
+      "SendSignUpLink": {
+        "type": "object",
+        "properties": {
+          "businessEmail": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

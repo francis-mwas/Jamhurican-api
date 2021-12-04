@@ -158,3 +158,48 @@
   level: 'error',
   timestamp: '2021-12-02 00:51:23'
 }
+{
+  message: 'Invalid user id {userId}',
+  level: 'error',
+  timestamp: '2021-12-04 12:15:48'
+}
+{
+  message: 'Error when updating user details ReferenceError: createdUser is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:36:47'
+}
+{
+  message: 'Invalid urers id {id}',
+  level: 'error',
+  timestamp: '2021-12-04 12:41:29'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:52:02'
+}
+{
+  message: 'Invalid urers id {id}',
+  level: 'error',
+  timestamp: '2021-12-04 12:53:37'
+}
+{
+  message: 'Invalid urers id {id}',
+  level: 'error',
+  timestamp: '2021-12-04 12:54:07'
+}
+{
+  message: "Error when deleting user details TypeError: Cannot read property 'firstName' of undefined",
+  level: 'error',
+  timestamp: '2021-12-04 12:55:01'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:55:19'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:55:49'
+}

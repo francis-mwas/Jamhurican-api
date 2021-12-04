@@ -488,3 +488,713 @@
   level: 'error',
   timestamp: '2021-12-02 00:51:23'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-02 00:59:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:20:53'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:23:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:36:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:36:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:38:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:38:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:38:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:38:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:39:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:39:43'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:48:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:48:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:48:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:48:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:49:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:49:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:53:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:53:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:53:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:54:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:54:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:55:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:55:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:55:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:55:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:55:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:56:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:57:06'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:57:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:57:24'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:57:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:57:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:57:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:58:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:58:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:58:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:58:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:59:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 16:59:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 17:00:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 17:01:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-03 20:03:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:18:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:20:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:20:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:20:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:21:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:21:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:21:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:21:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:21:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:22:00'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:22:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:22:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:22:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:22:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:22:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:24:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:24:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:25:02'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:25:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:25:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:25:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:45:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:46:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:47:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:47:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:47:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:50:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:51:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:51:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:52:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:52:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:53:10'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:53:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:55:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:55:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:56:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:56:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:56:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:56:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:57:06'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:57:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:57:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:57:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:57:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 11:58:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:01:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:01:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:01:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:02:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:08:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:08:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:10:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:11:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:11:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:11:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:11:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:12:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:12:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:13:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:13:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:13:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:13:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:14:10'
+}
+{
+  message: 'Invalid user id {userId}',
+  level: 'error',
+  timestamp: '2021-12-04 12:15:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:18:02'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:18:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:18:16'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:18:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:20:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:21:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:21:51'
+}
+{
+  message: 'Error when updating user details ReferenceError: createdUser is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:36:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:37:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:39:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:39:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:40:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:40:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:40:52'
+}
+{
+  message: 'Invalid urers id {id}',
+  level: 'error',
+  timestamp: '2021-12-04 12:41:29'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:52:02'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:52:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:52:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:52:53'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:52:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:53:29'
+}
+{
+  message: 'Invalid urers id {id}',
+  level: 'error',
+  timestamp: '2021-12-04 12:53:37'
+}
+{
+  message: 'Invalid urers id {id}',
+  level: 'error',
+  timestamp: '2021-12-04 12:54:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 12:54:53'
+}
+{
+  message: "Error when deleting user details TypeError: Cannot read property 'firstName' of undefined",
+  level: 'error',
+  timestamp: '2021-12-04 12:55:01'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:55:19'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-04 12:55:49'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 13:29:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-04 13:29:46'
+}
