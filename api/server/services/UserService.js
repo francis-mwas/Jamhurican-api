@@ -47,6 +47,25 @@ class UserService {
       throw error;
     }
   }
+  /**
+   *
+   * @param {*} email
+   * @returns returns user associated with this email
+   */
+
+  static async getUserByEmail(email) {
+    try {
+      const user = await database.user.findOne({
+        where: { email: email },
+      });
+      return user;
+    } catch (error) {
+      logger.error(
+        `Error occurred in service when fetching data to login user ${error}`
+      );
+      throw error;
+    }
+  }
 
   /**
    *

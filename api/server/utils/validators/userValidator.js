@@ -1,20 +1,16 @@
 import validator from 'validator';
 import isEmpty from './isEmpty';
-import { validateID, validateEmail } from '../helpers/helper';
-import { validPhone } from '../middlewares/generalValidators';
+import { validateEmail } from '../helpers/helper';
 
 export default (data) => {
   let errors = {};
 
   const fullName = !isEmpty(data.fullName) ? data.fullName : '';
   let phoneNumber = !isEmpty(data.phoneNumber) ? data.phoneNumber : '';
-  const idNumber = !isEmpty(data.idNumber) ? data.idNumber : '';
   const email = !isEmpty(data.email) ? data.email : '';
   const password = !isEmpty(data.password) ? data.password : '';
 
   const validatedPhone = /^\d{10}$/;
-
-  const validIdNumber = validateID(idNumber);
   const validEmail = validateEmail(email);
 
   if (!validator.isLength(fullName, { min: 2, max: 50 })) {
@@ -32,17 +28,6 @@ export default (data) => {
     errors.phoneNumber = 'Phone Number field is required';
   }
 
-  if (!validIdNumber) {
-    errors.idNumber = 'Please enter valid Id number';
-  }
-
-  if (!validator.isLength(idNumber, { min: 6, max: 8 })) {
-    errors.idNumber = 'Id Number must be between 6 and 8 characters';
-  }
-
-  if (validator.isEmpty(idNumber)) {
-    errors.idNumber = 'Id Number is required';
-  }
   if (validator.isEmpty(password)) {
     errors.password = 'Password field is required';
   }

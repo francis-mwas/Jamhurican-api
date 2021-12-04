@@ -1,5 +1,7 @@
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 import Util from '../utils/Utils';
+import { authenticate } from '../utils/helpers/authenticationHelper';
 import UserService from '../services/UserService';
 import logger from '../config/logger.config';
 
@@ -141,11 +143,12 @@ class UserController {
       if (!updateUser) {
         util.setError(404, `User with this id does not exist: ${userId}`);
         logger.error(`Invalid user id ${userId}`);
+        return util.send(res);
       } else {
         util.setSuccess(200, 'User updated successfully', user);
         logger.debug(`User details updated ${updateUser}`);
+        return util.send(res);
       }
-      return util.send(res);
     } catch (error) {
       util.setError(404, error);
       logger.error(`Error when updating user details ${error}`);
@@ -184,6 +187,57 @@ class UserController {
       util.setError(400, error);
       logger.error(`Error when deleting user details ${error}`);
       return util.send(res);
+    }
+  }
+
+  // user logoin
+  static async userLogin(req, res) {
+    logger.info('Incoming request for user login');
+    const { email, password } = req.body;
+
+    if (email === '' || password === '') {
+      res.setError(400, 'Please provide email and password');
+      return util.send(res);
+    }
+    const getUserDetails = await UserService.getUserByEmail(email);
+    if (!getUserDetails) {
+      logger.error('No user found with this email', email);
+      util.setError(404, `User with this email does not exist: ${email}`);
+      return util.send(res);
+    }
+    const authenticated = authenticate(password, getUserDetails);
+    if (!authenticated) {
+      logger.debug(`Incorrect user credentials provided ${password}`);
+      util.setError(400, 'Invalid user details provided');
+      return util.send(res);
+    } else {
+      // construct user payload
+      const payload = {
+        id: getUserDetails.id,
+        email: getUserDetails.email,
+        firstName: getUserDetails.firstName,
+        lastName: getUserDetails.lastName,
+        isAdmin: getUserDetails.isAdmin,
+      };
+      jwt.sign(
+        payload,
+        process.env.SECRET_KEY,
+        { expiresIn: 3600 },
+        (err, token) => {
+          if (err) {
+            logger.warn(
+              `An error occurred when signing the JWT for the user: `,
+              err
+            );
+            res.setError(400, 'Error when signing the JWT for the user');
+            return util.send(res);
+          }
+          const tokenData = `Bearer ${token}`;
+          util.setSuccess(200, 'successfully logged in', tokenData);
+          logger.info(`User successfully logged in.`);
+          return util.send(res);
+        }
+      );
     }
   }
 }

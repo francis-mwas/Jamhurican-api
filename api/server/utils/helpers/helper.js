@@ -1,5 +1,4 @@
-import bcrypt from 'bcryptjs';
-2;
+import bcrypt from 'bcrypt';
 
 // validate email
 export const validateEmail = (mail) => {
