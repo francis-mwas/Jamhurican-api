@@ -200,15 +200,16 @@ class UserController {
       return util.send(res);
     }
     const getUserDetails = await UserService.getUserByEmail(email);
+    logger.debug(`User details are here: ${getUserDetails}`);
     if (!getUserDetails) {
       logger.error('No user found with this email', email);
       util.setError(404, `User with this email does not exist: ${email}`);
       return util.send(res);
     }
-    const authenticated = authenticate(password, getUserDetails);
+    const authenticated = await authenticate(password, getUserDetails);
     if (!authenticated) {
       logger.debug(`Incorrect user credentials provided ${password}`);
-      util.setError(400, 'Invalid user details provided');
+      util.setError(400, 'email or password not correct');
       return util.send(res);
     } else {
       // construct user payload
