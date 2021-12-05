@@ -310,3 +310,33 @@
   message: 'No user found with this email',
   timestamp: '2021-12-04 23:33:22'
 }
+{
+  message: '[object Object]',
+  level: 'error',
+  timestamp: '2021-12-05 13:08:16'
+}
+{
+  message: '[object Object]',
+  level: 'error',
+  timestamp: '2021-12-05 13:12:00'
+}
+{
+  message: '[object Object]',
+  level: 'error',
+  timestamp: '2021-12-05 13:19:19'
+}
+{
+  message: '[object Object]',
+  level: 'error',
+  timestamp: '2021-12-05 13:20:43'
+}
+{
+  message: '[object Object]',
+  level: 'error',
+  timestamp: '2021-12-05 13:21:47'
+}
+{
+  message: '[object Object]',
+  level: 'error',
+  timestamp: '2021-12-05 13:37:48'
+}
