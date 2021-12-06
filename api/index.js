@@ -2,6 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import userRoutes from './server/routes/UserRoutes';
 import logger from './server/config/logger.config';
+
+
 // docs
 import swaggerUi from 'swagger-ui-express';
 import api_docs from '../api/server/documentation/api_docs.json';

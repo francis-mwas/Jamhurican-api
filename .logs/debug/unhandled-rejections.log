@@ -20864,3 +20864,965 @@
   ],
   timestamp: '2021-12-05 13:38:05'
 }
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\utils\middlewares\authentication.js: Missing semicolon. (26:13)
+  
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [90m// If there is no token, then the requst is unauthorised\[39m[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [36mif[39m ([33m![39mtoken) {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mreturn[39m res[33m.[39mstatus([35m401[39m)[33m.[39mjson({[0m
+  [0m [90m 28 |[39m       status[33m:[39m [36mfalse[39m[33m,[39m[0m
+  [0m [90m 29 |[39m       error[33m:[39m [32m'Unauthorised request'[39m[33m,[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.semicolon (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:127:10)
+      at Parser.parseExpressionStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:908:10)
+      at Parser.parseStatementContent (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:392:19)
+      at Parser.parseStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:247:17)
+      at Parser.parseBlockOrModuleBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:983:25)
+      at Parser.parseBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:959:10)
+      at Parser.parseBlock (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:929:10) {
+    loc: Position { line: 26, column: 13 },
+    pos: 615,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'MissingSemicolon'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\authentication.js: Missing semicolon. (26:13)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 24 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 25 |\x1B[39m   \x1B[90m// If there is no token, then the requst is unauthorised\\\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 26 |\x1B[39m   \x1B[36mif\x1B[39m (\x1B[33m!\x1B[39mtoken) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m              \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 27 |\x1B[39m     \x1B[36mreturn\x1B[39m res\x1B[33m.\x1B[39mstatus(\x1B[35m401\x1B[39m)\x1B[33m.\x1B[39mjson({\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 28 |\x1B[39m       status\x1B[33m:\x1B[39m \x1B[36mfalse\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 29 |\x1B[39m       error\x1B[33m:\x1B[39m \x1B[32m'Unauthorised request'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\authentication.js: Missing semicolon. (26:13)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 24 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 25 |\x1B[39m   \x1B[90m// If there is no token, then the requst is unauthorised\\\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 26 |\x1B[39m   \x1B[36mif\x1B[39m (\x1B[33m!\x1B[39mtoken) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m              \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 27 |\x1B[39m     \x1B[36mreturn\x1B[39m res\x1B[33m.\x1B[39mstatus(\x1B[35m401\x1B[39m)\x1B[33m.\x1B[39mjson({\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 28 |\x1B[39m       status\x1B[33m:\x1B[39m \x1B[36mfalse\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 29 |\x1B[39m       error\x1B[33m:\x1B[39m \x1B[32m'Unauthorised request'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:127:10)\n' +
+    '    at Parser.parseExpressionStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:908:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:392:19)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\authentication.js: Missing semicolon. (26:13)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 24 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 25 |\x1B[39m   \x1B[90m// If there is no token, then the requst is unauthorised\\\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 26 |\x1B[39m   \x1B[36mif\x1B[39m (\x1B[33m!\x1B[39mtoken) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m              \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 27 |\x1B[39m     \x1B[36mreturn\x1B[39m res\x1B[33m.\x1B[39mstatus(\x1B[35m401\x1B[39m)\x1B[33m.\x1B[39mjson({\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 28 |\x1B[39m       status\x1B[33m:\x1B[39m \x1B[36mfalse\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 29 |\x1B[39m       error\x1B[33m:\x1B[39m \x1B[32m'Unauthorised request'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:127:10)\n' +
+    '    at Parser.parseExpressionStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:908:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:392:19)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  exception: true,
+  date: 'Mon Dec 06 2021 22:36:34 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10088,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 118919168,
+      heapTotal: 87769088,
+      heapUsed: 68658376,
+      external: 4238871,
+      arrayBuffers: 54442
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 699634 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.semicolon',
+      line: 127,
+      method: 'semicolon',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseExpressionStatement',
+      line: 908,
+      method: 'parseExpressionStatement',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatementContent',
+      line: 392,
+      method: 'parseStatementContent',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatement',
+      line: 247,
+      method: 'parseStatement',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockOrModuleBlockBody',
+      line: 983,
+      method: 'parseBlockOrModuleBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockBody',
+      line: 959,
+      method: 'parseBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlock',
+      line: 929,
+      method: 'parseBlock',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-06 22:36:34'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\utils\middlewares\authentication.js: Missing semicolon. (26:13)
+  
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [90m// If there is no token, then the requst is unauthorised\[39m[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [36mif[39m ([33m![39mtoken) {[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     [36mreturn[39m res[33m.[39mstatus([35m401[39m)[33m.[39mjson({[0m
+  [0m [90m 28 |[39m       status[33m:[39m [36mfalse[39m[33m,[39m[0m
+  [0m [90m 29 |[39m       error[33m:[39m [32m'Unauthorised request'[39m[33m,[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.semicolon (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:127:10)
+      at Parser.parseExpressionStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:908:10)
+      at Parser.parseStatementContent (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:392:19)
+      at Parser.parseStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:247:17)
+      at Parser.parseBlockOrModuleBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:983:25)
+      at Parser.parseBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:959:10)
+      at Parser.parseBlock (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:929:10) {
+    loc: Position { line: 26, column: 13 },
+    pos: 615,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'MissingSemicolon'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\authentication.js: Missing semicolon. (26:13)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 24 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 25 |\x1B[39m   \x1B[90m// If there is no token, then the requst is unauthorised\\\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 26 |\x1B[39m   \x1B[36mif\x1B[39m (\x1B[33m!\x1B[39mtoken) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m              \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 27 |\x1B[39m     \x1B[36mreturn\x1B[39m res\x1B[33m.\x1B[39mstatus(\x1B[35m401\x1B[39m)\x1B[33m.\x1B[39mjson({\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 28 |\x1B[39m       status\x1B[33m:\x1B[39m \x1B[36mfalse\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 29 |\x1B[39m       error\x1B[33m:\x1B[39m \x1B[32m'Unauthorised request'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\authentication.js: Missing semicolon. (26:13)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 24 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 25 |\x1B[39m   \x1B[90m// If there is no token, then the requst is unauthorised\\\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 26 |\x1B[39m   \x1B[36mif\x1B[39m (\x1B[33m!\x1B[39mtoken) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m              \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 27 |\x1B[39m     \x1B[36mreturn\x1B[39m res\x1B[33m.\x1B[39mstatus(\x1B[35m401\x1B[39m)\x1B[33m.\x1B[39mjson({\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 28 |\x1B[39m       status\x1B[33m:\x1B[39m \x1B[36mfalse\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 29 |\x1B[39m       error\x1B[33m:\x1B[39m \x1B[32m'Unauthorised request'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:127:10)\n' +
+    '    at Parser.parseExpressionStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:908:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:392:19)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\authentication.js: Missing semicolon. (26:13)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 24 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 25 |\x1B[39m   \x1B[90m// If there is no token, then the requst is unauthorised\\\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 26 |\x1B[39m   \x1B[36mif\x1B[39m (\x1B[33m!\x1B[39mtoken) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m              \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 27 |\x1B[39m     \x1B[36mreturn\x1B[39m res\x1B[33m.\x1B[39mstatus(\x1B[35m401\x1B[39m)\x1B[33m.\x1B[39mjson({\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 28 |\x1B[39m       status\x1B[33m:\x1B[39m \x1B[36mfalse\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 29 |\x1B[39m       error\x1B[33m:\x1B[39m \x1B[32m'Unauthorised request'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:127:10)\n' +
+    '    at Parser.parseExpressionStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:908:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:392:19)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  exception: true,
+  date: 'Mon Dec 06 2021 22:36:34 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10088,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 119513088,
+      heapTotal: 87769088,
+      heapUsed: 68999672,
+      external: 2281086,
+      arrayBuffers: 77568
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 699634 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.semicolon',
+      line: 127,
+      method: 'semicolon',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseExpressionStatement',
+      line: 908,
+      method: 'parseExpressionStatement',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatementContent',
+      line: 392,
+      method: 'parseStatementContent',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatement',
+      line: 247,
+      method: 'parseStatement',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockOrModuleBlockBody',
+      line: 983,
+      method: 'parseBlockOrModuleBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockBody',
+      line: 959,
+      method: 'parseBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlock',
+      line: 929,
+      method: 'parseBlock',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-06 22:36:34'
+}
+{
+  error: ValidationError [SequelizeValidationError]: notNull Violation: user.firstName cannot be null,
+  notNull Violation: user.lastName cannot be null
+      at l._validate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\instance-validator.js:78:13)
+      at l._validateAndRunHooks (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\instance-validator.js:111:7)
+      at l.validate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\instance-validator.js:93:12)
+      at user.save (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\model.js:3910:7)
+      at Function.create (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\model.js:2216:12) {
+    errors: [
+      ValidationErrorItem {
+        message: 'user.firstName cannot be null',
+        type: 'notNull Violation',
+        path: 'firstName',
+        value: null,
+        origin: 'CORE',
+        instance: user {
+          dataValues: {
+            id: null,
+            firstName: undefined,
+            lastName: undefined,
+            email: 'jabah@gmail.com',
+            password: '$2b$10$zgs7y4c8W8KToGVwD.xC.e4wlntexSv9wfxri4DqXbbtZO4yTjeEW',
+            updatedAt: 2021-12-06T20:09:53.601Z,
+            createdAt: 2021-12-06T20:09:53.601Z
+          },
+          _previousDataValues: { email: undefined, password: undefined },
+          _changed: Set(2) { 'email', 'password' },
+          _options: {
+            isNewRecord: true,
+            _schema: null,
+            _schemaDelimiter: '',
+            attributes: undefined,
+            include: undefined,
+            raw: undefined,
+            silent: undefined
+          },
+          isNewRecord: true
+        },
+        validatorKey: 'is_null',
+        validatorName: null,
+        validatorArgs: []
+      },
+      ValidationErrorItem {
+        message: 'user.lastName cannot be null',
+        type: 'notNull Violation',
+        path: 'lastName',
+        value: null,
+        origin: 'CORE',
+        instance: user {
+          dataValues: {
+            id: null,
+            firstName: undefined,
+            lastName: undefined,
+            email: 'jabah@gmail.com',
+            password: '$2b$10$zgs7y4c8W8KToGVwD.xC.e4wlntexSv9wfxri4DqXbbtZO4yTjeEW',
+            updatedAt: 2021-12-06T20:09:53.601Z,
+            createdAt: 2021-12-06T20:09:53.601Z
+          },
+          _previousDataValues: { email: undefined, password: undefined },
+          _changed: Set(2) { 'email', 'password' },
+          _options: {
+            isNewRecord: true,
+            _schema: null,
+            _schemaDelimiter: '',
+            attributes: undefined,
+            include: undefined,
+            raw: undefined,
+            silent: undefined
+          },
+          isNewRecord: true
+        },
+        validatorKey: 'is_null',
+        validatorName: null,
+        validatorArgs: []
+      }
+    ]
+  },
+  level: 'error',
+  message: 'unhandledRejection: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null\n' +
+    'SequelizeValidationError: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null\n' +
+    '    at l._validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:78:13)\n' +
+    '    at l._validateAndRunHooks (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:111:7)\n' +
+    '    at l.validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:93:12)\n' +
+    '    at user.save (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:3910:7)\n' +
+    '    at Function.create (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:2216:12)',
+  stack: 'SequelizeValidationError: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null\n' +
+    '    at l._validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:78:13)\n' +
+    '    at l._validateAndRunHooks (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:111:7)\n' +
+    '    at l.validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:93:12)\n' +
+    '    at user.save (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:3910:7)\n' +
+    '    at Function.create (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:2216:12)',
+  exception: true,
+  date: 'Mon Dec 06 2021 23:09:53 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 7968,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 114339840,
+      heapTotal: 80695296,
+      heapUsed: 78043328,
+      external: 2303737,
+      arrayBuffers: 60961
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 701633 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js',
+      function: 'l._validate',
+      line: 78,
+      method: '_validate',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js',
+      function: 'l._validateAndRunHooks',
+      line: 111,
+      method: '_validateAndRunHooks',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js',
+      function: 'l.validate',
+      line: 93,
+      method: 'validate',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js',
+      function: 'user.save',
+      line: 3910,
+      method: 'save',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js',
+      function: 'Function.create',
+      line: 2216,
+      method: 'create',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-06 23:09:53'
+}
+{
+  error: ValidationError [SequelizeValidationError]: notNull Violation: user.firstName cannot be null,
+  notNull Violation: user.lastName cannot be null
+      at l._validate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\instance-validator.js:78:13)
+      at l._validateAndRunHooks (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\instance-validator.js:111:7)
+      at l.validate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\instance-validator.js:93:12)
+      at user.save (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\model.js:3910:7)
+      at Function.create (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\lib\model.js:2216:12) {
+    errors: [
+      ValidationErrorItem {
+        message: 'user.firstName cannot be null',
+        type: 'notNull Violation',
+        path: 'firstName',
+        value: null,
+        origin: 'CORE',
+        instance: user {
+          dataValues: {
+            id: null,
+            firstName: undefined,
+            lastName: undefined,
+            email: 'jabah@gmail.com',
+            password: '$2b$10$zgs7y4c8W8KToGVwD.xC.e4wlntexSv9wfxri4DqXbbtZO4yTjeEW',
+            updatedAt: 2021-12-06T20:09:53.601Z,
+            createdAt: 2021-12-06T20:09:53.601Z
+          },
+          _previousDataValues: { email: undefined, password: undefined },
+          _changed: Set(2) { 'email', 'password' },
+          _options: {
+            isNewRecord: true,
+            _schema: null,
+            _schemaDelimiter: '',
+            attributes: undefined,
+            include: undefined,
+            raw: undefined,
+            silent: undefined
+          },
+          isNewRecord: true
+        },
+        validatorKey: 'is_null',
+        validatorName: null,
+        validatorArgs: []
+      },
+      ValidationErrorItem {
+        message: 'user.lastName cannot be null',
+        type: 'notNull Violation',
+        path: 'lastName',
+        value: null,
+        origin: 'CORE',
+        instance: user {
+          dataValues: {
+            id: null,
+            firstName: undefined,
+            lastName: undefined,
+            email: 'jabah@gmail.com',
+            password: '$2b$10$zgs7y4c8W8KToGVwD.xC.e4wlntexSv9wfxri4DqXbbtZO4yTjeEW',
+            updatedAt: 2021-12-06T20:09:53.601Z,
+            createdAt: 2021-12-06T20:09:53.601Z
+          },
+          _previousDataValues: { email: undefined, password: undefined },
+          _changed: Set(2) { 'email', 'password' },
+          _options: {
+            isNewRecord: true,
+            _schema: null,
+            _schemaDelimiter: '',
+            attributes: undefined,
+            include: undefined,
+            raw: undefined,
+            silent: undefined
+          },
+          isNewRecord: true
+        },
+        validatorKey: 'is_null',
+        validatorName: null,
+        validatorArgs: []
+      }
+    ]
+  },
+  level: 'error',
+  message: 'unhandledRejection: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null\n' +
+    'SequelizeValidationError: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null\n' +
+    '    at l._validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:78:13)\n' +
+    '    at l._validateAndRunHooks (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:111:7)\n' +
+    '    at l.validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:93:12)\n' +
+    '    at user.save (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:3910:7)\n' +
+    '    at Function.create (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:2216:12)',
+  stack: 'SequelizeValidationError: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null\n' +
+    '    at l._validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:78:13)\n' +
+    '    at l._validateAndRunHooks (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:111:7)\n' +
+    '    at l.validate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js:93:12)\n' +
+    '    at user.save (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:3910:7)\n' +
+    '    at Function.create (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js:2216:12)',
+  exception: true,
+  date: 'Mon Dec 06 2021 23:09:53 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 7968,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 114941952,
+      heapTotal: 80695296,
+      heapUsed: 78259720,
+      external: 2294553,
+      arrayBuffers: 74367
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 701633 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js',
+      function: 'l._validate',
+      line: 78,
+      method: '_validate',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js',
+      function: 'l._validateAndRunHooks',
+      line: 111,
+      method: '_validateAndRunHooks',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\instance-validator.js',
+      function: 'l.validate',
+      line: 93,
+      method: 'validate',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js',
+      function: 'user.save',
+      line: 3910,
+      method: 'save',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\lib\\model.js',
+      function: 'Function.create',
+      line: 2216,
+      method: 'create',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-06 23:09:53'
+}
+{
+  error: ReferenceError: isAdmin is not defined
+      at _callee$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:46:15)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:30:9,
+  level: 'error',
+  message: 'unhandledRejection: isAdmin is not defined\n' +
+    'ReferenceError: isAdmin is not defined\n' +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:46:15)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:9',
+  stack: 'ReferenceError: isAdmin is not defined\n' +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:46:15)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:9',
+  exception: true,
+  date: 'Mon Dec 06 2021 23:12:34 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6516,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 110698496,
+      heapTotal: 78938112,
+      heapUsed: 75453912,
+      external: 2280770,
+      arrayBuffers: 60624
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 701794 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: '_callee$',
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-06 23:12:34'
+}
+{
+  error: ReferenceError: isAdmin is not defined
+      at _callee$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:46:15)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:30:9,
+  level: 'error',
+  message: 'unhandledRejection: isAdmin is not defined\n' +
+    'ReferenceError: isAdmin is not defined\n' +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:46:15)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:9',
+  stack: 'ReferenceError: isAdmin is not defined\n' +
+    '    at _callee$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:46:15)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:9',
+  exception: true,
+  date: 'Mon Dec 06 2021 23:12:34 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6516,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 111403008,
+      heapTotal: 78938112,
+      heapUsed: 75679000,
+      external: 2294744,
+      arrayBuffers: 74558
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 701794 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: '_callee$',
+      line: 46,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-06 23:12:34'
+}

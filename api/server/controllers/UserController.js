@@ -9,7 +9,7 @@ const util = new Util();
 
 class UserController {
   static async createNewUser(req, res) {
-    const { firstName, lastName, email, password, isAdmin } = req.body;
+    const { firstName, lastName, email, password } = req.body;
 
     if (
       firstName === '' ||
@@ -43,7 +43,6 @@ class UserController {
               lastName,
               email,
               password: hash,
-              isAdmin,
             };
             const createdUser = await UserService.createUser(newUser);
             const user = {
@@ -218,7 +217,7 @@ class UserController {
         email: getUserDetails.email,
         firstName: getUserDetails.firstName,
         lastName: getUserDetails.lastName,
-        isAdmin: getUserDetails.isAdmin,
+        role: getUserDetails.role,
       };
       jwt.sign(
         payload,
