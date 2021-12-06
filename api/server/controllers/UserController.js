@@ -218,7 +218,7 @@ class UserController {
         email: getUserDetails.email,
         firstName: getUserDetails.firstName,
         lastName: getUserDetails.lastName,
-        isAdmin: getUserDetails.isAdmin,
+        role: getUserDetails.role,
       };
       jwt.sign(
         payload,
