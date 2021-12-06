@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+import logger from '../../config/logger.config';
 
 dotenv.config();
 
@@ -19,6 +20,8 @@ export default (req, res, next) => {
     });
   }
 
+  logger.debug(`The token itself: ${token}`);
+
   // If there is no token, then the requst is unauthorised\
   if (!token) {
     return res.status(401).json({
@@ -33,7 +36,7 @@ export default (req, res, next) => {
     if (err) {
       return res.status(403).json({
         status: false,
-        error: `token expired, login again: ${err}`,
+        error: `Error occurred: ${err}`,
       });
     } else {
       // If the token was successfully decoded, assign the payload to req.user
