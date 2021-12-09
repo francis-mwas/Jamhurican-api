@@ -340,3 +340,55 @@
   level: 'error',
   timestamp: '2021-12-05 13:37:48'
 }
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: column "isAdmin" does not exist',
+  level: 'error',
+  timestamp: '2021-12-06 22:51:08'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: column "isAdmin" does not exist',
+  level: 'error',
+  timestamp: '2021-12-06 22:51:08'
+}
+{
+  '0': 'j',
+  '1': 'a',
+  '2': 'b',
+  '3': 'a',
+  '4': 'h',
+  '5': '@',
+  '6': 'g',
+  '7': 'm',
+  '8': 'a',
+  '9': 'i',
+  '10': 'l',
+  '11': '.',
+  '12': 'c',
+  '13': 'o',
+  '14': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2021-12-06 23:08:46'
+}
+{
+  message: 'Error occurred in service when creating user SequelizeValidationError: notNull Violation: user.firstName cannot be null,\n' +
+    'notNull Violation: user.lastName cannot be null',
+  level: 'error',
+  timestamp: '2021-12-06 23:09:53'
+}
+{
+  level: 'warn',
+  message: 'There was an error when trying to hash user password:  data and salt arguments required',
+  stack: 'Error: data and salt arguments required\n' +
+    '    at Object.hash (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\bcrypt\\bcrypt.js:137:17)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:16',
+  timestamp: '2021-12-06 23:11:18'
+}
+{
+  level: 'warn',
+  message: 'There was an error when trying to hash user password:  data and salt arguments required',
+  stack: 'Error: data and salt arguments required\n' +
+    '    at Object.hash (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\bcrypt\\bcrypt.js:137:17)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:16',
+  timestamp: '2021-12-06 23:11:35'
+}
