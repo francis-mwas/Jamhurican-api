@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       balance: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
       },
       amountPaid: {
         type: DataTypes.INTEGER,
