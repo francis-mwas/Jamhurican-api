@@ -12,12 +12,14 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       dateDeposited: {
+        allowNull: false,
         type: Sequelize.DATE,
       },
       balance: {
         type: Sequelize.INTEGER,
       },
       amountPaid: {
+        allowNull: false,
         type: Sequelize.INTEGER,
       },
       userId: {

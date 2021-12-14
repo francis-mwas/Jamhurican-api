@@ -13,6 +13,7 @@ class ContributionsService {
         where: { userId: Number(userId) },
         contribution,
       });
+      
     } catch (error) {
       logger.error(
         `Error occurred in service when adding contribution ${error}`
