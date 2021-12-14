@@ -392,3 +392,67 @@
     '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:30:16',
   timestamp: '2021-12-06 23:11:35'
 }
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-14 23:57:55'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-14 23:57:55'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:13'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:13'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:15'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:15'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:11:16'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:11:16'
+}

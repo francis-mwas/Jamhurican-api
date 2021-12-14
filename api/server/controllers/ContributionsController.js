@@ -7,6 +7,8 @@ class ContributionController {
   static async createUserContribution(req, res) {
     const { userId } = req.params.userId;
 
+    logger.info(`User id: ${userId}`);
+
     const { dateDeposited, amountPaid, amount } = req.body;
 
     if (dateDeposited === '' || amountPaid === '' || amount === '') {
@@ -16,10 +18,10 @@ class ContributionController {
 
     try {
       const addedContribution = await ContributionsService.addContributions({
-        userId,
+        amount,
         dateDeposited,
         amountPaid,
-        amount,
+        userId,
       });
       util.setSuccess(201, 'User created successfully', addedContribution);
       return util.send(res);
