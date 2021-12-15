@@ -5,7 +5,7 @@ import accessControl from '../utils/middlewares/accessControl';
 const router = express.Router();
 
 router.post(
-  '/:userId',
+  '/add',
   accessControl.restrictAccessTo('admin'),
   ContributionController.createUserContribution
 );

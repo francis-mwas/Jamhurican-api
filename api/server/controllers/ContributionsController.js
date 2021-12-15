@@ -5,7 +5,7 @@ import ContributionsService from '../services/ContributionService';
 const util = new Util();
 class ContributionController {
   static async createUserContribution(req, res) {
-    const { userId } = req.params.userId;
+    const { userId } = req.query.userId;
 
     logger.info(`User id: ${userId}`);
 
