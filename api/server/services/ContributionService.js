@@ -17,6 +17,24 @@ class ContributionsService {
       throw error;
     }
   }
+  /**
+   *
+   * @param {*} userId
+   * @returns all user contributions uniquely identified by user id
+   */
+  static async getIndividualUserContributions(userId) {
+    try {
+      const contributions = await database.contributions.findAll({
+        where: { userId: userId },
+      });
+      return contributions;
+    } catch (error) {
+      logger.error(
+        `Error occurred in service when fetching individual user contributions ${error}`
+      );
+      throw error;
+    }
+  }
 }
 
 export default ContributionsService;

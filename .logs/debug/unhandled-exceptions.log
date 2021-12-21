@@ -24382,3 +24382,1361 @@
   ],
   timestamp: '2021-12-21 11:12:07'
 }
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js: Unexpected token, expected "(" (40:0)
+  
+  [0m [90m 38 |[39m[0m
+  [0m [90m 39 |[39m   [36mstatic[39m [36masync[39m getUser[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m }[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m [36mexport[39m [36mdefault[39m [33mContributionController[39m[33m;[39m[0m
+  [0m [90m 43 |[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseFunctionParams (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1231:10)
+      at Parser.parseMethod (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:2278:10)
+      at Parser.pushClassMethod (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1687:12)
+      at Parser.parseClassMemberWithIsStatic (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1553:14)
+      at Parser.parseClassMember (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1426:10) {
+    loc: Position { line: 40, column: 0 },
+    pos: 1095,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token, expected "(" (40:0)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 38 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 39 |\x1B[39m   \x1B[36mstatic\x1B[39m \x1B[36masync\x1B[39m getUser\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 40 |\x1B[39m }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 41 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 42 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m \x1B[33mContributionController\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 43 |\x1B[39m\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token, expected "(" (40:0)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 38 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 39 |\x1B[39m   \x1B[36mstatic\x1B[39m \x1B[36masync\x1B[39m getUser\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 40 |\x1B[39m }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 41 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 42 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m \x1B[33mContributionController\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 43 |\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseFunctionParams (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1231:10)\n' +
+    '    at Parser.parseMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2278:10)\n' +
+    '    at Parser.pushClassMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1687:12)\n' +
+    '    at Parser.parseClassMemberWithIsStatic (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1553:14)\n' +
+    '    at Parser.parseClassMember (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1426:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token, expected "(" (40:0)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 38 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 39 |\x1B[39m   \x1B[36mstatic\x1B[39m \x1B[36masync\x1B[39m getUser\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 40 |\x1B[39m }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 41 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 42 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m \x1B[33mContributionController\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 43 |\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseFunctionParams (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1231:10)\n' +
+    '    at Parser.parseMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2278:10)\n' +
+    '    at Parser.pushClassMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1687:12)\n' +
+    '    at Parser.parseClassMemberWithIsStatic (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1553:14)\n' +
+    '    at Parser.parseClassMember (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1426:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:21:47 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 16028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 121057280,
+      heapTotal: 88817664,
+      heapUsed: 70850424,
+      external: 3904104,
+      arrayBuffers: 1700626
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 866900 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseFunctionParams',
+      line: 1231,
+      method: 'parseFunctionParams',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMethod',
+      line: 2278,
+      method: 'parseMethod',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.pushClassMethod',
+      line: 1687,
+      method: 'pushClassMethod',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseClassMemberWithIsStatic',
+      line: 1553,
+      method: 'parseClassMemberWithIsStatic',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseClassMember',
+      line: 1426,
+      method: 'parseClassMember',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:21:47'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js: Unexpected token, expected "(" (40:0)
+  
+  [0m [90m 38 |[39m[0m
+  [0m [90m 39 |[39m   [36mstatic[39m [36masync[39m getUser[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m }[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m [36mexport[39m [36mdefault[39m [33mContributionController[39m[33m;[39m[0m
+  [0m [90m 43 |[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseFunctionParams (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1231:10)
+      at Parser.parseMethod (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:2278:10)
+      at Parser.pushClassMethod (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1687:12)
+      at Parser.parseClassMemberWithIsStatic (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1553:14)
+      at Parser.parseClassMember (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1426:10) {
+    loc: Position { line: 40, column: 0 },
+    pos: 1095,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token, expected "(" (40:0)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 38 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 39 |\x1B[39m   \x1B[36mstatic\x1B[39m \x1B[36masync\x1B[39m getUser\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 40 |\x1B[39m }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 41 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 42 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m \x1B[33mContributionController\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 43 |\x1B[39m\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token, expected "(" (40:0)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 38 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 39 |\x1B[39m   \x1B[36mstatic\x1B[39m \x1B[36masync\x1B[39m getUser\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 40 |\x1B[39m }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 41 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 42 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m \x1B[33mContributionController\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 43 |\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseFunctionParams (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1231:10)\n' +
+    '    at Parser.parseMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2278:10)\n' +
+    '    at Parser.pushClassMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1687:12)\n' +
+    '    at Parser.parseClassMemberWithIsStatic (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1553:14)\n' +
+    '    at Parser.parseClassMember (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1426:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token, expected "(" (40:0)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 38 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 39 |\x1B[39m   \x1B[36mstatic\x1B[39m \x1B[36masync\x1B[39m getUser\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 40 |\x1B[39m }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 41 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 42 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m \x1B[33mContributionController\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 43 |\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseFunctionParams (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1231:10)\n' +
+    '    at Parser.parseMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2278:10)\n' +
+    '    at Parser.pushClassMethod (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1687:12)\n' +
+    '    at Parser.parseClassMemberWithIsStatic (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1553:14)\n' +
+    '    at Parser.parseClassMember (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1426:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:21:47 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 16028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 117911552,
+      heapTotal: 86216704,
+      heapUsed: 59584864,
+      external: 2319550,
+      arrayBuffers: 116032
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 866900 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseFunctionParams',
+      line: 1231,
+      method: 'parseFunctionParams',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMethod',
+      line: 2278,
+      method: 'parseMethod',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.pushClassMethod',
+      line: 1687,
+      method: 'pushClassMethod',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseClassMemberWithIsStatic',
+      line: 1553,
+      method: 'parseClassMemberWithIsStatic',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseClassMember',
+      line: 1426,
+      method: 'parseClassMember',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:21:47'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)
+  
+  [0m [90m 48 |[39m       }[0m
+  [0m [90m 49 |[39m       [36mtry[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m         [36mconst[39m userContributions[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m       } [36mcatch[39m (error) {[0m
+  [0m [90m 52 |[39m         [0m
+  [0m [90m 53 |[39m       }[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.parseVar (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1130:18)
+      at Parser.parseVarStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:807:10)
+      at Parser.parseStatementContent (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:307:21)
+      at Parser.parseStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:247:17)
+      at Parser.parseBlockOrModuleBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:983:25)
+      at Parser.parseBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:959:10)
+      at Parser.parseBlock (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:929:10) {
+    loc: Position { line: 50, column: 31 },
+    pos: 1434,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'DeclarationMissingInitializer'
+  },
+  level: 'error',
+  message: "uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)\n" +
+    '\n' +
+    '\x1B[0m \x1B[90m 48 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    "SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)\n" +
+    '\n' +
+    '\x1B[0m \x1B[90m 48 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.parseVar (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1130:18)\n' +
+    '    at Parser.parseVarStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:807:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:307:21)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  stack: "SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)\n" +
+    '\n' +
+    '\x1B[0m \x1B[90m 48 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.parseVar (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1130:18)\n' +
+    '    at Parser.parseVarStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:807:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:307:21)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:33:06 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6776,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 116670464,
+      heapTotal: 86740992,
+      heapUsed: 59508656,
+      external: 3912296,
+      arrayBuffers: 94684
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 867579 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseVar',
+      line: 1130,
+      method: 'parseVar',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseVarStatement',
+      line: 807,
+      method: 'parseVarStatement',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatementContent',
+      line: 307,
+      method: 'parseStatementContent',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatement',
+      line: 247,
+      method: 'parseStatement',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockOrModuleBlockBody',
+      line: 983,
+      method: 'parseBlockOrModuleBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockBody',
+      line: 959,
+      method: 'parseBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlock',
+      line: 929,
+      method: 'parseBlock',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:33:06'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)
+  
+  [0m [90m 48 |[39m       }[0m
+  [0m [90m 49 |[39m       [36mtry[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m         [36mconst[39m userContributions[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m       } [36mcatch[39m (error) {[0m
+  [0m [90m 52 |[39m         [0m
+  [0m [90m 53 |[39m       }[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.parseVar (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:1130:18)
+      at Parser.parseVarStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:807:10)
+      at Parser.parseStatementContent (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:307:21)
+      at Parser.parseStatement (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:247:17)
+      at Parser.parseBlockOrModuleBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:983:25)
+      at Parser.parseBlockBody (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:959:10)
+      at Parser.parseBlock (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\statement.js:929:10) {
+    loc: Position { line: 50, column: 31 },
+    pos: 1434,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'DeclarationMissingInitializer'
+  },
+  level: 'error',
+  message: "uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)\n" +
+    '\n' +
+    '\x1B[0m \x1B[90m 48 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    "SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)\n" +
+    '\n' +
+    '\x1B[0m \x1B[90m 48 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.parseVar (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1130:18)\n' +
+    '    at Parser.parseVarStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:807:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:307:21)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  stack: "SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: 'Const declarations' require an initialization value. (50:31)\n" +
+    '\n' +
+    '\x1B[0m \x1B[90m 48 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.parseVar (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1130:18)\n' +
+    '    at Parser.parseVarStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:807:10)\n' +
+    '    at Parser.parseStatementContent (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:307:21)\n' +
+    '    at Parser.parseStatement (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:247:17)\n' +
+    '    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:983:25)\n' +
+    '    at Parser.parseBlockBody (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:959:10)\n' +
+    '    at Parser.parseBlock (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js:929:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:33:06 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6776,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 117379072,
+      heapTotal: 86740992,
+      heapUsed: 59823656,
+      external: 2319998,
+      arrayBuffers: 116480
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 867580 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseVar',
+      line: 1130,
+      method: 'parseVar',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseVarStatement',
+      line: 807,
+      method: 'parseVarStatement',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatementContent',
+      line: 307,
+      method: 'parseStatementContent',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseStatement',
+      line: 247,
+      method: 'parseStatement',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockOrModuleBlockBody',
+      line: 983,
+      method: 'parseBlockOrModuleBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlockBody',
+      line: 959,
+      method: 'parseBlockBody',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\statement.js',
+      function: 'Parser.parseBlock',
+      line: 929,
+      method: 'parseBlock',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:33:06'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js: Unexpected token (51:6)
+  
+  [0m [90m 49 |[39m       [36mtry[39m {[0m
+  [0m [90m 50 |[39m         [36mconst[39m userContributions [33m=[39m [36mawait[39m [0m
+  [0m[31m[1m>[22m[39m[90m 51 |[39m       } [36mcatch[39m (error) {[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[0m
+  [0m [90m 52 |[39m         [0m
+  [0m [90m 53 |[39m       }[0m
+  [0m [90m 54 |[39m   }[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.parseExprAtom (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:1295:22)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:669:23)
+      at Parser.parseUpdate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:649:21)
+      at Parser.parseMaybeUnary (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:620:23)
+      at Parser.parseAwait (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:2678:28)
+      at Parser.parseMaybeUnary (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:584:25) {
+    loc: Position { line: 51, column: 6 },
+    pos: 1451,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token (51:6)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions \x1B[33m=\x1B[39m \x1B[36mawait\x1B[39m \x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m       \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 54 |\x1B[39m   }\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token (51:6)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions \x1B[33m=\x1B[39m \x1B[36mawait\x1B[39m \x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m       \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 54 |\x1B[39m   }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1295:22)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)\n' +
+    '    at Parser.parseAwait (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2678:28)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:584:25)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token (51:6)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions \x1B[33m=\x1B[39m \x1B[36mawait\x1B[39m \x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m       \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 54 |\x1B[39m   }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1295:22)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)\n' +
+    '    at Parser.parseAwait (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2678:28)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:584:25)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:33:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12024,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 116912128,
+      heapTotal: 86740992,
+      heapUsed: 59259160,
+      external: 3908759,
+      arrayBuffers: 91147
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 867585 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprAtom',
+      line: 1295,
+      method: 'parseExprAtom',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 669,
+      method: 'parseExprSubscripts',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseUpdate',
+      line: 649,
+      method: 'parseUpdate',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMaybeUnary',
+      line: 620,
+      method: 'parseMaybeUnary',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseAwait',
+      line: 2678,
+      method: 'parseAwait',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMaybeUnary',
+      line: 584,
+      method: 'parseMaybeUnary',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:33:12'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js: Unexpected token (51:6)
+  
+  [0m [90m 49 |[39m       [36mtry[39m {[0m
+  [0m [90m 50 |[39m         [36mconst[39m userContributions [33m=[39m [36mawait[39m [0m
+  [0m[31m[1m>[22m[39m[90m 51 |[39m       } [36mcatch[39m (error) {[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[0m
+  [0m [90m 52 |[39m         [0m
+  [0m [90m 53 |[39m       }[0m
+  [0m [90m 54 |[39m   }[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.parseExprAtom (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:1295:22)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:669:23)
+      at Parser.parseUpdate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:649:21)
+      at Parser.parseMaybeUnary (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:620:23)
+      at Parser.parseAwait (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:2678:28)
+      at Parser.parseMaybeUnary (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:584:25) {
+    loc: Position { line: 51, column: 6 },
+    pos: 1451,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token (51:6)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions \x1B[33m=\x1B[39m \x1B[36mawait\x1B[39m \x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m       \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 54 |\x1B[39m   }\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token (51:6)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions \x1B[33m=\x1B[39m \x1B[36mawait\x1B[39m \x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m       \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 54 |\x1B[39m   }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1295:22)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)\n' +
+    '    at Parser.parseAwait (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2678:28)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:584:25)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js: Unexpected token (51:6)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 49 |\x1B[39m       \x1B[36mtry\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 50 |\x1B[39m         \x1B[36mconst\x1B[39m userContributions \x1B[33m=\x1B[39m \x1B[36mawait\x1B[39m \x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 51 |\x1B[39m       } \x1B[36mcatch\x1B[39m (error) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m       \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 52 |\x1B[39m         \x1B[0m\n' +
+    '\x1B[0m \x1B[90m 53 |\x1B[39m       }\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 54 |\x1B[39m   }\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1295:22)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)\n' +
+    '    at Parser.parseAwait (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2678:28)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:584:25)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:33:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12024,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 117624832,
+      heapTotal: 86740992,
+      heapUsed: 59571704,
+      external: 2316037,
+      arrayBuffers: 112519
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 867585 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprAtom',
+      line: 1295,
+      method: 'parseExprAtom',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 669,
+      method: 'parseExprSubscripts',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseUpdate',
+      line: 649,
+      method: 'parseUpdate',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMaybeUnary',
+      line: 620,
+      method: 'parseMaybeUnary',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseAwait',
+      line: 2678,
+      method: 'parseAwait',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMaybeUnary',
+      line: 584,
+      method: 'parseMaybeUnary',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:33:12'
+}
+{
+  error: ReferenceError: req is not defined
+      at _callee2$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/ContributionsController.js:40:13)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at getUserContributions (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js:154:38),
+  level: 'error',
+  message: 'unhandledRejection: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at _callee2$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/ContributionsController.js:40:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at getUserContributions (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js:154:38)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at _callee2$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/ContributionsController.js:40:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at getUserContributions (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js:154:38)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:43:11 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 14552,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 112099328,
+      heapTotal: 79462400,
+      heapUsed: 76318232,
+      external: 2325233,
+      arrayBuffers: 105087
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 868184 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/ContributionsController.js',
+      function: '_callee2$',
+      line: 40,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 38,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js',
+      function: 'getUserContributions',
+      line: 154,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:43:11'
+}
+{
+  error: ReferenceError: req is not defined
+      at _callee2$ (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/ContributionsController.js:40:13)
+      at tryCatch (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:63:40)
+      at Generator.invoke [as _invoke] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:294:22)
+      at Generator.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\regenerator-runtime\runtime.js:119:21)
+      at asyncGeneratorStep (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+      at _next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+      at new Promise (<anonymous>)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+      at getUserContributions (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\ContributionsController.js:154:38),
+  level: 'error',
+  message: 'unhandledRejection: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at _callee2$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/ContributionsController.js:40:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at getUserContributions (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js:154:38)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at _callee2$ (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/ContributionsController.js:40:13)\n' +
+    '    at tryCatch (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n' +
+    '    at Generator.invoke [as _invoke] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n' +
+    '    at Generator.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n' +
+    '    at asyncGeneratorStep (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n' +
+    '    at _next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12\n' +
+    '    at getUserContributions (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js:154:38)',
+  exception: true,
+  date: 'Tue Dec 21 2021 13:43:11 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 14552,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 112738304,
+      heapTotal: 79462400,
+      heapUsed: 76544200,
+      external: 2339513,
+      arrayBuffers: 119327
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 868184 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/ContributionsController.js',
+      function: '_callee2$',
+      line: 40,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'tryCatch',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.invoke [as _invoke]',
+      line: 294,
+      method: 'invoke [as _invoke]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\regenerator-runtime\\runtime.js',
+      function: 'Generator.next',
+      line: 119,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: 'asyncGeneratorStep',
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: '_next',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 38,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\ContributionsController.js',
+      function: 'getUserContributions',
+      line: 154,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 13:43:11'
+}
