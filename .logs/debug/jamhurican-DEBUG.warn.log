@@ -609,3 +609,68 @@
   level: 'error',
   timestamp: '2021-12-21 11:45:36'
 }
+{
+  message: 'Error getting user contributions ReferenceError: error is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 13:52:00'
+}
+{
+  message: 'Error occurred in service when fetching individual user contributions TypeError: _index.default.contributions.get is not a function',
+  level: 'error',
+  timestamp: '2021-12-21 13:52:57'
+}
+{
+  message: 'Error getting user contributions TypeError: _index.default.contributions.get is not a function',
+  level: 'error',
+  timestamp: '2021-12-21 13:52:57'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:09:02'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:09:49'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:09:52'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:10:16'
+}
+{
+  message: 'Invalid user id ""',
+  level: 'error',
+  timestamp: '2021-12-21 14:10:31'
+}
+{
+  message: 'Error getting user contributions ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 14:11:41'
+}
+{
+  message: 'Error getting user contributions ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 14:12:20'
+}
+{
+  message: 'Error getting user contributions ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 14:12:22'
+}
+{
+  message: 'Invalid user id 89',
+  level: 'error',
+  timestamp: '2021-12-21 14:13:11'
+}
+{
+  message: 'Invalid user id 89',
+  level: 'error',
+  timestamp: '2021-12-21 14:13:42'
+}

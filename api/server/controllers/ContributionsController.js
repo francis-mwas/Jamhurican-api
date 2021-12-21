@@ -35,6 +35,41 @@ class ContributionController {
       return util.send(res);
     }
   }
+
+  static async getUserContributions(req, res) {
+    const { userId } = req.params;
+    logger.info(
+      `Incoming request to get individual user contributions, user id is: ${userId}`
+    );
+    if (!Number(userId)) {
+      util.setError(400, 'Invalid user id, please input valid numeric number');
+      logger.error(`Invalid user id ${userId}`);
+      return util.send(res);
+    }
+    try {
+      const userContributions =
+        await ContributionsService.getIndividualUserContributions(userId);
+      if (!userContributions.length) {
+        util.setError(404, 'Invalid user id, No contributions found');
+        logger.debug(
+          `Invalid user id, no contribution found for this user ${userId}`
+        );
+        return util.send(res);
+      } else {
+        util.setSuccess(
+          200,
+          'User contributions returned successfully',
+          userContributions
+        );
+        logger.info(`User contributions found: ${userContributions}`);
+        return util.send(res);
+      }
+    } catch (error) {
+      util.setError(400, error);
+      logger.error(`Error getting user contributions ${error}`);
+      return util.send(res);
+    }
+  }
 }
 
 export default ContributionController;

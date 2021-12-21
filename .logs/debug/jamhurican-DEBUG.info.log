@@ -3634,3 +3634,438 @@
   level: 'info',
   timestamp: '2021-12-21 13:11:20'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:11:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:17:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:18:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:19:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:19:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:22:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:27:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:27:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:32:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:32:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:33:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:33:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:34:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:34:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:34:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:35:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:35:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:36:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:37:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:38:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:39:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:39:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 13:42:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 13:42:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:44:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:45:00'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:45:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:46:05'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-21 13:52:00'
+}
+{
+  message: 'Error getting user contributions ReferenceError: error is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 13:52:00'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:52:38'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-21 13:52:57'
+}
+{
+  message: 'Error occurred in service when fetching individual user contributions TypeError: _index.default.contributions.get is not a function',
+  level: 'error',
+  timestamp: '2021-12-21 13:52:57'
+}
+{
+  message: 'Error getting user contributions TypeError: _index.default.contributions.get is not a function',
+  level: 'error',
+  timestamp: '2021-12-21 13:52:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 13:53:37'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-21 14:00:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:02:02'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-21 14:02:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:02:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:03:13'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-21 14:03:17'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-21 14:03:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:04:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:05:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:05:43'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-21 14:05:43'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-21 14:05:44'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: uiuu',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:02'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:09:02'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:49'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: uiuu',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:49'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:09:49'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: uiuu',
+  level: 'info',
+  timestamp: '2021-12-21 14:09:52'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:09:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:10:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:10:15'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: uiuu',
+  level: 'info',
+  timestamp: '2021-12-21 14:10:16'
+}
+{
+  message: 'Invalid user id uiuu',
+  level: 'error',
+  timestamp: '2021-12-21 14:10:16'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: ""',
+  level: 'info',
+  timestamp: '2021-12-21 14:10:31'
+}
+{
+  message: 'Invalid user id ""',
+  level: 'error',
+  timestamp: '2021-12-21 14:10:31'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 89',
+  level: 'info',
+  timestamp: '2021-12-21 14:10:37'
+}
+{
+  message: 'User contributions found: ',
+  level: 'info',
+  timestamp: '2021-12-21 14:10:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:11:21'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 89',
+  level: 'info',
+  timestamp: '2021-12-21 14:11:40'
+}
+{
+  message: 'Error getting user contributions ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 14:11:41'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:12:09'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 89',
+  level: 'info',
+  timestamp: '2021-12-21 14:12:20'
+}
+{
+  message: 'Error getting user contributions ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 14:12:20'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 89',
+  level: 'info',
+  timestamp: '2021-12-21 14:12:22'
+}
+{
+  message: 'Error getting user contributions ReferenceError: userid is not defined',
+  level: 'error',
+  timestamp: '2021-12-21 14:12:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:12:44'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 89',
+  level: 'info',
+  timestamp: '2021-12-21 14:13:11'
+}
+{
+  message: 'Invalid user id 89',
+  level: 'error',
+  timestamp: '2021-12-21 14:13:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:13:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:13:41'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 89',
+  level: 'info',
+  timestamp: '2021-12-21 14:13:42'
+}
+{
+  message: 'Invalid user id 89',
+  level: 'error',
+  timestamp: '2021-12-21 14:13:42'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:14:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:14:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:14:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:14:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 14:15:07'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 15:45:14'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 15:45:15'
+}

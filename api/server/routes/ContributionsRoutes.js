@@ -9,5 +9,10 @@ router.post(
   accessControl.restrictAccessTo('admin'),
   ContributionController.createUserContribution
 );
+router.get(
+  '/:userId',
+  accessControl.restrictAccessTo('admin'),
+  ContributionController.getUserContributions
+);
 
 export default router;

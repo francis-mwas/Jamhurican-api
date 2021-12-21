@@ -97,12 +97,12 @@ class UserController {
     try {
       const user = await UserService.getOneUser(userId);
 
-      console.log('The property found:', user);
+      console.log('The user found:', user);
 
       if (!user) {
         util.setError(
           404,
-          `Invalid property id, please input valid numeric number ${id}`
+          `Invalid user id, User with this id does not exist ${id}`
         );
         logger.error(`Invalid user id ${userId}`);
       } else {
@@ -111,7 +111,7 @@ class UserController {
       }
       return util.send(res);
     } catch (error) {
-      util.setError(404, error);
+      util.setError(400, error);
       logger.error(`Error getting user ${error}`);
       return util.send(res);
     }
@@ -123,7 +123,7 @@ class UserController {
     if (!Number(userId)) {
       util.setError(
         400,
-        'Invalid property id, please input valid numeric number'
+        'Invalid user id, please input valid numeric number'
       );
       logger.error(`Invalid user id ${userId}`);
       return util.send(res);
