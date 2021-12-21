@@ -22110,3 +22110,2275 @@
   ],
   timestamp: '2021-12-06 23:12:34'
 }
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\express\lib\application.js:210:11)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:21:5)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:46:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 11428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 160063488,
+      heapTotal: 127913984,
+      heapUsed: 106459080,
+      external: 2602644,
+      arrayBuffers: 399851
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299569 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 210,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:46:12'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\express\lib\application.js:210:11)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:21:5)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:46:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 11428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 160632832,
+      heapTotal: 128176128,
+      heapUsed: 106694680,
+      external: 2614878,
+      arrayBuffers: 412045
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299569 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 210,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:46:12'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\express\lib\application.js:210:11)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:21:5)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:46:18 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 4380,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158416896,
+      heapTotal: 126275584,
+      heapUsed: 105167464,
+      external: 2602644,
+      arrayBuffers: 399851
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299575 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 210,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:46:18'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\express\lib\application.js:210:11)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:21:5)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:21:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:46:18 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 4380,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158908416,
+      heapTotal: 126275584,
+      heapUsed: 105406616,
+      external: 2614876,
+      arrayBuffers: 412043
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299575 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 210,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:46:18'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\express\lib\application.js:210:11)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:22:5)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:46:53 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9100,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 165920768,
+      heapTotal: 133652480,
+      heapUsed: 105061248,
+      external: 2602644,
+      arrayBuffers: 399851
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299610 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 210,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:46:53'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\express\lib\application.js:210:11)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:22:5)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21),
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:210:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:46:53 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9100,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 166461440,
+      heapTotal: 133652480,
+      heapUsed: 105296504,
+      external: 2614876,
+      arrayBuffers: 412043
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299610 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 210,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:46:53'
+}
+{
+  error: ReferenceError: isAuth is not defined
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:22:34)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: 'uncaughtException: isAuth is not defined\n' +
+    'ReferenceError: isAuth is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:34)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: 'ReferenceError: isAuth is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:34)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:47:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 8608,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 166649856,
+      heapTotal: 134569984,
+      heapUsed: 107313816,
+      external: 2588374,
+      arrayBuffers: 385581
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299629 },
+  trace: [
+    {
+      column: 34,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:47:12'
+}
+{
+  error: ReferenceError: isAuth is not defined
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:22:34)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\node\lib\_babel-node.js:176:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: 'uncaughtException: isAuth is not defined\n' +
+    'ReferenceError: isAuth is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:34)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: 'ReferenceError: isAuth is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:22:34)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Tue Dec 14 2021 23:47:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 8608,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 167145472,
+      heapTotal: 134832128,
+      heapUsed: 107545288,
+      external: 2600016,
+      arrayBuffers: 397183
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 299629 },
+  trace: [
+    {
+      column: 34,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 76,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\node\\lib\\_babel-node.js',
+      function: null,
+      line: 176,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-14 23:47:12'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected string in JSON at position 10948
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected string in JSON at position 10948\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected string in JSON at position 10948\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected string in JSON at position 10948\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:10:03 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 4260,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 157847552,
+      heapTotal: 127033344,
+      heapUsed: 108334384,
+      external: 2580066,
+      arrayBuffers: 377273
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 858997 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:10:03'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected string in JSON at position 10948
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected string in JSON at position 10948\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected string in JSON at position 10948\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected string in JSON at position 10948\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:10:04 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 4260,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158638080,
+      heapTotal: 127819776,
+      heapUsed: 102909416,
+      external: 2248873,
+      arrayBuffers: 46040
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 858997 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:10:04'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 10999
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10999\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10999\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10999\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:10:27 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 15504,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158117888,
+      heapTotal: 127033344,
+      heapUsed: 108438552,
+      external: 2580127,
+      arrayBuffers: 377334
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 859021 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:10:27'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 10999
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10999\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10999\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 10999\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:10:27 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 15504,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158429184,
+      heapTotal: 127819776,
+      heapUsed: 103036712,
+      external: 2248883,
+      arrayBuffers: 46050
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 859021 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:10:27'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 11093
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11093\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11093\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11093\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:11:37 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 15860,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158486528,
+      heapTotal: 127295488,
+      heapUsed: 108442568,
+      external: 2580230,
+      arrayBuffers: 377437
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 859090 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:11:37'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 11093
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11093\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11093\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11093\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:11:37 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 15860,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158527488,
+      heapTotal: 128344064,
+      heapUsed: 103011736,
+      external: 2248883,
+      arrayBuffers: 46050
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 859090 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:11:37'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 11167
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11167\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11167\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11167\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:12:07 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 11808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 158932992,
+      heapTotal: 127557632,
+      heapUsed: 108416328,
+      external: 2580304,
+      arrayBuffers: 377511
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 859120 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:12:07'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\documentation\api_docs.json: Unexpected token } in JSON at position 11167
+      at parse (<anonymous>)
+      at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:10:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10),
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11167\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11167\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\documentation\\api_docs.json: Unexpected token } in JSON at position 11167\n' +
+    '    at parse (<anonymous>)\n' +
+    '    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:10:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)',
+  exception: true,
+  date: 'Tue Dec 21 2021 11:12:07 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 11808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 159461376,
+      heapTotal: 127557632,
+      heapUsed: 108640008,
+      external: 2591276,
+      arrayBuffers: 388443
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 859120 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: 'parse',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..json',
+      line: 1128,
+      method: '.json',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2021-12-21 11:12:07'
+}

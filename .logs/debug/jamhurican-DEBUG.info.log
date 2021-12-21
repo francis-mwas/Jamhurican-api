@@ -2612,3 +2612,995 @@
   level: 'info',
   timestamp: '2021-12-06 23:14:22'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:51:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:55:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:56:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:56:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:56:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:57:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:57:16'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:57:22'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:58:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:58:24'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:59:10'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:59:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 22:59:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 23:00:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 23:00:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-09 23:00:53'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:25:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:38:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:38:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:39:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:39:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:39:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:39:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:40:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:40:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:40:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:41:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:41:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:41:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:41:43'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:41:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:42:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:53:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:53:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:53:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:58:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:58:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:59:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 08:59:38'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:00:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:00:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:00:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:01:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:01:10'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:01:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:01:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:01:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:02:10'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:02:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:02:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:03:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:05:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-10 09:09:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:31:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:42:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:43:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:43:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:44:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:44:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:44:43'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:44:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:45:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:45:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:45:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:48:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:48:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-14 23:49:44'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-14 23:49:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-14 23:57:50'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-14 23:57:55'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-14 23:57:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:01:49'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:01:59'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:13'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:13'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:15'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:10:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:10:56'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:11:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:11:14'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-15 00:11:16'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:11:16'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:11:16'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:15:53'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:20:56'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-15 00:21:27'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:21:27'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:21:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:25:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 00:26:29'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-15 00:26:30'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:26:30'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 00:26:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 22:29:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 22:47:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-15 22:48:06'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-15 22:48:08'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 13:25:15'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-20 13:26:04'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-20 13:26:05'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 14:16:24'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 14:42:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:27:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:28:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:28:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:28:42'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:29:10'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:29:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-20 15:30:03'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-20 15:30:04'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-20 15:30:08'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:30:09'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:30:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:33:34'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-20 15:33:34'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:33:35'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:33:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:36:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:44:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 10:45:47'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 10:45:49'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-21 10:46:19'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-21 10:46:20'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-21 10:46:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:47:27'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-21 10:47:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:54:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:55:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:58:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:59:04'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 10:59:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:00:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:00:56'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:01:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:01:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:01:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:02:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:02:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:02:40'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:02:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:09:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:10:47'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:11:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:11:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:12:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:13:53'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 11:33:45'
+}
+{
+  '0': 's',
+  '1': 't',
+  '2': '@',
+  '3': 'g',
+  '4': 'm',
+  '5': 'a',
+  '6': 'i',
+  '7': 'l',
+  '8': '.',
+  '9': 'c',
+  '10': 'o',
+  '11': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2021-12-21 11:33:49'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 11:34:16'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 11:34:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:36:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:37:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:41:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:41:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:42:00'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 11:43:20'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 11:43:40'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 11:43:41'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 11:44:42'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 11:44:43'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-21 11:45:36'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-21 11:45:36'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-21 11:45:36'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:49:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:49:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 11:50:42'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 12:02:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-21 12:04:27'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-21 12:04:28'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-21 12:04:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 12:05:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-21 12:06:11'
+}

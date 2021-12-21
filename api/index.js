@@ -1,8 +1,9 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import IsAuth from './server/utils/middlewares/authentication';
 import userRoutes from './server/routes/UserRoutes';
+import contributionRoutes from './server/routes/ContributionsRoutes';
 import logger from './server/config/logger.config';
-
 
 // docs
 import swaggerUi from 'swagger-ui-express';
@@ -16,8 +17,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const port = process.env.PORT || 8000;
 
 // Routes defined here
-app.use('/api/v1/documentation/api-docs', swaggerUi.serve, swaggerUi.setup(api_docs)); // swagger documentation
+app.use(
+  '/api/v1/documentation/api-docs',
+  swaggerUi.serve,
+  swaggerUi.setup(api_docs)
+); // swagger documentation
 app.use('/api/v1/users', userRoutes);
+app.use('/api/v1/contributions', IsAuth, contributionRoutes);
 
 app.use('*', (req, res) => {
   return res.status(404).json({
