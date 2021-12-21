@@ -21,10 +21,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.DATE,
         allowNull: false,
       },
-      balance: {
-        type: DataTypes.INTEGER,
-        allowNull: true,
-      },
+      // balance: {
+      //   type: DataTypes.INTEGER,
+      //   allowNull: true,
+      // },
       amountPaid: {
         type: DataTypes.INTEGER,
         allowNull: false,

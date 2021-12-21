@@ -23,7 +23,11 @@ class ContributionController {
         amountPaid,
         userId,
       });
-      util.setSuccess(201, 'User created successfully', addedContribution);
+      util.setSuccess(
+        201,
+        'Contribution posted successully',
+        addedContribution
+      );
       return util.send(res);
     } catch (error) {
       util.setError(400, error.message);

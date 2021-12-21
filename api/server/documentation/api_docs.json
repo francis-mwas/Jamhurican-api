@@ -39,6 +39,11 @@
         "tags": ["Users"],
         "summary": "Register normal user account",
         "operationId": "createUser",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
         "requestBody": {
           "description": "User object to be added",
           "content": {
@@ -273,121 +278,16 @@
         "x-codegen-request-body-name": "body"
       }
     },
-
-    "/users/email/verify/{token}": {
-      "post": {
-        "tags": ["Users"],
-        "summary": "Verify an account",
-        "operationId": "verifyUserAccount",
-        "parameters": [
-          {
-            "name": "token",
-            "in": "path",
-            "description": "User token to verify user account",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/x-www-form-urlencoded": {}
-          }
-        },
-        "responses": {
-          "405": {
-            "description": "Invalid input",
-            "content": {}
-          }
-        }
-      }
-    },
-
-    "/users/login": {
-      "post": {
-        "tags": ["Users"],
-        "summary": "Logs in user into the system",
-        "operationId": "loginUser",
-        "requestBody": {
-          "description": "User object to be added",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Login"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "successful operation",
-            "content": {
-              "application/xml": {
-                "schema": {
-                  "type": "string"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid username/password supplied",
-            "content": {}
-          }
-        }
-      }
-    },
-
-    "/users/request-new-token": {
-      "post": {
-        "tags": ["Users"],
-        "summary": "Request new toekn to verify your account",
-        "operationId": "tokenRequest",
-        "requestBody": {
-          "description": "Data object to be added",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RequestNewToken"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "400": {
-            "description": "Invalid details supplied",
-            "content": {}
-          },
-
-          "201": {
-            "description": "New token request reset successful",
-            "content": {}
-          },
-          "401": {
-            "description": "Unauthorised request, please login",
-            "content": {}
-          },
-          "504": {
-            "description": "Server error occurred",
-            "content": {}
-          }
-        },
-        "x-codegen-request-body-name": "body"
-      }
-    },
-
     "/users/change-password": {
       "post": {
         "tags": ["Users"],
         "summary": "Change password",
         "operationId": "changePassword",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
         "requestBody": {
           "description": "Data object to be added",
           "content": {
@@ -451,10 +351,77 @@
         },
         "x-codegen-request-body-name": "body"
       }
+    },
+    "/contributions/add": {
+      "post": {
+        "tags": ["Contributions"],
+        "summary": "Add user contribution",
+        "operationId": "addUserContribution",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "description": "Add contribution for a user uniquely identified by Id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "description": "Contribution object to be added",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Contributions"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Contribution posted successully",
+            "content": {}
+          },
+          "401": {
+            "description": "Unauthorized request",
+            "content": {}
+          },
+          "400": {
+            "description": "Invalid contribution details added",
+            "content": {}
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
     }
   },
   "components": {
     "schemas": {
+      "Contributions": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "integer"
+          },
+          "dateDeposited": {
+            "type": "string"
+          },
+          "amountPaid": {
+            "type": "integer"
+          }
+        }
+      },
       "User": {
         "type": "object",
         "properties": {

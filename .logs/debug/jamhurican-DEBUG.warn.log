@@ -572,3 +572,40 @@
   level: 'error',
   timestamp: '2021-12-20 15:33:35'
 }
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-21 10:46:20'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-21 10:46:20'
+}
+{
+  '0': 's',
+  '1': 't',
+  '2': '@',
+  '3': 'g',
+  '4': 'm',
+  '5': 'a',
+  '6': 'i',
+  '7': 'l',
+  '8': '.',
+  '9': 'c',
+  '10': 'o',
+  '11': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2021-12-21 11:33:49'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-21 11:45:36'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-21 11:45:36'
+}
