@@ -488,3 +488,87 @@
   level: 'error',
   timestamp: '2021-12-15 00:26:30'
 }
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:30:09'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:30:09'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:33:35'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:33:35'
+}

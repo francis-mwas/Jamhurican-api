@@ -5,13 +5,13 @@ import ContributionsService from '../services/ContributionService';
 const util = new Util();
 class ContributionController {
   static async createUserContribution(req, res) {
-    const { userId } = req.query.userId;
+    const { userId } = req.query;
 
     logger.info(`User id: ${userId}`);
 
     const { dateDeposited, amountPaid, amount } = req.body;
 
-    if (dateDeposited === '' || amountPaid === '' || amount === '') {
+    if (!dateDeposited || !amountPaid || !amount) {
       util.setError(400, 'Please fill all the fields');
       return util.send(res);
     }

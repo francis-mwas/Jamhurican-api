@@ -7,13 +7,9 @@ class ContributionsService {
    * @param {*} contribution
    * @returns newly added contribution
    */
-  static async addContributions(contribution, userId) {
+  static async addContributions(contribution) {
     try {
-      return await database.contributions.create({
-        where: { userId: Number(userId) },
-        contribution,
-      });
-      
+      return await database.contributions.create(contribution);
     } catch (error) {
       logger.error(
         `Error occurred in service when adding contribution ${error}`

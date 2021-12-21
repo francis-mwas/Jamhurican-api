@@ -3118,3 +3118,207 @@
   level: 'info',
   timestamp: '2021-12-15 22:29:23'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-15 22:47:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-15 22:48:06'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-15 22:48:08'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-15 22:48:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 13:25:15'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-20 13:26:04'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-20 13:26:05'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 13:26:32'
+}
+{
+  message: 'User id: undefined',
+  level: 'info',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:14:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 14:16:24'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.amount cannot be null,\n' +
+    'notNull Violation: contributions.dateDeposited cannot be null,\n' +
+    'notNull Violation: contributions.amountPaid cannot be null,\n' +
+    'notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2021-12-20 14:16:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 14:42:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:27:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:28:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:28:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:28:42'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:29:10'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:29:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-20 15:30:03'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-20 15:30:04'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-20 15:30:08'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:30:09'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:30:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:33:34'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2021-12-20 15:33:34'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:33:35'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: column "balance" does not exist',
+  level: 'error',
+  timestamp: '2021-12-20 15:33:35'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-20 15:36:32'
+}
