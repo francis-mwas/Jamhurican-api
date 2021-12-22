@@ -405,6 +405,37 @@
         "x-codegen-request-body-name": "body"
       }
     },
+    "/contributions/": {
+      "get": {
+        "tags": ["Contributions"],
+        "summary": "Get all contributions",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "operationId": "getUsers",
+        "parameters": [],
+        "responses": {
+          "404": {
+            "description": "No contributions found",
+            "content": {}
+          },
+          "200": {
+            "description": "Contributions retrieved successfully"
+          },
+          "401": {
+            "description": "Unauthorized request, please login"
+          },
+          "504": {
+            "description": "Server error occurred",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "body"
+      }
+    },
+
     "/contributions/{userId}/": {
       "get": {
         "tags": ["Contributions"],
