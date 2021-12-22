@@ -19,6 +19,24 @@ class ContributionsService {
   }
   /**
    *
+   * @returns all users contributions
+   */
+
+  static async getAllusersContributions() {
+    try {
+      const contributions = await database.contributions.findAll({
+        include: User,
+      });
+      return contributions;
+    } catch (error) {
+      logger.error(
+        `Error occurred in service when retrieving all contribution ${error}`
+      );
+      throw error;
+    }
+  }
+  /**
+   *
    * @param {*} userId
    * @returns all user contributions uniquely identified by user id
    */

@@ -36,6 +36,30 @@ class ContributionController {
     }
   }
 
+  static async getAllContributions(req, res) {
+    logger.info('Incoming request to get all contributions');
+    try {
+      const contributions =
+        await ContributionsService.getAllusersContributions();
+      if (contributions.length > 0) {
+        util.setSuccess(
+          200,
+          'All contributions returned successfully',
+          contributions
+        );
+        logger.debug(`Contributions returned successfully.`);
+      } else {
+        util.setError(404, 'No contributions found at the moment');
+        logger.debug(`No contributions found.`);
+      }
+      return util.send(res);
+    } catch (error) {
+      util.setError(400, error);
+      logger.error(`Error encountered while getting contributions ${error}`);
+      return util.send(res);
+    }
+  }
+
   static async getUserContributions(req, res) {
     const { userId } = req.params;
     logger.info(

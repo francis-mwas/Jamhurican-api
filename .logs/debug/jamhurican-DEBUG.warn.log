@@ -674,3 +674,18 @@
   level: 'error',
   timestamp: '2021-12-21 14:13:42'
 }
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: _index.default.findAll is not a function',
+  level: 'error',
+  timestamp: '2021-12-22 15:24:48'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: _index.default.findAll is not a function',
+  level: 'error',
+  timestamp: '2021-12-22 15:24:48'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: res is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 15:26:41'
+}
