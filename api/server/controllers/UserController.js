@@ -72,7 +72,7 @@ class UserController {
         util.setSuccess(200, 'Users returned successfully', users);
         logger.debug(`Users returned successfully.`);
       } else {
-        util.setError(404, 'No properties found at the moment');
+        util.setError(404, 'No users found at the moment');
         logger.warn(`No users found.`);
       }
       return util.send(res);

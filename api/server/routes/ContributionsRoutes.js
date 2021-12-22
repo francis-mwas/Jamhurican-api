@@ -10,6 +10,11 @@ router.post(
   ContributionController.createUserContribution
 );
 router.get(
+  '/',
+  accessControl.restrictAccessTo('admin'),
+  ContributionController.getAllContributions
+);
+router.get(
   '/:userId',
   accessControl.restrictAccessTo('admin'),
   ContributionController.getUserContributions
