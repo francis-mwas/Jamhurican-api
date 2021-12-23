@@ -4224,3 +4224,1208 @@
   level: 'error',
   timestamp: '2021-12-22 15:26:41'
 }
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 17:38:46'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 17:39:16'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 17:39:27'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:39:52'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:41:09'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:41:54'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:42:12'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:42:30'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:00'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:14'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:20'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:29'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:36'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:44'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:43:53'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:44:07'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:44:16'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:44:28'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:44:38'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:44:48'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:45:56'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:46:51'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:57:43'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 17:58:59'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:04:57'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:05:09'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:05:29'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:05:44'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:06:18'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:06:54'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:07:06'
+}
+{
+  message: 'App running on port 8008',
+  level: 'info',
+  timestamp: '2021-12-22 18:13:47'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 18:14:18'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 18:15:18'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:21:09'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-22 18:29:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-22 18:29:55'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2021-12-22 18:30:09'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:30:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2021-12-22 18:30:23'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: User is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:30:23'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: User is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:30:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:31:32'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2021-12-22 18:31:36'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:31:36'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:31:36'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:31:58'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2021-12-22 18:32:05'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:32:27'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:32:27'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2021-12-22 18:32:38'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:32:38'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:36:39'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2021-12-22 18:36:43'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:36:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2021-12-22 18:36:49'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:37:21'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:37:21'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:38:11'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:38:11'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:41:28'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:41:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:42:56'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:43:31'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:43:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:43:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:44:09'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:44:12'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:44:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:44:51'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:44:53'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:44:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:45:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-22 18:47:06'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-22 18:47:13'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:47:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:24:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-23 11:26:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-23 11:26:15'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2021-12-23 11:26:24'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:27:22'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:27:22'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:27:24'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:27:24'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:27:26'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:27:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:27:54'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:32:14'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:32:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:34:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:35:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:38:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:39:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:39:56'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:40:18'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:40:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:41:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:41:22'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:41:23'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:41:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:49:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:49:38'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:49:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:50:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:50:44'
+}
+{
+  message: 'Contribution is here: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 11:50:44'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:50:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:51:36'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 11:51:48'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 11:51:48'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:51:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 11:57:51'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:06:22'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:06:27'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:06:27'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:06:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:24'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:29'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:29'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:07:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:54'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:57'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:07:57'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:07:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:08:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:09:02'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:09:03'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:09:03'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:09:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:09:35'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:09:37'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:09:38'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:09:38'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:12'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:17'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:18'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:19:18'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:20'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:20'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:19:20'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:43'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:19:43'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:19:43'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:20:37'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:20:37'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:20:37'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:20:39'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:20:39'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:20:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:22:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:22:43'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:22:57'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:11'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:12'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:23:12'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:45'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:48'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:48'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:23:48'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:50'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 12:23:50'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:23:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 12:24:41'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 12:24:41'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 12:24:42'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-23 13:22:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-23 13:22:55'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 3',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:00'
+}
+{
+  message: 'User contributions found: ',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:00'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:05'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:46'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:46'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 13:23:46'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 13:24:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:44:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:45:27'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:48:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:49:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:52:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:53:11'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:53:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:53:46'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2021-12-23 14:53:51'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2021-12-23 14:53:52'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 14:54:04'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 14:54:04'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2021-12-23 14:54:26'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 14:54:26'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 14:54:32'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 14:54:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 14:59:39'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2021-12-23 15:08:16'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 15:08:34'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 15:08:34'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:09:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:09:47'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 15:09:55'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 15:09:56'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:10:37'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:11:00'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2021-12-23 15:11:05'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 15:11:05'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 15:11:19'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 15:11:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:14:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:16:18'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 15:16:19'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 15:16:19'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 15:16:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:17:35'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2021-12-23 15:17:51'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 15:17:52'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2021-12-23 15:17:52'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 3',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:00'
+}
+{
+  message: 'Contribution is here: {"id":3,"amount":600,"dateDeposited":"2021-12-22T00:00:00.000Z","amountPaid":200,"userId":2,"createdAt":"2021-12-22T13:09:32.991Z","updatedAt":"2021-12-22T13:09:32.991Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:00'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:00'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 3',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:08'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:14'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:14'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:25'
+}
+{
+  message: 'Contribution is here: {"id":2,"amount":5000,"dateDeposited":"2021-12-21T00:00:00.000Z","amountPaid":3000,"userId":1,"createdAt":"2021-12-21T09:04:46.972Z","updatedAt":"2021-12-21T09:04:46.972Z"}',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:25'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2021-12-23 15:18:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2021-12-23 15:19:24'
+}

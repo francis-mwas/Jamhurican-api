@@ -689,3 +689,293 @@
   level: 'error',
   timestamp: '2021-12-22 15:26:41'
 }
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 17:38:46'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 17:39:16'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 17:39:27'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 18:14:18'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:35:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2021-12-22 18:15:18'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:30:10'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: User is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:30:23'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: User is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:30:23'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:31:36'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2021-12-22 18:31:36'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:32:27'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:32:38'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:36:43'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:37:21'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:38:11'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:41:29'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:43:32'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:44:12'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:44:54'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-22 18:47:14'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:27:22'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:27:24'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:27:26'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:32:14'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:40:19'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:41:23'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:50:44'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 11:51:48'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:06:27'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:07:29'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:07:57'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:09:03'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:09:38'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:19:18'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:19:20'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:19:43'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:20:37'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:20:39'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:23:12'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:23:48'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 12:23:50'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2021-12-23 15:16:19'
+}
