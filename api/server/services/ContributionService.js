@@ -24,9 +24,7 @@ class ContributionsService {
 
   static async getAllusersContributions() {
     try {
-      const contributions = await database.contributions.findAll({
-        include: User,
-      });
+      const contributions = await database.contributions.findAll();
       return contributions;
     } catch (error) {
       logger.error(
@@ -43,12 +41,32 @@ class ContributionsService {
   static async getIndividualUserContributions(userId) {
     try {
       const contributions = await database.contributions.findAll({
-        where: { userId: userId },
+        where: { userId: Number(userId) },
       });
       return contributions;
     } catch (error) {
       logger.error(
         `Error occurred in service when fetching individual user contributions ${error}`
+      );
+      throw error;
+    }
+  }
+
+  /**
+   *
+   * @param {*} contributionId
+   * @returns Contribution
+   */
+
+  static async getOneContribution(contributionId) {
+    try {
+      const contribution = database.contributions.findOne({
+        where: { id: Number(contributionId) },
+      });
+      return contribution;
+    } catch (error) {
+      logger.error(
+        `Error occurred in service when fetching single contribution ${error}`
       );
       throw error;
     }

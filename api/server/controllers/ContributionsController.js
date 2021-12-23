@@ -94,6 +94,41 @@ class ContributionController {
       return util.send(res);
     }
   }
+  static async getSingleContribution(req, res) {
+    const { contributionId } = req.params;
+    logger.info(
+      `Incoming request to get single contribution, contribution id supplied is: ${contributionId}`
+    );
+    if (!Number(contributionId)) {
+      util.setError(400, 'Invalid contribution id supplied');
+      logger.error(`Invalid contribution id provided, ${contributionId}`);
+      return util.send(res);
+    }
+    try {
+      const contribution = await ContributionsService.getOneContribution(
+        contributionId
+      );
+      logger.info(`Contribution is here: ${JSON.stringify(contribution)}`);
+      if (!contribution) {
+        util.setError(404, 'No contribution found for this id');
+        logger.error('No contribution found under the provided id');
+      } else {
+        util.setSuccess(
+          200,
+          'Contribution returned successfully',
+          contribution
+        );
+        logger.info(`Contributions found`);
+      }
+      return util.send(res);
+    } catch (error) {
+      util.setError(400, 'An error occurred when getting a contribution');
+      logger.error(
+        `An error occurred when getting a single contribution: ${error}`
+      );
+      return util.send(res);
+    }
+  }
 }
 
 export default ContributionController;

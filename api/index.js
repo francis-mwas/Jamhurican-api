@@ -36,7 +36,7 @@ app
     logger.info(`App running on port ${port}`);
   })
   .on('error', (err) => {
-    logger.error(`There was an error with the app at port ${port}: `, error);
+    logger.error(`There was an error with the app at port ${port}: `, err);
   });
 
 export default app;
