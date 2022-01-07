@@ -15,6 +15,7 @@ router.post(
   '/',
   IsAuth,
   accessControl.restrictAccessTo('admin'),
+  UserMiddleware.validateUserLogin,
   UserController.createNewUser
 );
 router.get(

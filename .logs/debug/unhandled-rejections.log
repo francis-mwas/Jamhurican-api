@@ -38174,3 +38174,645 @@
   ],
   timestamp: '2021-12-23 14:48:04'
 }
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\UserRoutes.js: Unexpected token, expected "," (19:2)
+  
+  [0m [90m 17 |[39m   accessControl[33m.[39mrestrictAccessTo([32m'admin'[39m)[33m,[39m[0m
+  [0m [90m 18 |[39m   user[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [33mUserController[39m[33m.[39mcreateNewUser[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m )[33m;[39m[0m
+  [0m [90m 21 |[39m router[33m.[39m[36mget[39m([0m
+  [0m [90m 22 |[39m   [32m'/'[39m[33m,[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseCallExpressionArguments (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:976:14)
+      at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:853:29)
+      at Parser.parseSubscript (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:733:19)
+      at Parser.parseSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:690:19)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:675:17) {
+    loc: Position { line: 19, column: 2 },
+    pos: 495,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:29 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 106115072,
+      heapTotal: 77406208,
+      heapUsed: 56721824,
+      external: 4145391,
+      arrayBuffers: 74273
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304371 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCallExpressionArguments',
+      line: 976,
+      method: 'parseCallExpressionArguments',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCoverCallAndAsyncArrowHead',
+      line: 853,
+      method: 'parseCoverCallAndAsyncArrowHead',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscript',
+      line: 733,
+      method: 'parseSubscript',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscripts',
+      line: 690,
+      method: 'parseSubscripts',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 675,
+      method: 'parseExprSubscripts',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:29'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\UserRoutes.js: Unexpected token, expected "," (19:2)
+  
+  [0m [90m 17 |[39m   accessControl[33m.[39mrestrictAccessTo([32m'admin'[39m)[33m,[39m[0m
+  [0m [90m 18 |[39m   user[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [33mUserController[39m[33m.[39mcreateNewUser[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m )[33m;[39m[0m
+  [0m [90m 21 |[39m router[33m.[39m[36mget[39m([0m
+  [0m [90m 22 |[39m   [32m'/'[39m[33m,[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseCallExpressionArguments (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:976:14)
+      at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:853:29)
+      at Parser.parseSubscript (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:733:19)
+      at Parser.parseSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:690:19)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:675:17) {
+    loc: Position { line: 19, column: 2 },
+    pos: 495,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:29 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 106651648,
+      heapTotal: 77406208,
+      heapUsed: 57049312,
+      external: 2276957,
+      arrayBuffers: 96435
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304372 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCallExpressionArguments',
+      line: 976,
+      method: 'parseCallExpressionArguments',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCoverCallAndAsyncArrowHead',
+      line: 853,
+      method: 'parseCoverCallAndAsyncArrowHead',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscript',
+      line: 733,
+      method: 'parseSubscript',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscripts',
+      line: 690,
+      method: 'parseSubscripts',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 675,
+      method: 'parseExprSubscripts',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:29'
+}
+{
+  error: TypeError: Cannot read property 'createNewUser' of undefined
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\/UserRoutes.js:19:18)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:4:1),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'createNewUser' of undefined\n" +
+    "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  stack: "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:33 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 110542848,
+      heapTotal: 81043456,
+      heapUsed: 51404952,
+      external: 2290768,
+      arrayBuffers: 87290
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304376 },
+  trace: [
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:33'
+}
+{
+  error: TypeError: Cannot read property 'createNewUser' of undefined
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\/UserRoutes.js:19:18)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:4:1),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'createNewUser' of undefined\n" +
+    "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  stack: "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:33 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 111235072,
+      heapTotal: 81305600,
+      heapUsed: 51632080,
+      external: 2302134,
+      arrayBuffers: 98616
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304376 },
+  trace: [
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:33'
+}

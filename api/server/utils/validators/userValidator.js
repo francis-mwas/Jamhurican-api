@@ -5,19 +5,18 @@ import { validateEmail } from '../helpers/helper';
 export default (data) => {
   let errors = {};
 
-  const fullName = !isEmpty(data.fullName) ? data.fullName : '';
-  let phoneNumber = !isEmpty(data.phoneNumber) ? data.phoneNumber : '';
+  const firstName = !isEmpty(data.firstName) ? data.firstName : '';
+  let lastName = !isEmpty(data.lastName) ? data.lastName : '';
   const email = !isEmpty(data.email) ? data.email : '';
   const password = !isEmpty(data.password) ? data.password : '';
 
-  const validatedPhone = /^\d{10}$/;
   const validEmail = validateEmail(email);
 
-  if (!validator.isLength(fullName, { min: 2, max: 50 })) {
-    errors.fullName = 'Fulll name must be between 2 and 30 characters';
+  if (!validator.isLength(firstName, { min: 2, max: 50 })) {
+    errors.firstName = 'first name must be between 2 and 30 characters';
   }
-  if (validator.isEmpty(fullName)) {
-    errors.fullName = 'Full name field is required';
+  if (validator.isEmpty(firstName)) {
+    errors.fullName = 'first name field is required';
   }
 
   if (!validatedPhone.test(phoneNumber)) {
