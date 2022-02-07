@@ -5504,3 +5504,345 @@
   level: 'info',
   timestamp: '2022-01-07 22:06:02'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-07 22:06:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:02:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:03:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:04:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:04:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:04:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:04:20'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:04:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:05:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:09:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:10:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:10:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:10:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-01-08 10:10:39'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-01-08 10:10:41'
+}
+{
+  message: 'Error occurred in service when fetching user details SequelizeDatabaseError: column "nan" does not exist',
+  level: 'error',
+  timestamp: '2022-01-08 10:10:45'
+}
+{
+  message: 'Error occurred in service when fetching user details SequelizeDatabaseError: column "nan" does not exist',
+  level: 'error',
+  timestamp: '2022-01-08 10:13:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:17:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:18:03'
+}
+{
+  message: "Error occurred in service when fetching data to login user Error: Invalid value { email: 'kimari@gmail.com' }",
+  level: 'error',
+  timestamp: '2022-01-08 10:18:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:19:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:19:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:27:23'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:27:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:27:42'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:28:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:30:53'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 10:31:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-01-08 10:31:26'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 's',
+  '4': '1',
+  '5': '1',
+  '6': '@',
+  '7': 'g',
+  '8': 'm',
+  '9': 'a',
+  '10': 'i',
+  '11': 'l',
+  '12': '.',
+  '13': 'c',
+  '14': 'o',
+  '15': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-01-08 10:31:27'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-01-08 10:31:37'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 's',
+  '4': '1',
+  '5': '1',
+  '6': '@',
+  '7': 'g',
+  '8': 'm',
+  '9': 'a',
+  '10': 'i',
+  '11': 'l',
+  '12': '.',
+  '13': 'c',
+  '14': 'o',
+  '15': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-01-08 10:31:38'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-01-08 10:31:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-01-08 10:31:53'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-01-08 10:31:54'
+}
+{
+  message: 'User id: 4',
+  level: 'info',
+  timestamp: '2022-01-08 10:32:34'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 4',
+  level: 'info',
+  timestamp: '2022-01-08 10:32:45'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2022-01-08 10:32:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-01-08 10:33:46'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 3',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:03'
+}
+{
+  message: 'Contribution is here: {"id":3,"amount":600,"dateDeposited":"2021-12-22T00:00:00.000Z","amountPaid":200,"userId":2,"createdAt":"2021-12-22T13:09:32.991Z","updatedAt":"2021-12-22T13:09:32.991Z"}',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:03'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:03'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 4',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:14'
+}
+{
+  message: 'Contribution is here: null',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:14'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2022-01-08 10:34:14'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:21'
+}
+{
+  message: 'Contribution is here: {"id":2,"amount":5000,"dateDeposited":"2021-12-21T00:00:00.000Z","amountPaid":3000,"userId":1,"createdAt":"2021-12-21T09:04:46.972Z","updatedAt":"2021-12-21T09:04:46.972Z"}',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:21'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-01-08 10:34:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 16:04:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 16:13:45'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-01-08 16:20:25'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-01-08 16:20:26'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 4',
+  level: 'info',
+  timestamp: '2022-01-08 16:24:28'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2022-01-08 16:24:29'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 16:27:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-01-08 16:27:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-01 17:02:43'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-01 17:14:31'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-01 17:14:36'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-03 19:16:56'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-07 12:52:01'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-07 17:09:37'
+}

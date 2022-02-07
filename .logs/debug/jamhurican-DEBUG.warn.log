@@ -979,3 +979,65 @@
   level: 'error',
   timestamp: '2021-12-23 15:16:19'
 }
+{
+  message: 'Error occurred in service when fetching user details SequelizeDatabaseError: column "nan" does not exist',
+  level: 'error',
+  timestamp: '2022-01-08 10:10:45'
+}
+{
+  message: 'Error occurred in service when fetching user details SequelizeDatabaseError: column "nan" does not exist',
+  level: 'error',
+  timestamp: '2022-01-08 10:13:03'
+}
+{
+  message: "Error occurred in service when fetching data to login user Error: Invalid value { email: 'kimari@gmail.com' }",
+  level: 'error',
+  timestamp: '2022-01-08 10:18:07'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 's',
+  '4': '1',
+  '5': '1',
+  '6': '@',
+  '7': 'g',
+  '8': 'm',
+  '9': 'a',
+  '10': 'i',
+  '11': 'l',
+  '12': '.',
+  '13': 'c',
+  '14': 'o',
+  '15': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-01-08 10:31:27'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 's',
+  '4': '1',
+  '5': '1',
+  '6': '@',
+  '7': 'g',
+  '8': 'm',
+  '9': 'a',
+  '10': 'i',
+  '11': 'l',
+  '12': '.',
+  '13': 'c',
+  '14': 'o',
+  '15': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-01-08 10:31:38'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2022-01-08 10:34:14'
+}

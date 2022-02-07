@@ -15,7 +15,7 @@ export default class UserValidator {
   // make sure email is unique
   static uniqueEmail(req, res, next) {
     let errors = {};
-    UserService.getOneUser({ email: req.body.email })
+    UserService.getUserByEmail(req.body.email)
       .then((user) => {
         if (user) {
           errors.email = `User with email ${req.body.email} already exists`;
