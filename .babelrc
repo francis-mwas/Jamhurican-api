@@ -4,5 +4,5 @@
     "@babel/preset-react",
     "@babel/plugin-syntax-jsx"
   ],
-  "plugins": [["@babel/transform-runtime"]]
+  "plugins": ["@babel/transform-runtime", "@babel/plugin-syntax-jsx"]
 }
