@@ -1,3 +1,3 @@
 web: npm run build
 release: npm sequelize-cli db:migrate
-web: npm run start
+web: npm start
