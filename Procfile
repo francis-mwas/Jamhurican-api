@@ -1,1 +1,2 @@
-web: sh -c 'npm run migrate && npm start'
+release: npm run sequelize db:migrate
+web: npm start
