@@ -8,6 +8,7 @@
     "start": "node dist/api/index.js",
     "build": "rm -rf dist && mkdir dist && babel . --ignore node_modules -d dist --copy-files"
   },
+  "heroku-run-build-script": true,
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
