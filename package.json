@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec babel-node ./api/index.js",
-    "start": "node build/api/index.js",
+    "start": "node build/index.js",
     "build": "rm -rf build && mkdir build && babel api --ignore node_modules -d build --copy-files"
   },
   "dependencies": {
