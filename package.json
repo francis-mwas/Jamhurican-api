@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec babel-node ./api/index.js",
-    "start": "node dist/api/index.js",
-    "build": "rm -rf dist && mkdir dist && babel . --ignore node_modules -d dist --copy-files"
+    "start": "node build/api/index.js",
+    "build": "rm -rf build && mkdir build && babel . --ignore node_modules -d build --copy-files"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
