@@ -38174,3 +38174,1337 @@
   ],
   timestamp: '2021-12-23 14:48:04'
 }
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\UserRoutes.js: Unexpected token, expected "," (19:2)
+  
+  [0m [90m 17 |[39m   accessControl[33m.[39mrestrictAccessTo([32m'admin'[39m)[33m,[39m[0m
+  [0m [90m 18 |[39m   user[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [33mUserController[39m[33m.[39mcreateNewUser[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m )[33m;[39m[0m
+  [0m [90m 21 |[39m router[33m.[39m[36mget[39m([0m
+  [0m [90m 22 |[39m   [32m'/'[39m[33m,[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseCallExpressionArguments (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:976:14)
+      at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:853:29)
+      at Parser.parseSubscript (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:733:19)
+      at Parser.parseSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:690:19)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:675:17) {
+    loc: Position { line: 19, column: 2 },
+    pos: 495,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:29 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 106115072,
+      heapTotal: 77406208,
+      heapUsed: 56721824,
+      external: 4145391,
+      arrayBuffers: 74273
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304371 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCallExpressionArguments',
+      line: 976,
+      method: 'parseCallExpressionArguments',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCoverCallAndAsyncArrowHead',
+      line: 853,
+      method: 'parseCoverCallAndAsyncArrowHead',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscript',
+      line: 733,
+      method: 'parseSubscript',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscripts',
+      line: 690,
+      method: 'parseSubscripts',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 675,
+      method: 'parseExprSubscripts',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:29'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\UserRoutes.js: Unexpected token, expected "," (19:2)
+  
+  [0m [90m 17 |[39m   accessControl[33m.[39mrestrictAccessTo([32m'admin'[39m)[33m,[39m[0m
+  [0m [90m 18 |[39m   user[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [33mUserController[39m[33m.[39mcreateNewUser[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m )[33m;[39m[0m
+  [0m [90m 21 |[39m router[33m.[39m[36mget[39m([0m
+  [0m [90m 22 |[39m   [32m'/'[39m[33m,[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseCallExpressionArguments (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:976:14)
+      at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:853:29)
+      at Parser.parseSubscript (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:733:19)
+      at Parser.parseSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:690:19)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:675:17) {
+    loc: Position { line: 19, column: 2 },
+    pos: 495,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Unexpected token, expected "," (19:2)\n' +
+    '\n' +
+    "\x1B[0m \x1B[90m 17 |\x1B[39m   accessControl\x1B[33m.\x1B[39mrestrictAccessTo(\x1B[32m'admin'\x1B[39m)\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '\x1B[0m \x1B[90m 18 |\x1B[39m   user\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 19 |\x1B[39m   \x1B[33mUserController\x1B[39m\x1B[33m.\x1B[39mcreateNewUser\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m   \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m )\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m router\x1B[33m.\x1B[39m\x1B[36mget\x1B[39m(\x1B[0m\n' +
+    "\x1B[0m \x1B[90m 22 |\x1B[39m   \x1B[32m'/'\x1B[39m\x1B[33m,\x1B[39m\x1B[0m\n" +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseCallExpressionArguments (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:976:14)\n' +
+    '    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:853:29)\n' +
+    '    at Parser.parseSubscript (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:733:19)\n' +
+    '    at Parser.parseSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:690:19)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:675:17)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:29 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 106651648,
+      heapTotal: 77406208,
+      heapUsed: 57049312,
+      external: 2276957,
+      arrayBuffers: 96435
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304372 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCallExpressionArguments',
+      line: 976,
+      method: 'parseCallExpressionArguments',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseCoverCallAndAsyncArrowHead',
+      line: 853,
+      method: 'parseCoverCallAndAsyncArrowHead',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscript',
+      line: 733,
+      method: 'parseSubscript',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseSubscripts',
+      line: 690,
+      method: 'parseSubscripts',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 675,
+      method: 'parseExprSubscripts',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:29'
+}
+{
+  error: TypeError: Cannot read property 'createNewUser' of undefined
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\/UserRoutes.js:19:18)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:4:1),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'createNewUser' of undefined\n" +
+    "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  stack: "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:33 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 110542848,
+      heapTotal: 81043456,
+      heapUsed: 51404952,
+      external: 2290768,
+      arrayBuffers: 87290
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304376 },
+  trace: [
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:33'
+}
+{
+  error: TypeError: Cannot read property 'createNewUser' of undefined
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\/UserRoutes.js:19:18)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:99:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:104:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\/index.js:4:1),
+  level: 'error',
+  message: "uncaughtException: Cannot read property 'createNewUser' of undefined\n" +
+    "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  stack: "TypeError: Cannot read property 'createNewUser' of undefined\n" +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js:19:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:4:1)',
+  exception: true,
+  date: 'Fri Jan 07 2022 20:27:33 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 111235072,
+      heapTotal: 81305600,
+      heapUsed: 51632080,
+      external: 2302134,
+      arrayBuffers: 98616
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304376 },
+  trace: [
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\/UserRoutes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 99,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 104,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-01-07 20:27:33'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\utils\middlewares\user.js: Unexpected token, expected "," (18:36)
+  
+  [0m [90m 16 |[39m   [36mstatic[39m uniqueEmail(req[33m,[39m res[33m,[39m next) {[0m
+  [0m [90m 17 |[39m     [36mlet[39m errors [33m=[39m {}[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m     [33mUserService[39m[33m.[39mgetUserByEmail({ req[33m.[39mbody[33m.[39memail })[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       [33m.[39mthen((user) [33m=>[39m {[0m
+  [0m [90m 20 |[39m         [36mif[39m (user) {[0m
+  [0m [90m 21 |[39m           errors[33m.[39memail [33m=[39m [32m`User with email ${req.body.email} already exists`[39m[33m;[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseObjectLike (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:1904:14)
+      at Parser.parseExprAtom (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:1142:21)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:669:23)
+      at Parser.parseUpdate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:649:21)
+      at Parser.parseMaybeUnary (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:620:23) {
+    loc: Position { line: 18, column: 36 },
+    pos: 583,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\user.js: Unexpected token, expected "," (18:36)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 16 |\x1B[39m   \x1B[36mstatic\x1B[39m uniqueEmail(req\x1B[33m,\x1B[39m res\x1B[33m,\x1B[39m next) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 17 |\x1B[39m     \x1B[36mlet\x1B[39m errors \x1B[33m=\x1B[39m {}\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 18 |\x1B[39m     \x1B[33mUserService\x1B[39m\x1B[33m.\x1B[39mgetUserByEmail({ req\x1B[33m.\x1B[39mbody\x1B[33m.\x1B[39memail })\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 19 |\x1B[39m       \x1B[33m.\x1B[39mthen((user) \x1B[33m=>\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m         \x1B[36mif\x1B[39m (user) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m           errors\x1B[33m.\x1B[39memail \x1B[33m=\x1B[39m \x1B[32m`User with email ${req.body.email} already exists`\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\user.js: Unexpected token, expected "," (18:36)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 16 |\x1B[39m   \x1B[36mstatic\x1B[39m uniqueEmail(req\x1B[33m,\x1B[39m res\x1B[33m,\x1B[39m next) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 17 |\x1B[39m     \x1B[36mlet\x1B[39m errors \x1B[33m=\x1B[39m {}\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 18 |\x1B[39m     \x1B[33mUserService\x1B[39m\x1B[33m.\x1B[39mgetUserByEmail({ req\x1B[33m.\x1B[39mbody\x1B[33m.\x1B[39memail })\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 19 |\x1B[39m       \x1B[33m.\x1B[39mthen((user) \x1B[33m=>\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m         \x1B[36mif\x1B[39m (user) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m           errors\x1B[33m.\x1B[39memail \x1B[33m=\x1B[39m \x1B[32m`User with email ${req.body.email} already exists`\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseObjectLike (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1904:14)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1142:21)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\user.js: Unexpected token, expected "," (18:36)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 16 |\x1B[39m   \x1B[36mstatic\x1B[39m uniqueEmail(req\x1B[33m,\x1B[39m res\x1B[33m,\x1B[39m next) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 17 |\x1B[39m     \x1B[36mlet\x1B[39m errors \x1B[33m=\x1B[39m {}\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 18 |\x1B[39m     \x1B[33mUserService\x1B[39m\x1B[33m.\x1B[39mgetUserByEmail({ req\x1B[33m.\x1B[39mbody\x1B[33m.\x1B[39memail })\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 19 |\x1B[39m       \x1B[33m.\x1B[39mthen((user) \x1B[33m=>\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m         \x1B[36mif\x1B[39m (user) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m           errors\x1B[33m.\x1B[39memail \x1B[33m=\x1B[39m \x1B[32m`User with email ${req.body.email} already exists`\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseObjectLike (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1904:14)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1142:21)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)',
+  exception: true,
+  date: 'Sat Jan 08 2022 10:18:53 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 119410688,
+      heapTotal: 88555520,
+      heapUsed: 69070400,
+      external: 4178187,
+      arrayBuffers: 49017
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 354255 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseObjectLike',
+      line: 1904,
+      method: 'parseObjectLike',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprAtom',
+      line: 1142,
+      method: 'parseExprAtom',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 669,
+      method: 'parseExprSubscripts',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseUpdate',
+      line: 649,
+      method: 'parseUpdate',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMaybeUnary',
+      line: 620,
+      method: 'parseMaybeUnary',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-08 10:18:53'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\utils\middlewares\user.js: Unexpected token, expected "," (18:36)
+  
+  [0m [90m 16 |[39m   [36mstatic[39m uniqueEmail(req[33m,[39m res[33m,[39m next) {[0m
+  [0m [90m 17 |[39m     [36mlet[39m errors [33m=[39m {}[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m     [33mUserService[39m[33m.[39mgetUserByEmail({ req[33m.[39mbody[33m.[39memail })[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       [33m.[39mthen((user) [33m=>[39m {[0m
+  [0m [90m 20 |[39m         [36mif[39m (user) {[0m
+  [0m [90m 21 |[39m           errors[33m.[39memail [33m=[39m [32m`User with email ${req.body.email} already exists`[39m[33m;[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.unexpected (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:174:16)
+      at Parser.expect (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:134:28)
+      at Parser.parseObjectLike (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:1904:14)
+      at Parser.parseExprAtom (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:1142:21)
+      at Parser.parseExprSubscripts (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:669:23)
+      at Parser.parseUpdate (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:649:21)
+      at Parser.parseMaybeUnary (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\expression.js:620:23) {
+    loc: Position { line: 18, column: 36 },
+    pos: 583,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'UnexpectedToken'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\user.js: Unexpected token, expected "," (18:36)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 16 |\x1B[39m   \x1B[36mstatic\x1B[39m uniqueEmail(req\x1B[33m,\x1B[39m res\x1B[33m,\x1B[39m next) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 17 |\x1B[39m     \x1B[36mlet\x1B[39m errors \x1B[33m=\x1B[39m {}\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 18 |\x1B[39m     \x1B[33mUserService\x1B[39m\x1B[33m.\x1B[39mgetUserByEmail({ req\x1B[33m.\x1B[39mbody\x1B[33m.\x1B[39memail })\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 19 |\x1B[39m       \x1B[33m.\x1B[39mthen((user) \x1B[33m=>\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m         \x1B[36mif\x1B[39m (user) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m           errors\x1B[33m.\x1B[39memail \x1B[33m=\x1B[39m \x1B[32m`User with email ${req.body.email} already exists`\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\user.js: Unexpected token, expected "," (18:36)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 16 |\x1B[39m   \x1B[36mstatic\x1B[39m uniqueEmail(req\x1B[33m,\x1B[39m res\x1B[33m,\x1B[39m next) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 17 |\x1B[39m     \x1B[36mlet\x1B[39m errors \x1B[33m=\x1B[39m {}\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 18 |\x1B[39m     \x1B[33mUserService\x1B[39m\x1B[33m.\x1B[39mgetUserByEmail({ req\x1B[33m.\x1B[39mbody\x1B[33m.\x1B[39memail })\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 19 |\x1B[39m       \x1B[33m.\x1B[39mthen((user) \x1B[33m=>\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m         \x1B[36mif\x1B[39m (user) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m           errors\x1B[33m.\x1B[39memail \x1B[33m=\x1B[39m \x1B[32m`User with email ${req.body.email} already exists`\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseObjectLike (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1904:14)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1142:21)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\utils\\middlewares\\user.js: Unexpected token, expected "," (18:36)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 16 |\x1B[39m   \x1B[36mstatic\x1B[39m uniqueEmail(req\x1B[33m,\x1B[39m res\x1B[33m,\x1B[39m next) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 17 |\x1B[39m     \x1B[36mlet\x1B[39m errors \x1B[33m=\x1B[39m {}\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 18 |\x1B[39m     \x1B[33mUserService\x1B[39m\x1B[33m.\x1B[39mgetUserByEmail({ req\x1B[33m.\x1B[39mbody\x1B[33m.\x1B[39memail })\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m                                     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 19 |\x1B[39m       \x1B[33m.\x1B[39mthen((user) \x1B[33m=>\x1B[39m {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 20 |\x1B[39m         \x1B[36mif\x1B[39m (user) {\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 21 |\x1B[39m           errors\x1B[33m.\x1B[39memail \x1B[33m=\x1B[39m \x1B[32m`User with email ${req.body.email} already exists`\x1B[39m\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.unexpected (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n' +
+    '    at Parser.expect (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:134:28)\n' +
+    '    at Parser.parseObjectLike (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1904:14)\n' +
+    '    at Parser.parseExprAtom (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1142:21)\n' +
+    '    at Parser.parseExprSubscripts (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:669:23)\n' +
+    '    at Parser.parseUpdate (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:649:21)\n' +
+    '    at Parser.parseMaybeUnary (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js:620:23)',
+  exception: true,
+  date: 'Sat Jan 08 2022 10:18:53 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 119955456,
+      heapTotal: 88555520,
+      heapUsed: 69404264,
+      external: 2276545,
+      arrayBuffers: 73027
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 354255 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.unexpected',
+      line: 174,
+      method: 'unexpected',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.expect',
+      line: 134,
+      method: 'expect',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseObjectLike',
+      line: 1904,
+      method: 'parseObjectLike',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprAtom',
+      line: 1142,
+      method: 'parseExprAtom',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseExprSubscripts',
+      line: 669,
+      method: 'parseExprSubscripts',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseUpdate',
+      line: 649,
+      method: 'parseUpdate',
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\expression.js',
+      function: 'Parser.parseMaybeUnary',
+      line: 620,
+      method: 'parseMaybeUnary',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-08 10:18:53'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\UserRoutes.js: Identifier directly after number. (48:4)
+  
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m [36mexport[39m [36mdefault[39m router[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 48 |[39m   [35m32[39mw[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.readNumber (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:1300:18)
+      at Parser.getTokenFromCode (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:957:14)
+      at Parser.nextToken (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:311:12)
+      at Parser.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:169:10)
+      at Parser.eat (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:176:12)
+      at Parser.isLineTerminator (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:119:17)
+      at Parser.semicolon (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:126:25) {
+    loc: Position { line: 48, column: 4 },
+    pos: 1076,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'NumberIdentifier'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Identifier directly after number. (48:4)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 46 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 47 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m router\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 48 |\x1B[39m   \x1B[35m32\x1B[39mw\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Identifier directly after number. (48:4)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 46 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 47 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m router\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 48 |\x1B[39m   \x1B[35m32\x1B[39mw\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.readNumber (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1300:18)\n' +
+    '    at Parser.getTokenFromCode (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:957:14)\n' +
+    '    at Parser.nextToken (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:311:12)\n' +
+    '    at Parser.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:169:10)\n' +
+    '    at Parser.eat (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:176:12)\n' +
+    '    at Parser.isLineTerminator (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:119:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:126:25)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Identifier directly after number. (48:4)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 46 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 47 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m router\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 48 |\x1B[39m   \x1B[35m32\x1B[39mw\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.readNumber (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1300:18)\n' +
+    '    at Parser.getTokenFromCode (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:957:14)\n' +
+    '    at Parser.nextToken (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:311:12)\n' +
+    '    at Parser.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:169:10)\n' +
+    '    at Parser.eat (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:176:12)\n' +
+    '    at Parser.isLineTerminator (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:119:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:126:25)',
+  exception: true,
+  date: 'Sat Jan 08 2022 16:26:56 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6688,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 106127360,
+      heapTotal: 77144064,
+      heapUsed: 56738624,
+      external: 4143437,
+      arrayBuffers: 86236
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1155 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.readNumber',
+      line: 1300,
+      method: 'readNumber',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.getTokenFromCode',
+      line: 957,
+      method: 'getTokenFromCode',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.nextToken',
+      line: 311,
+      method: 'nextToken',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.next',
+      line: 169,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.eat',
+      line: 176,
+      method: 'eat',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.isLineTerminator',
+      line: 119,
+      method: 'isLineTerminator',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.semicolon',
+      line: 126,
+      method: 'semicolon',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-08 16:26:56'
+}
+{
+  error: SyntaxError: C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\routes\UserRoutes.js: Identifier directly after number. (48:4)
+  
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m [36mexport[39m [36mdefault[39m router[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 48 |[39m   [35m32[39mw[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+      at Parser._raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:147:45)
+      at Parser.raiseWithData (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:142:17)
+      at Parser.raise (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\error.js:91:17)
+      at Parser.readNumber (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:1300:18)
+      at Parser.getTokenFromCode (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:957:14)
+      at Parser.nextToken (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:311:12)
+      at Parser.next (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:169:10)
+      at Parser.eat (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\tokenizer\index.js:176:12)
+      at Parser.isLineTerminator (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:119:17)
+      at Parser.semicolon (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\@babel\parser\src\parser\util.js:126:25) {
+    loc: Position { line: 48, column: 4 },
+    pos: 1076,
+    code: 'BABEL_PARSE_ERROR',
+    reasonCode: 'NumberIdentifier'
+  },
+  level: 'error',
+  message: 'uncaughtException: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Identifier directly after number. (48:4)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 46 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 47 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m router\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 48 |\x1B[39m   \x1B[35m32\x1B[39mw\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Identifier directly after number. (48:4)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 46 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 47 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m router\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 48 |\x1B[39m   \x1B[35m32\x1B[39mw\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.readNumber (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1300:18)\n' +
+    '    at Parser.getTokenFromCode (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:957:14)\n' +
+    '    at Parser.nextToken (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:311:12)\n' +
+    '    at Parser.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:169:10)\n' +
+    '    at Parser.eat (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:176:12)\n' +
+    '    at Parser.isLineTerminator (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:119:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:126:25)',
+  stack: 'SyntaxError: C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\routes\\UserRoutes.js: Identifier directly after number. (48:4)\n' +
+    '\n' +
+    '\x1B[0m \x1B[90m 46 |\x1B[39m\x1B[0m\n' +
+    '\x1B[0m \x1B[90m 47 |\x1B[39m \x1B[36mexport\x1B[39m \x1B[36mdefault\x1B[39m router\x1B[33m;\x1B[39m\x1B[0m\n' +
+    '\x1B[0m\x1B[31m\x1B[1m>\x1B[22m\x1B[39m\x1B[90m 48 |\x1B[39m   \x1B[35m32\x1B[39mw\x1B[0m\n' +
+    '\x1B[0m \x1B[90m    |\x1B[39m     \x1B[31m\x1B[1m^\x1B[22m\x1B[39m\x1B[0m\n' +
+    '    at Parser._raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n' +
+    '    at Parser.raiseWithData (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n' +
+    '    at Parser.raise (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n' +
+    '    at Parser.readNumber (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1300:18)\n' +
+    '    at Parser.getTokenFromCode (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:957:14)\n' +
+    '    at Parser.nextToken (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:311:12)\n' +
+    '    at Parser.next (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:169:10)\n' +
+    '    at Parser.eat (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:176:12)\n' +
+    '    at Parser.isLineTerminator (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:119:17)\n' +
+    '    at Parser.semicolon (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js:126:25)',
+  exception: true,
+  date: 'Sat Jan 08 2022 16:26:56 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6688,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 106663936,
+      heapTotal: 77144064,
+      heapUsed: 57039296,
+      external: 2286030,
+      arrayBuffers: 105508
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1155 },
+  trace: [
+    {
+      column: 45,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser._raise',
+      line: 147,
+      method: '_raise',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raiseWithData',
+      line: 142,
+      method: 'raiseWithData',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\error.js',
+      function: 'Parser.raise',
+      line: 91,
+      method: 'raise',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.readNumber',
+      line: 1300,
+      method: 'readNumber',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.getTokenFromCode',
+      line: 957,
+      method: 'getTokenFromCode',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.nextToken',
+      line: 311,
+      method: 'nextToken',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.next',
+      line: 169,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js',
+      function: 'Parser.eat',
+      line: 176,
+      method: 'eat',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.isLineTerminator',
+      line: 119,
+      method: 'isLineTerminator',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\@babel\\parser\\src\\parser\\util.js',
+      function: 'Parser.semicolon',
+      line: 126,
+      method: 'semicolon',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-08 16:26:56'
+}

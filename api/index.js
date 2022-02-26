@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import IsAuth from './server/utils/middlewares/authentication';
 import userRoutes from './server/routes/UserRoutes';
 import contributionRoutes from './server/routes/ContributionsRoutes';
@@ -22,6 +23,19 @@ app.use(
   swaggerUi.serve,
   swaggerUi.setup(api_docs)
 ); // swagger documentation
+// allow other clients to hit the server
+// let allowedClients = ['http://localhost:3000'];
+// let corsOptions = {
+//   origin: function (origin, callback) {
+//     if (allowedClients.indexOf(origin) !== -1) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+// };
+
+app.use(cors());
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/contributions', IsAuth, contributionRoutes);
 

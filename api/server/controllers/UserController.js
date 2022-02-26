@@ -106,7 +106,7 @@ class UserController {
         );
         logger.error(`Invalid user id ${userId}`);
       } else {
-        util.setSuccess(200, 'Property returned successfully', user);
+        util.setSuccess(200, 'User returned successfully', user);
         logger.debug(`User details found ${user}`);
       }
       return util.send(res);
