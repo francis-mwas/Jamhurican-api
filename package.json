@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --exec babel-node ./api/index.js",
     "start": "node build/api/index.js",
-    "build": "rm -rf build && mkdir build && babel . --ignore node_modules -d build --copy-files"
+    "build": "rm -rf build && mkdir build && babel ./ --ignore node_modules -d build --copy-files"
   },
   "dependencies": {
     "@babel/cli": "^7.6.2",
