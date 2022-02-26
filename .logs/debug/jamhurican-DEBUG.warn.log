@@ -1041,3 +1041,462 @@
   level: 'error',
   timestamp: '2022-01-08 10:34:14'
 }
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 's',
+  '4': '1',
+  '5': '@',
+  '6': 'g',
+  '7': 'm',
+  '8': 'a',
+  '9': 'i',
+  '10': 'l',
+  '11': '.',
+  '12': 'c',
+  '13': 'o',
+  '14': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-08 08:55:15'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-09 17:33:52'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-09 17:33:56'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-11 08:42:39'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:49:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2022-02-16 11:46:55'
+}
+{
+  '0': 'j',
+  '1': 'e',
+  '2': 's',
+  '3': 's',
+  '4': 'e',
+  '5': '.',
+  '6': 'g',
+  '7': 'i',
+  '8': 't',
+  '9': 'o',
+  '10': 'n',
+  '11': 'g',
+  '12': 'a',
+  '13': '@',
+  '14': 'g',
+  '15': 'm',
+  '16': 'a',
+  '17': 'i',
+  '18': 'l',
+  '19': '.',
+  '20': 'c',
+  '21': 'o',
+  '22': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:25:21'
+}
+{
+  '0': 'j',
+  '1': 'e',
+  '2': 's',
+  '3': 's',
+  '4': 'e',
+  '5': '.',
+  '6': 'g',
+  '7': 'i',
+  '8': 't',
+  '9': 'o',
+  '10': 'n',
+  '11': 'g',
+  '12': 'a',
+  '13': '@',
+  '14': 'g',
+  '15': 'm',
+  '16': 'a',
+  '17': 'i',
+  '18': 'l',
+  '19': '.',
+  '20': 'c',
+  '21': 'o',
+  '22': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:29:01'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': 'r',
+  '8': 'a',
+  '9': 'n',
+  '10': 'c',
+  '11': 'i',
+  '12': 's',
+  '13': '8',
+  '14': '5',
+  '15': '9',
+  '16': '@',
+  '17': 'g',
+  '18': 'm',
+  '19': 'a',
+  '20': 'i',
+  '21': 'l',
+  '22': '.',
+  '23': 'c',
+  '24': 'o',
+  '25': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:32:35'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': 'r',
+  '8': 'a',
+  '9': 'n',
+  '10': 'c',
+  '11': 'i',
+  '12': 's',
+  '13': '8',
+  '14': '5',
+  '15': '9',
+  '16': '@',
+  '17': 'g',
+  '18': 'm',
+  '19': 'a',
+  '20': 'i',
+  '21': 'l',
+  '22': '.',
+  '23': 'c',
+  '24': 'o',
+  '25': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:35:12'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-20 20:54:28'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-20 20:54:36'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-20 20:54:47'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:47:54'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:47:57'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:00'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:01'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:33'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:40'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:44'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:16'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:16'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:35'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:42'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:52:37'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:52:44'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:52:47'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:54:04'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 09:45:57'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 09:51:46'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 09:53:33'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:24:04'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:24:08'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:32:17'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:33:18'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:45:46'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type timestamp with time zone: "Invalid date"',
+  level: 'error',
+  timestamp: '2022-02-23 22:25:21'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type timestamp with time zone: "Invalid date"',
+  level: 'error',
+  timestamp: '2022-02-23 22:25:21'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-24 08:57:40'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-24 09:36:27'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-24 10:16:40'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:48:06'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:54:42'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:55:06'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:57:35'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:58:51'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:00:20'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:00:42'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:03:13'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:06:22'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:06:45'
+}

@@ -13,6 +13,7 @@ export default (req, res, next) => {
     req.headers.authorization.startsWith('Bearer')
   ) {
     token = req.headers.authorization.split(' ')[1];
+      logger.debug(`The token itself: ${token}`);
   } else {
     return res.status(401).json({
       status: false,
@@ -20,7 +21,7 @@ export default (req, res, next) => {
     });
   }
 
-  logger.debug(`The token itself: ${token}`);
+
 
   // If there is no token, then the requst is unauthorised\
   if (!token) {

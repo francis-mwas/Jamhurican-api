@@ -5846,3 +5846,6022 @@
   level: 'info',
   timestamp: '2022-02-07 17:09:37'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-07 20:53:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-07 21:06:24'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-07 22:09:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-07 22:10:05'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-08 08:36:36'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-08 08:51:46'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 08:55:01'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 08:55:04'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 08:55:15'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 's',
+  '4': '1',
+  '5': '@',
+  '6': 'g',
+  '7': 'm',
+  '8': 'a',
+  '9': 'i',
+  '10': 'l',
+  '11': '.',
+  '12': 'c',
+  '13': 'o',
+  '14': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-08 08:55:15'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 08:55:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-08 09:02:10'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 09:11:39'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 09:17:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 09:55:30'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 09:55:30'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 09:56:34'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 09:56:34'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 09:58:02'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 09:58:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 09:59:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 09:59:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 10:52:18'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 10:52:19'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-08 21:44:20'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-08 21:55:24'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-08 21:55:26'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-09 08:27:40'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 08:35:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 08:35:09'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 09:20:45'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 09:20:45'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 09:24:37'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 09:24:38'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 09:25:03'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 09:25:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-09 17:31:07'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 17:33:51'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-09 17:33:52'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 17:33:56'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-09 17:33:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 17:43:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 17:43:09'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-09 21:37:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 21:46:35'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 21:46:37'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-09 21:59:14'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-09 21:59:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-10 21:26:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 21:30:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 21:30:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 22:29:44'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 22:29:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 23:19:10'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 23:19:11'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 23:21:39'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 23:21:39'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 23:21:58'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 23:21:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 23:26:00'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 23:26:00'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-10 23:26:48'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-10 23:26:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-11 08:33:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-11 08:42:38'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-11 08:42:39'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-11 08:43:23'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-11 08:43:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-11 08:45:43'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-11 08:45:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-12 08:15:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:42:07'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:42:09'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:42:15'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:42:15'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:53:32'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:53:33'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:55:11'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:55:11'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:55:34'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:55:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:57:38'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:57:38'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:57:50'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:57:50'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:57:53'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:57:53'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 08:58:43'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 08:58:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 09:00:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 09:00:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 09:00:48'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 09:00:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 09:03:26'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 09:03:26'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 09:05:07'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 09:05:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 09:06:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 09:06:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-12 09:09:07'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-12 09:09:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-13 12:49:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 13:47:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 13:47:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 14:21:28'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 14:21:28'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 14:36:48'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 14:36:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 14:51:00'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 14:51:00'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 15:20:16'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 15:20:17'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 15:28:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 15:28:54'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-13 20:32:01'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-13 20:40:42'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-13 20:40:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-13 22:59:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-14 12:13:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-14 12:13:44'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-15 08:47:52'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-15 08:51:05'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-15 08:51:07'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-15 12:39:47'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-15 12:39:49'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-15 21:09:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-15 21:17:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-15 21:17:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-15 21:20:59'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-15 21:20:59'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:38:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:45:08'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:45:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:45:56'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:46:58'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:48:12'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-16 08:48:16'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-16 08:48:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 08:48:54'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8000,
+  level: 'error',
+  message: 'There was an error with the app at port 8000:  listen EADDRINUSE: address already in use :::8000',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n' +
+    '    at listenInCluster (net.js:1379:12)\n' +
+    '    at Server.listen (net.js:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\/index.js:49:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:99:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:104:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)',
+  timestamp: '2022-02-16 11:46:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-16 20:30:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-18 15:59:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-18 15:59:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 08:43:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 08:46:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 08:46:09'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 08:54:10'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 08:54:10'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 08:54:28'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 08:54:28'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 08:55:17'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 08:55:17'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:03:28'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:03:29'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:03:48'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:03:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:14:30'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:14:31'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:14:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:14:57'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:16:02'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:16:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:20:32'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:20:32'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:21:42'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:21:42'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:35:14'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:35:14'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 09:37:50'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:38:27'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:38:27'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:49:04'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:49:04'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:50:51'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:50:52'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:52:31'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:52:31'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 09:54:30'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 09:54:31'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 10:02:14'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 10:02:14'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 10:04:32'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 10:04:32'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 12:21:07'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:23:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:23:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:24:56'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:24:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:25:59'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:25:59'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:26:43'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:26:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:27:44'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:27:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:29:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:29:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:32:09'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:32:10'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 12:33:56'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 12:33:57'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:07:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:07:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:06'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:06'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:12'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:12'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:17'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:17'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:20'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:20'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:23'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:23'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:24'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:24'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:25'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:25'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:25'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:13:25'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:14:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:14:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:18:56'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:18:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:19:43'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:19:43'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:20:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:20:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:21:52'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:21:52'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:26:44'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:26:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:27:02'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:27:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:27:37'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:27:37'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:29:43'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:29:43'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:30:34'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:30:34'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:31:32'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:31:32'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:42:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:42:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 13:45:44'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 13:45:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:00:27'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:00:27'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:04:12'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:04:12'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:07:33'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:07:33'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:11:35'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:11:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:14:47'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:14:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:16:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:16:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:16:48'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:16:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:16:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:16:57'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:17:06'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:17:06'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:17:20'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:17:20'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:17:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:17:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:21:23'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:21:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:24:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:24:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:25:21'
+}
+{
+  '0': 'j',
+  '1': 'e',
+  '2': 's',
+  '3': 's',
+  '4': 'e',
+  '5': '.',
+  '6': 'g',
+  '7': 'i',
+  '8': 't',
+  '9': 'o',
+  '10': 'n',
+  '11': 'g',
+  '12': 'a',
+  '13': '@',
+  '14': 'g',
+  '15': 'm',
+  '16': 'a',
+  '17': 'i',
+  '18': 'l',
+  '19': '.',
+  '20': 'c',
+  '21': 'o',
+  '22': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:25:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:27:13'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:29:01'
+}
+{
+  '0': 'j',
+  '1': 'e',
+  '2': 's',
+  '3': 's',
+  '4': 'e',
+  '5': '.',
+  '6': 'g',
+  '7': 'i',
+  '8': 't',
+  '9': 'o',
+  '10': 'n',
+  '11': 'g',
+  '12': 'a',
+  '13': '@',
+  '14': 'g',
+  '15': 'm',
+  '16': 'a',
+  '17': 'i',
+  '18': 'l',
+  '19': '.',
+  '20': 'c',
+  '21': 'o',
+  '22': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:29:01'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:32:35'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': 'r',
+  '8': 'a',
+  '9': 'n',
+  '10': 'c',
+  '11': 'i',
+  '12': 's',
+  '13': '8',
+  '14': '5',
+  '15': '9',
+  '16': '@',
+  '17': 'g',
+  '18': 'm',
+  '19': 'a',
+  '20': 'i',
+  '21': 'l',
+  '22': '.',
+  '23': 'c',
+  '24': 'o',
+  '25': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:32:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:35:12'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': 'r',
+  '8': 'a',
+  '9': 'n',
+  '10': 'c',
+  '11': 'i',
+  '12': 's',
+  '13': '8',
+  '14': '5',
+  '15': '9',
+  '16': '@',
+  '17': 'g',
+  '18': 'm',
+  '19': 'a',
+  '20': 'i',
+  '21': 'l',
+  '22': '.',
+  '23': 'c',
+  '24': 'o',
+  '25': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-19 14:35:12'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:35:32'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 14:35:41'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 14:35:41'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:37'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:46'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:46'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:52'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:52'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:59'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 20:13:59'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 20:21:04'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 20:21:05'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:11'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:11'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:33'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:33'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:41'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:08:57'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:09:52'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:09:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 21:25:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:25:47'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:25:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 21:27:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:35:23'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:35:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:36:30'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:36:31'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:45:32'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:45:33'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 21:47:24'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 21:47:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 22:10:24'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 22:10:25'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 22:12:31'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 22:12:31'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 22:54:19'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 22:54:27'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 22:54:28'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 22:55:11'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 22:55:49'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 22:55:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 22:58:45'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 22:58:56'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 22:59:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-19 23:04:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:04:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:04:57'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:40:07'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:40:07'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:41:17'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:41:18'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:42:41'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:42:41'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:45:01'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:45:01'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:46:46'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:46:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:47:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:47:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:52:49'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:52:49'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-19 23:54:35'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-19 23:54:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:03:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:03:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:05:50'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:05:50'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:21:56'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:21:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:23:07'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:23:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:25:10'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:25:10'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:30:19'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:30:19'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:31:29'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:31:30'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:36:47'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:36:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:37:48'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:37:48'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:38:42'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:38:42'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 00:42:26'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 00:42:26'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:18:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:18:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:21:01'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:21:01'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:26:49'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:27:50'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:27:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:31:13'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:31:13'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:34:03'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:34:03'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:35:38'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:35:38'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:36:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:36:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:38:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:38:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:39:28'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:39:29'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:44:09'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:44:10'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:45:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:45:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:46:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:46:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 01:53:25'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 01:53:25'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:00:35'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:00:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:01:20'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:01:20'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:03:20'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:03:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:04:49'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:04:50'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:05:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:05:54'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:06:41'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:06:41'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:08:20'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:08:20'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:09:44'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:09:44'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:10:28'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:10:28'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:11:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:11:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:13:03'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:13:04'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:16:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:16:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:22:34'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:22:34'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:23:19'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:23:19'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:27:25'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:27:26'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 02:33:49'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 02:33:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-20 10:28:28'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:34:10'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:34:11'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:47:49'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:47:49'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:48:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:48:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:52:05'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:52:05'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:53:52'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:53:52'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:56:37'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:56:37'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 10:58:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 10:58:23'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 11:03:21'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 11:03:21'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-20 11:48:18'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 11:57:19'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 11:57:19'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 11:57:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 11:57:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:02:03'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 12:02:03'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:12:51'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 12:12:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:17:08'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 12:17:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:27:04'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:28:00'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:28:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:29:46'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:30:41'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:31:28'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:33:21'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:33:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:36:27'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:37:02'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:37:27'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:37:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:38:34'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 12:38:34'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 12:40:09'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 12:40:10'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:06:07'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:06:08'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:09:38'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:09:39'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:10:26'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:10:26'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:10:45'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:10:45'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:15:50'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:15:50'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:23:58'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:23:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:24:12'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:24:12'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:24:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:24:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:25:28'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:25:28'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:34:15'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:34:16'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:34:36'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:34:37'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 14:49:39'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 14:49:40'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 18:36:25'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 18:36:26'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 19:16:56'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 19:16:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 19:51:39'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 19:51:39'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-20 19:53:48'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-20 19:55:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 20:17:38'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 20:17:38'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-20 20:54:28'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-20 20:54:36'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-20 20:54:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 20:56:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 20:56:57'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-20 21:04:36'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 21:21:35'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 21:21:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-20 22:28:12'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-20 22:28:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-21 08:22:16'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 08:27:00'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 08:27:00'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 08:42:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 08:42:55'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:47:54'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:47:57'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:00'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:01'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:33'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:40'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:48:44'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:16'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:16'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:35'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:49:42'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:52:37'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:52:44'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:52:47'
+}
+{
+  message: 'Invalid user id undefined',
+  level: 'error',
+  timestamp: '2022-02-21 08:54:04'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 09:45:12'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 09:45:13'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 09:45:57'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 09:51:46'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 09:53:33'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-21 10:13:32'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 11:20:50'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 11:20:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 11:23:15'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 11:23:15'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 11:23:56'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 11:23:56'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:24:04'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:24:08'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:32:17'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:33:18'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 11:41:22'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 11:41:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 11:42:17'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-21 11:45:46'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 12:28:57'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 12:28:58'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 12:52:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 12:52:35'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 12:54:49'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 12:59:09'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 12:59:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 12:59:21'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 13:00:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 13:00:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 13:01:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 13:01:55'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 13:02:33'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 13:02:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 16:03:27'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 16:03:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:03:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:15:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:52:38'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:49'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:53:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:54:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:54:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:54:18'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:54:21'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:56:09'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:56:19'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:56:33'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:56:58'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:57:26'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:57:47'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:57:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:57:59'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:58:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:58:42'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:58:49'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:58:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:59:18'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:59:34'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 16:59:55'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:01:46'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:02:07'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:02:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:03:01'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:03:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:03:16'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:03:22'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 17:08:14'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 17:08:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:08:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:08:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:13:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:13:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:14:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:14:47'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:14:50'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:16:17'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:16:17'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:16:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:16:54'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:28:29'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:28:30'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:28:32'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:28:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:28:53'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:43:02'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:43:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:44:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:44:37'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:44:40'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:44:42'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:59:36'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:59:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 17:59:59'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:00:21'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:00:33'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 18:17:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 18:17:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:17:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:18:02'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:18:23'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:18:58'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 18:23:18'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 18:23:18'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:23:18'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:24:08'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:24:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:26:55'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:27:00'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:27:02'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:27:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:27:46'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:04'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:05'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:30'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:34'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:37'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:39'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:40'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:50'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:28:58'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:29:06'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:29:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:29:24'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:29:38'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:30:03'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:30:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:30:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:30:40'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:37:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:38:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:39:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:45:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:45:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:49:24'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:49:47'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:50:06'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:54:24'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:55:40'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:55:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:55:46'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:56:07'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:56:08'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:56:15'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:57:16'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:57:17'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:57:23'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:57:35'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:57:38'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:57:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:58:05'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:59:31'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 18:59:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:00:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:01:09'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:01:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:01:18'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:01:52'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:02:02'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:02:16'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:02:31'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:02:31'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:02:47'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:02:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:03:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:03:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:03:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:04:04'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 19:05:03'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-21 23:12:54'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-21 23:14:27'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-21 23:14:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:14:29'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:14:51'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:16:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:16:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:16:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:16:31'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:16:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:17:19'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:27:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:27:51'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:28:04'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:28:05'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:28:34'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:28:36'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:28:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:29:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:29:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:29:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:30:17'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:33:32'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:33:33'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:33:40'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:33:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:36:32'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:36:39'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:42:21'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:44:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:47:27'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:47:30'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-21 23:48:53'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-23 19:49:55'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-23 20:47:13'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-23 22:10:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-23 22:10:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-23 22:10:57'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-23 22:11:00'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-23 22:23:15'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-23 22:23:15'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-23 22:23:16'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-23 22:23:55'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-23 22:23:55'
+}
+{
+  message: 'User id: 2',
+  level: 'info',
+  timestamp: '2022-02-23 22:25:21'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type timestamp with time zone: "Invalid date"',
+  level: 'error',
+  timestamp: '2022-02-23 22:25:21'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type timestamp with time zone: "Invalid date"',
+  level: 'error',
+  timestamp: '2022-02-23 22:25:21'
+}
+{
+  message: 'User id: 2',
+  level: 'info',
+  timestamp: '2022-02-23 22:25:47'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-23 22:25:54'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-23 22:26:00'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-23 22:48:15'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-23 22:49:13'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-24 08:25:05'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 08:57:38'
+}
+{
+  '0': 'm',
+  '1': 'w',
+  '2': 'a',
+  '3': 'n',
+  '4': 'g',
+  '5': 'i',
+  '6': 'f',
+  '7': '1',
+  '8': '8',
+  '9': '4',
+  '10': '@',
+  '11': 'g',
+  '12': 'm',
+  '13': 'a',
+  '14': 'i',
+  '15': 'l',
+  '16': '.',
+  '17': 'c',
+  '18': 'o',
+  '19': 'm',
+  level: 'error',
+  message: 'No user found with this email',
+  timestamp: '2022-02-24 08:57:40'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 08:57:47'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 08:57:54'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 08:57:54'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 08:57:54'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 08:58:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:14:29'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:16:03'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:16:23'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:16:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:18:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:19:15'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:19:17'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:21:42'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:21:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:23:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:23:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:32:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:32:45'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-24 09:36:27'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 09:36:32'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 10:12:38'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 10:12:39'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:12:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:13:41'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:16:30'
+}
+{
+  message: 'Invalid user id NaN',
+  level: 'error',
+  timestamp: '2022-02-24 10:16:40'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:35:50'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:35:55'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:35:57'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 10:46:05'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 10:46:05'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2022-02-24 10:46:36'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions],[object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2022-02-24 10:46:36'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:46:54'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 10:47:08'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 10:47:09'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 10:47:09'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:47:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:47:39'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:47:55'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:04'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:05'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:16'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:26'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:32'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:33'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:48:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:49:00'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:49:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:49:14'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:49:33'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 10:49:56'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 11:16:24'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 11:16:24'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:16:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:17:27'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:19:05'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:19:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:19:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:23:59'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:24:01'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:24:08'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:37:07'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:37:51'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:41:48'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:48:00'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:48:01'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:48:06'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:54:42'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:54:52'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:54:54'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:55:06'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 11:56:17'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 11:56:18'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 11:56:38'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 11:56:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 11:56:39'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:57:35'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:58:43'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 11:58:46'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 11:58:51'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:00:20'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:00:42'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:00:56'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:02:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:02:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:03:07'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:03:13'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:05:39'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:05:39'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:05:39'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:06:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:06:25'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:06:26'
+}
+{
+  message: 'Error getting user ReferenceError: id is not defined',
+  level: 'error',
+  timestamp: '2022-02-24 12:06:45'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 12:13:36'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:13:36'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:13:36'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 12:13:52'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:13:53'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:13:53'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 12:18:45'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:18:45'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:18:45'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 12:23:12'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 12:23:12'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:23:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:23:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:07'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:12'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 3',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:19'
+}
+{
+  message: 'Contribution is here: {"id":3,"amount":600,"dateDeposited":"2021-12-22T00:00:00.000Z","amountPaid":200,"userId":2,"createdAt":"2021-12-22T13:09:32.991Z","updatedAt":"2021-12-22T13:09:32.991Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:19'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:19'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 3',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:51'
+}
+{
+  message: 'Contribution is here: {"id":3,"amount":600,"dateDeposited":"2021-12-22T00:00:00.000Z","amountPaid":200,"userId":2,"createdAt":"2021-12-22T13:09:32.991Z","updatedAt":"2021-12-22T13:09:32.991Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:51'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:24:51'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 3',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:03'
+}
+{
+  message: 'Contribution is here: {"id":3,"amount":600,"dateDeposited":"2021-12-22T00:00:00.000Z","amountPaid":200,"userId":2,"createdAt":"2021-12-22T13:09:32.991Z","updatedAt":"2021-12-22T13:09:32.991Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:03'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:03'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 3',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:07'
+}
+{
+  message: 'Contribution is here: {"id":3,"amount":600,"dateDeposited":"2021-12-22T00:00:00.000Z","amountPaid":200,"userId":2,"createdAt":"2021-12-22T13:09:32.991Z","updatedAt":"2021-12-22T13:09:32.991Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:07'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:07'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:24'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:51'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:55'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:55'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:25:55'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:26:34'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:26:34'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:26:34'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:26:46'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:26:46'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:26:46'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:08'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:08'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:08'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:24'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:24'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:24'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:33'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:33'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:27:33'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:19'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:19'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:19'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:20'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:20'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:20'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:36'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:36'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:36'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:37'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:37'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:37'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:41'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:41'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:41'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:54'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:54'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:54'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:58'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:58'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:28:58'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:12'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:13'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:13'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:15'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:15'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:15'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:47'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:47'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:47'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:56'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:56'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:29:56'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:30:40'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:30:40'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:30:40'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:12'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:13'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:13'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:14'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:14'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:14'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:27'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:27'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:27'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:43'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:43'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:31:43'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:32:14'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:32:15'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:32:15'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:32:25'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:32:26'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:32:26'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:34:11'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:34:11'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:34:11'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:38:38'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:38:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:38:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:38:43'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:38:43'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:38:43'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:47:00'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:47:01'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:47:01'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:47:35'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:47:36'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:47:36'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:48:40'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:48:42'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:48:42'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:48:44'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:48:44'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:48:44'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:49:12'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:49:13'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:49:13'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:49:37'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:49:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:49:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:50:05'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:50:06'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:50:06'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:57:21'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:57:22'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:57:22'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:57:47'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:57:47'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:57:47'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:58:05'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:58:06'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:58:06'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 12:58:20'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 12:58:20'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 12:58:20'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 12:59:24'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 14:09:34'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 14:09:35'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:09:35'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:09:39'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-24 14:10:38'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-24 14:10:38'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:10:38'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:10:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:11:17'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 14:12:42'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 14:12:43'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:12:43'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:12:43'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:12:43'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:12:43'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:26'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:26'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:26'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:26'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:26'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:26'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:30'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:30'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:30'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:30'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:30'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:13:30'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:21'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:21'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:21'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:21'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:21'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:21'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:23'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:23'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:23'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:24'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:24'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:24'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:38'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":1000,"dateDeposited":"2021-12-01T21:22:16.005Z","amountPaid":500,"userId":1,"createdAt":"2021-12-21T07:47:37.440Z","updatedAt":"2021-12-21T07:47:37.440Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:38'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-24 14:14:38'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:38:28'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-24 14:38:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-24 21:08:49'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-25 08:24:18'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-25 08:29:49'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-25 08:29:50'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 08:29:50'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 08:29:54'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 08:30:08'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 08:32:13'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 08:39:15'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-25 09:31:51'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-25 09:31:51'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 09:31:51'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-02-25 09:40:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:44:40'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:44:41'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:44:41'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:46:19'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:46:19'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:46:19'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:48:17'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:48:18'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:48:18'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:49:14'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:49:14'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:49:14'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:51:17'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:51:17'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:51:17'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:51:27'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:51:27'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:51:27'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:52:26'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:52:26'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:52:26'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:52:28'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:52:28'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:52:28'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:27'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:28'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:28'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:28'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:28'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:28'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:57'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:57'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:55:57'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:17'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:18'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:18'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:21'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:21'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:21'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:35'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:35'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:35'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:38'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:39'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:39'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 09:57:39'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 10:00:04'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 10:00:04'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 10:00:04'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 10:00:38'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 10:00:38'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 10:00:38'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 6',
+  level: 'info',
+  timestamp: '2022-02-25 10:01:02'
+}
+{
+  message: 'Contribution is here: {"id":6,"amount":900,"dateDeposited":"2022-02-23T19:25:21.000Z","amountPaid":900,"userId":2,"createdAt":"2022-02-23T19:25:47.938Z","updatedAt":"2022-02-23T19:25:47.938Z"}',
+  level: 'info',
+  timestamp: '2022-02-25 10:01:02'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-02-25 10:01:02'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-26 08:43:31'
+}
