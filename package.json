@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon --exec babel-node ./api/index.js",
     "start": "node build/index.js",
-    "build": "rm -rf build && mkdir build && babel api --ignore node_modules -d build --copy-files"
+    "build": "rm -rf build && mkdir build && babel api --ignore node_modules -d build --copy-files",
+    "migrate": "sequelize db:migrate --env production --app jamhurican"
   },
   "dependencies": {
     "@babel/cli": "^7.6.2",
