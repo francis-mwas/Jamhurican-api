@@ -11865,3 +11865,18 @@
   level: 'info',
   timestamp: '2022-02-26 08:43:31'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-26 14:41:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-26 14:47:26'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-26 14:47:27'
+}
