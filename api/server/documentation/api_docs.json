@@ -11,11 +11,11 @@
 
   "servers": [
     {
-      "url": "http://localhost:8000/api/v1/"
+      "url": "https://jamhurican.herokuapp.com/api/v1/"
     },
 
     {
-      "url": "https://jamhurican.com/api/v1/"
+      "url": "https://jamhurican.herokuapp.com/api/v1/"
     }
   ],
   "tags": [
