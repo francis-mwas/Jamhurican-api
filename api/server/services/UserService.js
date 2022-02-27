@@ -22,7 +22,7 @@ class UserService {
   static async getAllUsers() {
     try {
       return await database.user.findAll({
-        attributes: ['id', 'firstName', 'lastName', 'email', 'role'],
+        attributes: ['userId', 'firstName', 'lastName', 'email', 'role'],
       });
     } catch (error) {
       logger.error(`Error occurred in service when getting users ${error}`);
@@ -37,7 +37,7 @@ class UserService {
   static async getOneUser(userId) {
     try {
       const user = await database.user.findOne({
-        where: { id: Number(userId) },
+        where: { userId: Number(userId) },
       });
       return user;
     } catch (error) {
@@ -76,12 +76,12 @@ class UserService {
   static async updateUser(userId, userData) {
     try {
       const userToUpdate = await database.user.findOne({
-        where: { id: Number(userId) },
+        where: { userId: Number(userId) },
       });
 
       if (userToUpdate) {
         await database.user.update(userData, {
-          where: { id: Number(userId) },
+          where: { userId: Number(userId) },
         });
         return userToUpdate;
       }
@@ -96,17 +96,17 @@ class UserService {
 
   /**
    *
-   * @param {*} id
+   * @param {*} userId
    * @returns deletedUser
    */
   static async deleteUser(userId) {
     try {
       const userToDelete = await database.user.findOne({
-        where: { id: Number(userId) },
+        where: { userId: Number(userId) },
       });
       if (userToDelete) {
         const deletedUser = await database.user.destroy({
-          where: { id: Number(userId) },
+          where: { userId: Number(userId) },
         });
         return deletedUser;
       }
