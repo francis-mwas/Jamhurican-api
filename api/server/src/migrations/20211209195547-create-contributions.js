@@ -28,7 +28,7 @@ module.exports = {
         references: {
           // contributions belongsTo users 1:1
           model: 'users',
-          key: 'id',
+          key: 'userId',
         },
       },
       createdAt: {
