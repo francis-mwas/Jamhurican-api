@@ -102,7 +102,7 @@ class UserController {
       if (!user) {
         util.setError(
           404,
-          `Invalid user id, User with this id does not exist ${id}`
+          `Invalid user id, User with this id does not exist ${userId}`
         );
         logger.error(`Invalid user id ${userId}`);
       } else {
@@ -211,9 +211,9 @@ class UserController {
       util.setError(400, 'email or password not correct');
       return util.send(res);
     } else {
-      // construct user payload
+      // construct user payload??
       const payload = {
-        id: getUserDetails.id,
+        userId: getUserDetails.userId,
         email: getUserDetails.email,
         firstName: getUserDetails.firstName,
         lastName: getUserDetails.lastName,
