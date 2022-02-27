@@ -13,8 +13,8 @@ router.post(
 );
 router.post(
   '/',
-  IsAuth,
-  accessControl.restrictAccessTo('admin'),
+  // IsAuth,
+  // accessControl.restrictAccessTo('admin'),
   UserMiddleware.validUsertInputs,
   UserMiddleware.uniqueEmail,
   UserController.createNewUser
