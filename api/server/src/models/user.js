@@ -33,6 +33,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.ENUM({
           values: ['normal-user', 'admin'],
         }),
+        defaultValue: 'normal-user',
       },
     },
     {

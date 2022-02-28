@@ -9,7 +9,7 @@ const util = new Util();
 
 class UserController {
   static async createNewUser(req, res) {
-    const { firstName, lastName, email, password } = req.body;
+    const { firstName, lastName, email, role, password } = req.body;
 
     if (
       firstName === '' ||
@@ -42,6 +42,7 @@ class UserController {
               firstName,
               lastName,
               email,
+              role,
               password: hash,
             };
             const createdUser = await UserService.createUser(newUser);
@@ -49,7 +50,7 @@ class UserController {
               firstName: createdUser.firstName,
               lastName: createdUser.lastName,
               email: createdUser.email,
-              isAdmin: createdUser.isAdmin,
+              role: createdUser.role,
               createdAt: createdUser.createdAt,
               updatedAt: createdUser.updatedAt,
             };
@@ -121,10 +122,7 @@ class UserController {
     const updatedUser = req.body;
     const { userId } = req.params;
     if (!Number(userId)) {
-      util.setError(
-        400,
-        'Invalid user id, please input valid numeric number'
-      );
+      util.setError(400, 'Invalid user id, please input valid numeric number');
       logger.error(`Invalid user id ${userId}`);
       return util.send(res);
     }

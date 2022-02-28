@@ -11910,3 +11910,28 @@
   level: 'info',
   timestamp: '2022-02-27 18:34:46'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-28 08:54:55'
+}
+{
+  message: 'Error occurred in service when fetching data to login user SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432',
+  level: 'error',
+  timestamp: '2022-02-28 08:56:25'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-28 08:57:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-28 09:08:38'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-02-28 21:55:46'
+}

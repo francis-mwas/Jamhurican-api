@@ -1500,3 +1500,8 @@
   level: 'error',
   timestamp: '2022-02-24 12:06:45'
 }
+{
+  message: 'Error occurred in service when fetching data to login user SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:5432',
+  level: 'error',
+  timestamp: '2022-02-28 08:56:25'
+}
