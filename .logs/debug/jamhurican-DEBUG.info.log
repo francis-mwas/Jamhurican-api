@@ -11940,3 +11940,43 @@
   level: 'info',
   timestamp: '2022-02-28 22:25:04'
 }
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-02-28 23:16:06'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-02-28 23:16:06'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2022-02-28 23:16:10'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2022-02-28 23:16:10'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2022-02-28 23:18:35'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2022-02-28 23:18:35'
+}
+{
+  message: 'Error occurred in service when getting users SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2022-02-28 23:18:37'
+}
+{
+  message: 'Error encountered while getting users SequelizeDatabaseError: column "userId" does not exist',
+  level: 'error',
+  timestamp: '2022-02-28 23:18:37'
+}
