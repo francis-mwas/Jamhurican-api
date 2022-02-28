@@ -22,7 +22,14 @@ class UserService {
   static async getAllUsers() {
     try {
       return await database.user.findAll({
-        attributes: ['userId', 'firstName', 'lastName', 'email', 'role'],
+        attributes: [
+          'id',
+          'firstName',
+          'lastName',
+          'email',
+          'role',
+          'createdAt',
+        ],
       });
     } catch (error) {
       logger.error(`Error occurred in service when getting users ${error}`);
