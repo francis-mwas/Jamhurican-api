@@ -37,7 +37,7 @@ class UserService {
   static async getOneUser(userId) {
     try {
       const user = await database.user.findOne({
-        where: { userId: Number(userId) },
+        where: { id: Number(userId) },
       });
       return user;
     } catch (error) {
@@ -76,12 +76,12 @@ class UserService {
   static async updateUser(userId, userData) {
     try {
       const userToUpdate = await database.user.findOne({
-        where: { userId: Number(userId) },
+        where: { id: Number(userId) },
       });
 
       if (userToUpdate) {
         await database.user.update(userData, {
-          where: { userId: Number(userId) },
+          where: { id: Number(userId) },
         });
         return userToUpdate;
       }
@@ -102,11 +102,11 @@ class UserService {
   static async deleteUser(userId) {
     try {
       const userToDelete = await database.user.findOne({
-        where: { userId: Number(userId) },
+        where: { id: Number(userId) },
       });
       if (userToDelete) {
         const deletedUser = await database.user.destroy({
-          where: { userId: Number(userId) },
+          where: { id: Number(userId) },
         });
         return deletedUser;
       }
