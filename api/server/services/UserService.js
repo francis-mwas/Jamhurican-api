@@ -38,6 +38,7 @@ class UserService {
     try {
       const user = await database.user.findOne({
         where: { id: Number(userId) },
+        attributes: { exclude: ['password', 'updatedAt'] },
       });
       return user;
     } catch (error) {
