@@ -1,5 +1,3 @@
-import cuid from 'cuid';
-
 module.exports = (sequelize, DataTypes) => {
   const user = sequelize.define(
     'user',
