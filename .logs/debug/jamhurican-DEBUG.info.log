@@ -12005,3 +12005,68 @@
   level: 'info',
   timestamp: '2022-03-01 20:39:01'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-01 20:43:11'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-01 20:43:48'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:43:48'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:43:48'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-01 20:49:45'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:49:45'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:49:45'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-01 20:49:46'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:49:46'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:49:46'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-01 20:50:23'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:50:23'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: user is not defined',
+  level: 'error',
+  timestamp: '2022-03-01 20:50:23'
+}
