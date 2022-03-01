@@ -1,23 +1,14 @@
-'use strict';
-const { Model } = require('sequelize');
+import cuid from 'cuid';
+
 module.exports = (sequelize, DataTypes) => {
-  class contributions extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
-    static associate(models) {
-      // define association here
-      contributions.belongsTo(models.user, {
-        foreignKey: 'id',
-        onDelete: 'CASCADE',
-        allowNull: false,
-      });
-    }
-  }
-  contributions.init(
+  const contributions = sequelize.define(
+    'contributions',
     {
+      id: {
+        primaryKey: true,
+        type: DataTypes.STRING,
+        defaultValue: () => cuid(),
+      },
       amount: {
         type: DataTypes.INTEGER,
         allowNull: false,
@@ -26,22 +17,21 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.DATE,
         allowNull: false,
       },
-      // balance: {
-      //   type: DataTypes.INTEGER,
-      //   allowNull: true,
-      // },
       amountPaid: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
-      userId: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-      },
     },
-    { 
-      sequelize,
-      modelName: 'contributions',
+    {
+      classMethods: {
+        associate: (models) => {
+          contributions.belongsTo(models.user, {
+            foreignKey: 'userId',
+            onDelete: 'CASCADE',
+            allowNull: false,
+          });
+        },
+      },
     }
   );
   return contributions;

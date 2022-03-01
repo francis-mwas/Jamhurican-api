@@ -6,7 +6,7 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
       },
       amount: {
         type: Sequelize.INTEGER,
@@ -15,20 +15,17 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE,
       },
-      balance: {
-        type: Sequelize.INTEGER,
-      },
       amountPaid: {
         allowNull: false,
         type: Sequelize.INTEGER,
       },
       userId: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
+        type: Sequelize.STRING,
+        onDelete: 'CASCADE',
         references: {
-          // contributions belongsTo users 1:1
-          model: 'users',
+          model: 'user',
           key: 'id',
+          allowNull: false,
         },
       },
       createdAt: {

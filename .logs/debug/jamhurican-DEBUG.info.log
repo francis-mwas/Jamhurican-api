@@ -11985,3 +11985,23 @@
   level: 'info',
   timestamp: '2022-02-28 23:19:00'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-01 20:38:06'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-03-01 20:38:43'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-03-01 20:38:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-01 20:39:01'
+}

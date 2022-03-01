@@ -1,6 +1,6 @@
 import database from '../src/models/index';
 import logger from '../config/logger.config';
-
+import user from '../src/models/user';
 class ContributionsService {
   /**
    *
@@ -24,7 +24,9 @@ class ContributionsService {
 
   static async getAllusersContributions() {
     try {
-      const contributions = await database.contributions.findAll();
+      const contributions = await database.contributions.findAll({
+        include: user,
+      });
       return contributions;
     } catch (error) {
       logger.error(

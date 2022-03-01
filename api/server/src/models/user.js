@@ -1,18 +1,14 @@
-'use strict';
-const { Model } = require('sequelize');
+import cuid from 'cuid';
+
 module.exports = (sequelize, DataTypes) => {
-  class user extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
-    static associate(models) {
-      // define association here
-    }
-  }
-  user.init(
+  const user = sequelize.define(
+    'user',
     {
+      id: {
+        primaryKey: true,
+        type: DataTypes.STRING,
+        defaultValue: () => cuid(),
+      },
       firstName: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -37,8 +33,14 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     {
-      sequelize,
-      modelName: 'user',
+      classMethods: {
+        associate: (models) => {
+          user.hasMany(models.contributions, {
+            foreignKey: 'userId',
+            as: 'contributions',
+          });
+        },
+      },
     }
   );
   return user;
