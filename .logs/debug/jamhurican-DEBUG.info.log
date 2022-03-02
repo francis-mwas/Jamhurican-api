@@ -12070,3 +12070,203 @@
   level: 'error',
   timestamp: '2022-03-01 20:50:23'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 07:46:36'
+}
+{
+  message: 'Error occurred in service when fetching data to login user SequelizeDatabaseError: column "role" does not exist',
+  level: 'error',
+  timestamp: '2022-03-02 07:57:35'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-03-02 08:06:45'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-03-02 08:06:45'
+}
+{
+  message: 'Invalid user id 4',
+  level: 'error',
+  timestamp: '2022-03-02 08:07:53'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:08:07'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type integer: "cl093llc800008wvea2196i4s"',
+  level: 'error',
+  timestamp: '2022-03-02 08:08:07'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type integer: "cl093llc800008wvea2196i4s"',
+  level: 'error',
+  timestamp: '2022-03-02 08:08:07'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:14:47'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type integer: "cl093u5ge00018wvedqd3d2al"',
+  level: 'error',
+  timestamp: '2022-03-02 08:14:47'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type integer: "cl093u5ge00018wvedqd3d2al"',
+  level: 'error',
+  timestamp: '2022-03-02 08:14:47'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:14:50'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type integer: "cl093u7og00028wveh13mh6a1"',
+  level: 'error',
+  timestamp: '2022-03-02 08:14:50'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type integer: "cl093u7og00028wveh13mh6a1"',
+  level: 'error',
+  timestamp: '2022-03-02 08:14:50'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 08:15:25'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:15:29'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type integer: "cl093v29m00007kvegg7k0hye"',
+  level: 'error',
+  timestamp: '2022-03-02 08:15:30'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type integer: "cl093v29m00007kvegg7k0hye"',
+  level: 'error',
+  timestamp: '2022-03-02 08:15:30'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:17:17'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type integer: "cl093xd2z00017kve1cck6nhj"',
+  level: 'error',
+  timestamp: '2022-03-02 08:17:17'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type integer: "cl093xd2z00017kve1cck6nhj"',
+  level: 'error',
+  timestamp: '2022-03-02 08:17:17'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 08:19:03'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:21:54'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 4',
+  level: 'info',
+  timestamp: '2022-03-02 08:22:07'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2022-03-02 08:22:15'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:22:22'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 08:22:27'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution Error: Include unexpected. Element has to be either a Model, an Association or an object.',
+  level: 'error',
+  timestamp: '2022-03-02 08:22:27'
+}
+{
+  message: 'Error encountered while getting contributions Error: Include unexpected. Element has to be either a Model, an Association or an object.',
+  level: 'error',
+  timestamp: '2022-03-02 08:22:27'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:24:21'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 08:24:29'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution Error: Include unexpected. Element has to be either a Model, an Association or an object.',
+  level: 'error',
+  timestamp: '2022-03-02 08:24:29'
+}
+{
+  message: 'Error encountered while getting contributions Error: Include unexpected. Element has to be either a Model, an Association or an object.',
+  level: 'error',
+  timestamp: '2022-03-02 08:24:29'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 08:24:30'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution Error: Include unexpected. Element has to be either a Model, an Association or an object.',
+  level: 'error',
+  timestamp: '2022-03-02 08:24:30'
+}
+{
+  message: 'Error encountered while getting contributions Error: Include unexpected. Element has to be either a Model, an Association or an object.',
+  level: 'error',
+  timestamp: '2022-03-02 08:24:30'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 08:26:33'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:30:01'
+}
+{
+  message: 'User id: 1',
+  level: 'info',
+  timestamp: '2022-03-02 08:33:38'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 08:34:05'
+}

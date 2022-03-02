@@ -1,15 +1,18 @@
-import cuid from 'cuid';
-
 module.exports = (sequelize, DataTypes) => {
   const contributions = sequelize.define(
     'contributions',
     {
       id: {
         primaryKey: true,
-        type: DataTypes.STRING,
-        defaultValue: () => cuid(),
+        type: DataTypes.INTEGER,
+        autoIncrement: true,
+        allowNull: false,
       },
       amount: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      userId: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },

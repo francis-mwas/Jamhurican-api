@@ -24,9 +24,7 @@ class ContributionsService {
 
   static async getAllusersContributions() {
     try {
-      const contributions = await database.contributions.findAll({
-        include: user,
-      });
+      const contributions = await database.contributions.findAll();
       return contributions;
     } catch (error) {
       logger.error(

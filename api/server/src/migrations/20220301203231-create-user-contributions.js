@@ -4,9 +4,9 @@ module.exports = {
     await queryInterface.createTable('contributions', {
       id: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
+        autoIncrement: true,
       },
       amount: {
         type: Sequelize.INTEGER,

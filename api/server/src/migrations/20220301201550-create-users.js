@@ -20,6 +20,11 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      role: {
+        type: Sequelize.ENUM('normal-user', 'admin'),
+        defaultValue: 'normal-user',
+        allowNull: true,
+      },
       password: {
         type: Sequelize.STRING,
         allowNull: false,
