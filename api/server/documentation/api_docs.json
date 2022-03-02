@@ -434,7 +434,7 @@
         "x-codegen-request-body-name": "body"
       }
     },
-    "/contributions/{userId}/": {
+    "/contributions/user/{userId}/": {
       "get": {
         "tags": ["Contributions"],
         "summary": "Get individual user contributions",
