@@ -16,7 +16,7 @@ router.get(
   ContributionController.getAllContributions
 );
 router.get(
-  '/:userId',
+  '/user/:userId',
   accessControl.restrictAccessTo('admin'),
   ContributionController.getUserContributions
 );

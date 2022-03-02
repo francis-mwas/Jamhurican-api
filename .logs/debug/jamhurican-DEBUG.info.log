@@ -12270,3 +12270,133 @@
   level: 'info',
   timestamp: '2022-03-02 08:34:05'
 }
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 12:41:55'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-03-02 12:43:32'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-03-02 12:43:33'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 12:43:39'
+}
+{
+  message: 'User id: 2',
+  level: 'info',
+  timestamp: '2022-03-02 12:46:19'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 12:46:28'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2022-03-02 12:46:44'
+}
+{
+  message: 'Contribution is here: {"id":2,"amount":2000,"userId":null,"dateDeposited":"2021-12-02T00:00:00.000Z","amountPaid":300,"createdAt":"2022-03-02T05:30:01.088Z","updatedAt":"2022-03-02T05:30:01.088Z"}',
+  level: 'info',
+  timestamp: '2022-03-02 12:46:44'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-03-02 12:46:44'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 12:46:51'
+}
+{
+  message: 'Incoming request for user login',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:00'
+}
+{
+  message: 'User successfully logged in.',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:00'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 1',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:06'
+}
+{
+  message: 'Contribution is here: {"id":1,"amount":2000,"userId":null,"dateDeposited":"2021-12-02T00:00:00.000Z","amountPaid":500,"createdAt":"2022-03-02T05:21:54.904Z","updatedAt":"2022-03-02T05:21:54.904Z"}',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:06'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:06'
+}
+{
+  message: 'Incoming request to get single contribution, contribution id supplied is: 2',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:10'
+}
+{
+  message: 'Contribution is here: {"id":2,"amount":2000,"userId":null,"dateDeposited":"2021-12-02T00:00:00.000Z","amountPaid":300,"createdAt":"2022-03-02T05:30:01.088Z","updatedAt":"2022-03-02T05:30:01.088Z"}',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:10'
+}
+{
+  message: 'Contributions found',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:10'
+}
+{
+  message: 'Incoming request to get all contributions',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:13'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 1',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:32'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:52'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2022-03-02 17:22:52'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 17:25:07'
+}
+{
+  message: 'App running on port 8000',
+  level: 'info',
+  timestamp: '2022-03-02 17:29:08'
+}
+{
+  message: 'Incoming request to get individual user contributions, user id is: 2',
+  level: 'info',
+  timestamp: '2022-03-02 17:29:17'
+}
+{
+  message: 'User contributions found: [object SequelizeInstance:contributions]',
+  level: 'info',
+  timestamp: '2022-03-02 17:29:19'
+}
