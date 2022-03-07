@@ -1665,3 +1665,233 @@
   level: 'error',
   timestamp: '2022-03-02 08:24:30'
 }
+{
+  message: 'Invalid contribution id provided, [object Object]',
+  level: 'error',
+  timestamp: '2022-03-03 22:23:14'
+}
+{
+  message: 'Invalid contribution id provided, [object Object]',
+  level: 'error',
+  timestamp: '2022-03-03 22:23:52'
+}
+{
+  message: 'Invalid contribution id provided, [object Object]',
+  level: 'error',
+  timestamp: '2022-03-03 22:24:06'
+}
+{
+  message: 'Invalid contribution id provided, [object Object]',
+  level: 'error',
+  timestamp: '2022-03-03 22:24:32'
+}
+{
+  message: 'Invalid contribution id provided, [object Object]',
+  level: 'error',
+  timestamp: '2022-03-03 22:24:46'
+}
+{
+  message: 'Invalid contribution id provided, undefined',
+  level: 'error',
+  timestamp: '2022-03-03 22:25:00'
+}
+{
+  message: 'Invalid contribution id provided, undefined',
+  level: 'error',
+  timestamp: '2022-03-03 22:25:02'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeValidationError: notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2022-03-04 01:09:35'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeValidationError: notNull Violation: contributions.userId cannot be null',
+  level: 'error',
+  timestamp: '2022-03-04 01:09:35'
+}
+{
+  message: 'Error occurred in service when adding contribution SequelizeDatabaseError: invalid input syntax for type integer: "undefined"',
+  level: 'error',
+  timestamp: '2022-03-04 01:10:44'
+}
+{
+  message: 'Error occurred when adding user contributions SequelizeDatabaseError: invalid input syntax for type integer: "undefined"',
+  level: 'error',
+  timestamp: '2022-03-04 01:10:44'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 08:59:49'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 08:59:49'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: users is not defined',
+  level: 'error',
+  timestamp: '2022-03-07 09:16:06'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: users is not defined',
+  level: 'error',
+  timestamp: '2022-03-07 09:16:06'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 09:34:11'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 09:34:11'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution ReferenceError: include is not defined',
+  level: 'error',
+  timestamp: '2022-03-07 10:37:52'
+}
+{
+  message: 'Error encountered while getting contributions ReferenceError: include is not defined',
+  level: 'error',
+  timestamp: '2022-03-07 10:37:52'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:44:23'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:44:23'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:48:55'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:48:55'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:48:56'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:48:56'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:50:26'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:50:26'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:54:20'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:54:20'
+}
+{
+  message: 'An error occurred when getting a single contribution: SequelizeDatabaseError: column "categoryId" does not exist',
+  level: 'error',
+  timestamp: '2022-03-07 11:54:24'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:54:31'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 11:54:31'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:28:48'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:28:48'
+}
+{
+  message: 'Error occurred in service when fetching individual user contributions SequelizeDatabaseError: relation "contributions" does not exist',
+  level: 'error',
+  timestamp: '2022-03-07 12:28:55'
+}
+{
+  message: 'Error getting user contributions SequelizeDatabaseError: relation "contributions" does not exist',
+  level: 'error',
+  timestamp: '2022-03-07 12:28:55'
+}
+{
+  message: 'Error occurred in service when fetching data to login user SequelizeDatabaseError: relation "users" does not exist',
+  level: 'error',
+  timestamp: '2022-03-07 12:29:01'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:42:54'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:42:54'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:43:10'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:43:10'
+}
+{
+  message: 'No contribution found under the provided id',
+  level: 'error',
+  timestamp: '2022-03-07 12:47:15'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:47:47'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:47:47'
+}
+{
+  message: 'Error occurred in service when retrieving all contribution TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:47:48'
+}
+{
+  message: 'Error encountered while getting contributions TypeError: include.model.getTableName is not a function',
+  level: 'error',
+  timestamp: '2022-03-07 12:47:48'
+}

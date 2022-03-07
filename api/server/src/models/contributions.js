@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       classMethods: {
         associate: (models) => {
-          contributions.belongsTo(models.user, {
+          contributions.belongsTo(models.users, {
             foreignKey: 'userId',
             onDelete: 'CASCADE',
             allowNull: false,

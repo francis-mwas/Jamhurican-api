@@ -39508,3 +39508,569 @@
   ],
   timestamp: '2022-01-08 16:26:56'
 }
+{
+  error: ReferenceError: Sequelize is not defined
+      at module.exports (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\src\models\/contributions.js:16:15)
+      at forEach (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\src\models\/index.js:50:19)
+      at Array.forEach (<anonymous>)
+      at Object.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\src\models\/index.js:48:4)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Module._compile (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:136:24)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Object.newLoader [as .js] (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pirates\lib\index.js:141:7)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12),
+  level: 'error',
+  message: 'uncaughtException: Sequelize is not defined\n' +
+    'ReferenceError: Sequelize is not defined\n' +
+    '    at module.exports (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js:16:15)\n' +
+    '    at forEach (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/index.js:50:19)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/index.js:48:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:136:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:141:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)',
+  stack: 'ReferenceError: Sequelize is not defined\n' +
+    '    at module.exports (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js:16:15)\n' +
+    '    at forEach (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/index.js:50:19)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/index.js:48:4)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Module._compile (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:136:24)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Object.newLoader [as .js] (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js:141:7)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)',
+  exception: true,
+  date: 'Mon Mar 07 2022 10:28:12 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 8792,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 114970624,
+      heapTotal: 84467712,
+      heapUsed: 53687144,
+      external: 2265579,
+      arrayBuffers: 62101
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304242 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js',
+      function: 'module.exports',
+      line: 16,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/index.js',
+      function: 'forEach',
+      line: 50,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 4,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/index.js',
+      function: null,
+      line: 48,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Module._compile',
+      line: 136,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\pirates\\lib\\index.js',
+      function: 'Object.newLoader [as .js]',
+      line: 141,
+      method: 'js]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2022-03-07 10:28:12'
+}
+{
+  error: Error: Unrecognized datatype for attribute "contributions.categoryId"
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\model.js:1033:15
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:13469:38
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:4967:15
+      at baseForOwn (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:3032:24)
+      at Function.mapValues (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:13468:7)
+      at Function.init (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\model.js:1029:28)
+      at Sequelize.define (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\sequelize.js:457:11)
+      at module.exports (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\src\models\/contributions.js:2:35),
+  level: 'error',
+  message: 'uncaughtException: Unrecognized datatype for attribute "contributions.categoryId"\n' +
+    'Error: Unrecognized datatype for attribute "contributions.categoryId"\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1033:15\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13469:38\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:4967:15\n' +
+    '    at baseForOwn (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:3032:24)\n' +
+    '    at Function.mapValues (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13468:7)\n' +
+    '    at Function.init (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1029:28)\n' +
+    '    at Sequelize.define (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js:457:11)\n' +
+    '    at module.exports (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js:2:35)',
+  stack: 'Error: Unrecognized datatype for attribute "contributions.categoryId"\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1033:15\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13469:38\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:4967:15\n' +
+    '    at baseForOwn (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:3032:24)\n' +
+    '    at Function.mapValues (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13468:7)\n' +
+    '    at Function.init (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1029:28)\n' +
+    '    at Sequelize.define (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js:457:11)\n' +
+    '    at module.exports (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js:2:35)',
+  exception: true,
+  date: 'Mon Mar 07 2022 10:29:09 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9772,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 117460992,
+      heapTotal: 85876736,
+      heapUsed: 58248952,
+      external: 3262209,
+      arrayBuffers: 1058731
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304299 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js',
+      function: null,
+      line: 1033,
+      method: null,
+      native: false
+    },
+    {
+      column: 38,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: null,
+      line: 13469,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: null,
+      line: 4967,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: 'baseForOwn',
+      line: 3032,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: 'Function.mapValues',
+      line: 13468,
+      method: 'mapValues',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js',
+      function: 'Function.init',
+      line: 1029,
+      method: 'init',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js',
+      function: 'Sequelize.define',
+      line: 457,
+      method: 'define',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    }
+  ],
+  timestamp: '2022-03-07 10:29:09'
+}
+{
+  error: Error: Unrecognized datatype for attribute "contributions.categoryId"
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\model.js:1033:15
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:13469:38
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:4967:15
+      at baseForOwn (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:3032:24)
+      at Function.mapValues (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\lodash\lodash.js:13468:7)
+      at Function.init (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\model.js:1029:28)
+      at Sequelize.define (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\sequelize.js:457:11)
+      at module.exports (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\src\models\/contributions.js:2:35),
+  level: 'error',
+  message: 'uncaughtException: Unrecognized datatype for attribute "contributions.categoryId"\n' +
+    'Error: Unrecognized datatype for attribute "contributions.categoryId"\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1033:15\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13469:38\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:4967:15\n' +
+    '    at baseForOwn (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:3032:24)\n' +
+    '    at Function.mapValues (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13468:7)\n' +
+    '    at Function.init (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1029:28)\n' +
+    '    at Sequelize.define (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js:457:11)\n' +
+    '    at module.exports (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js:2:35)',
+  stack: 'Error: Unrecognized datatype for attribute "contributions.categoryId"\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1033:15\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13469:38\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:4967:15\n' +
+    '    at baseForOwn (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:3032:24)\n' +
+    '    at Function.mapValues (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js:13468:7)\n' +
+    '    at Function.init (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1029:28)\n' +
+    '    at Sequelize.define (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js:457:11)\n' +
+    '    at module.exports (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js:2:35)',
+  exception: true,
+  date: 'Mon Mar 07 2022 10:29:16 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 118235136,
+      heapTotal: 85876736,
+      heapUsed: 58444576,
+      external: 3262209,
+      arrayBuffers: 1058731
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 304306 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js',
+      function: null,
+      line: 1033,
+      method: null,
+      native: false
+    },
+    {
+      column: 38,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: null,
+      line: 13469,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: null,
+      line: 4967,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: 'baseForOwn',
+      line: 3032,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\lodash\\lodash.js',
+      function: 'Function.mapValues',
+      line: 13468,
+      method: 'mapValues',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js',
+      function: 'Function.init',
+      line: 1029,
+      method: 'init',
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js',
+      function: 'Sequelize.define',
+      line: 457,
+      method: 'define',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\src\\models\\/contributions.js',
+      function: 'module.exports',
+      line: 2,
+      method: 'exports',
+      native: false
+    }
+  ],
+  timestamp: '2022-03-07 10:29:16'
+}
+{
+  error: Error: 
+      at Query.run (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+      at C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\sequelize.js:643:28
+      at processTicksAndRejections (internal/process/task_queues.js:95:5)
+      at PostgresQueryInterface.select (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:979:12)
+      at Function.findAll (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\model.js:1789:21)
+      at Function.findOne (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\sequelize\src\model.js:1955:12)
+      at Function.getUserByEmail (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\services\/UserService.js:59:20)
+      at userLogin (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\api\server\controllers\/UserController.js:199:28) {
+    name: 'SequelizeDatabaseError',
+    parent: Error: relation "users" does not exist
+        at new DatabaseError (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\messages.ts:115:5)
+        at Parser.parseErrorMessage (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\parser.ts:369:69)
+        at Parser.handlePacket (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\parser.ts:188:21)
+        at Parser.parse (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\parser.ts:103:30)
+        at Socket.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\index.ts:7:48)
+        at Socket.emit (events.js:400:28)
+        at Socket.emit (domain.js:475:12)
+        at addChunk (internal/streams/readable.js:293:12) {
+      length: 104,
+      name: 'error',
+      severity: 'ERROR',
+      code: '42P01',
+      detail: undefined,
+      hint: undefined,
+      position: '98',
+      internalPosition: undefined,
+      internalQuery: undefined,
+      where: undefined,
+      schema: undefined,
+      table: undefined,
+      column: undefined,
+      dataType: undefined,
+      constraint: undefined,
+      file: 'parse_relation.c',
+      line: '1384',
+      routine: 'parserOpenTable',
+      sql: `SELECT "id", "firstName", "lastName", "email", "password", "role", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."email" = 'mwas@gmail.com' LIMIT 1;`,
+      parameters: undefined
+    },
+    original: Error: relation "users" does not exist
+        at new DatabaseError (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\messages.ts:115:5)
+        at Parser.parseErrorMessage (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\parser.ts:369:69)
+        at Parser.handlePacket (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\parser.ts:188:21)
+        at Parser.parse (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\parser.ts:103:30)
+        at Socket.<anonymous> (C:\Users\Francis\Desktop\mwas\Jamhurican-backend\node_modules\pg-protocol\src\index.ts:7:48)
+        at Socket.emit (events.js:400:28)
+        at Socket.emit (domain.js:475:12)
+        at addChunk (internal/streams/readable.js:293:12) {
+      length: 104,
+      name: 'error',
+      severity: 'ERROR',
+      code: '42P01',
+      detail: undefined,
+      hint: undefined,
+      position: '98',
+      internalPosition: undefined,
+      internalQuery: undefined,
+      where: undefined,
+      schema: undefined,
+      table: undefined,
+      column: undefined,
+      dataType: undefined,
+      constraint: undefined,
+      file: 'parse_relation.c',
+      line: '1384',
+      routine: 'parserOpenTable',
+      sql: `SELECT "id", "firstName", "lastName", "email", "password", "role", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."email" = 'mwas@gmail.com' LIMIT 1;`,
+      parameters: undefined
+    },
+    sql: `SELECT "id", "firstName", "lastName", "email", "password", "role", "createdAt", "updatedAt" FROM "users" AS "user" WHERE "user"."email" = 'mwas@gmail.com' LIMIT 1;`,
+    parameters: {}
+  },
+  level: 'error',
+  message: 'unhandledRejection: relation "users" does not exist\n' +
+    'Error: \n' +
+    '    at Query.run (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js:76:25)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js:643:28\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at PostgresQueryInterface.select (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:979:12)\n' +
+    '    at Function.findAll (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1789:21)\n' +
+    '    at Function.findOne (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1955:12)\n' +
+    '    at Function.getUserByEmail (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\services\\/UserService.js:59:20)\n' +
+    '    at userLogin (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:199:28)',
+  stack: 'Error: \n' +
+    '    at Query.run (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js:76:25)\n' +
+    '    at C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js:643:28\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at PostgresQueryInterface.select (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:979:12)\n' +
+    '    at Function.findAll (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1789:21)\n' +
+    '    at Function.findOne (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js:1955:12)\n' +
+    '    at Function.getUserByEmail (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\services\\/UserService.js:59:20)\n' +
+    '    at userLogin (C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js:199:28)',
+  exception: true,
+  date: 'Mon Mar 07 2022 12:29:01 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'node',
+      'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\index.js'
+    ],
+    memoryUsage: {
+      rss: 117522432,
+      heapTotal: 83386368,
+      heapUsed: 80770784,
+      external: 2305231,
+      arrayBuffers: 84733
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 311490 },
+  trace: [
+    {
+      column: 25,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js',
+      function: 'Query.run',
+      line: 76,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\sequelize.js',
+      function: null,
+      line: 643,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 95,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js',
+      function: 'PostgresQueryInterface.select',
+      line: 979,
+      method: 'select',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js',
+      function: 'Function.findAll',
+      line: 1789,
+      method: 'findAll',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\node_modules\\sequelize\\src\\model.js',
+      function: 'Function.findOne',
+      line: 1955,
+      method: 'findOne',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\services\\/UserService.js',
+      function: 'Function.getUserByEmail',
+      line: 59,
+      method: 'getUserByEmail',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\Users\\Francis\\Desktop\\mwas\\Jamhurican-backend\\api\\server\\controllers\\/UserController.js',
+      function: 'userLogin',
+      line: 199,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2022-03-07 12:29:01'
+}
